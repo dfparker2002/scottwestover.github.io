@@ -1,7 +1,197 @@
-<!DOCTYPE html>
+<!--
+Created By: Scott Westover
+Version: 1.5
+Date: 8/7/15
+Email: swestover@liveperson.com
+
+Note: This tool is not supported by LivePerson. This tool was created as a way to
+import chat transcripts that were exported from the LiveEngage console.
+
+Version 1.7 - Added all surveys to print modal, and updated the modal to use tables.
+            - Added in a order total variable so you don't need to configure the code.
+Version 1.6 - Added functionality so you can click on row to open it.
+              Print preview to print the chat, and fixed formatting on transcript.
+Version 1.5 - Added a processing screen that will show when you are loading the XML file.
+Version 1.4 - Fixed issues where if geolocation info was empty the tool would brake.
+Version 1.3 - Added a feedback form that you can use submit any issues or constructive feedback.
+Version 1.2 - Updated the time to display correctly, and to calculate the duration of a chat.
+            - Added in skill group, and moved chat referer to the child table that is shown
+              when you expand the row.
+-->
 <html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Chat XML Widget</title>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css">
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="js/jquery-1.10.2.min.js"></script>
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="js/jquery.dataTables.js"></script>
+    <!-- XML JS File -->
+    <script type="text/javascript" charset="utf8" src="js/xml.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Widget CSS -->
+    <link rel="stylesheet" href="css/widget.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container-fluid">
+        <div>
+            <form class="form-horizontal well2">
+                <legend>
+                    <h4>
+          <div>XML Chat Transcript Widget</div>
+        </h4>
+                </legend>
+                <fieldset>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="xmlFileinput"> <strong>XML File:</strong></label>
+                                        <input type="file" id="xmlFileinput" onchange="handleFiles(this.files)" accept=".xml">
+                                    </td>
+                                    <td>
+                                        <label for="orderIDVar"> <strong>Order Total Variable:</strong></label>
+                                        <input type="text" id="orderIDVar">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </fieldset>
+                Please provide any feedback or technical issues here: <a href="https://docs.google.com/forms/d/1JmE1JL_YUPG4eFp3PNLkXlYOOvr3kYfNmZK941fcIGg/viewform">Feedback Form</a>
+                <br />How to use the XML tool: <a href="instructions.html">Click Here</a>
+            </form>
+        </div>
+        <div id="results">
+            <table id='example' class='display dataTable cell-border' cellspacing='0' width='100%'>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Chat Start Time</th>
+                        <th>Chat End Time</th>
+                        <th>Duration</th>
+                        <th>Skill Group</th>
+                        <th>Operator</th>
+                        <th>Browser</th>
+                        <th>Host IP</th>
+                        <th>Real Time Session ID</th>
+                        <th>Country</th>
+                        <th>City</th>
+                        <th>Organization</th>
+                        <th>World Region</th>
+                        <th>Postal Code</th>
+                        <th>Time Zone</th>
+                        <th>ISP</th>
+                        <th>Transcript</th>
+                        <th>Prechat Survey</th>
+                        <th>Post Chat</th>
+                        <th>Offline Survey</th>
+                        <th>Prechat</th>
+                        <th>Postchat</th>
+                        <th>Offline</th>
+                        <th>Operator Survey</th>
+                        <th>Operator</th>
+                        <th>Chat Referer</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th class='srcT'>Prechat</th>
+                        <th class='srcT'>Postchat</th>
+                        <th class='srcT'>Offline</th>
+                        <th></th>
+                        <th class='srcT'>Operator</th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- For the total -->
+        <div id="total"></div>
+        <!-- For any error with total-->
+        <div id="error"></div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Chat Transcript</h4>
+                    </div>
+                    <div id="divtoprint" class="modal-body">
+                        <table border=1 class="tableModal">
+                            <tr>
+                                <td class="padd">
+                                    <div id="st"></div>
+                                </td>
+                                <td class="padd">
+                                    <div id="et"></div>
+                                </td>
+                                <td class="padd">
+                                    <div id="dur"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="padd">
+                                    <div id="sk">
+                                </td>
+                                </div>
+                                <td class="padd">
+                                    <div id="ag"></div>
+                                </td>
+                                <td class="padd">
+                                    <div id="sess"></div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <div id="otherTables"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class='btn btn-default' onclick='printME()'>Print</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
