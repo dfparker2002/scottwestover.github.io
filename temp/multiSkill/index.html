@@ -22,6 +22,15 @@
             var onSuccess = function(data) {
                 // Do something with the returning data
                 console.log(data);
+                if(data.trim() === "Spanish") {
+                    console.log("sp");
+                }
+                else if(data.trim() === "Customer Service EUR") {
+                    console.log("er");
+                }
+                else {
+                    console.log("nothing");
+                }
             };
             var onError = function(err) {
                 // Do something with the error
@@ -32,6 +41,7 @@
                 visitorFocusedCallback: focusHandler,
                 visitorBlurredCallback: blurHandler
             });
+            lpTag.agentSDK.get(pathToData, onSuccess, onError);
         </script>
     </body>
 </html>
