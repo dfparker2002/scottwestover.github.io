@@ -5,7 +5,6 @@
     <body>
         <center><img src="img/loading.gif" /></center>
         <script>
-            var SDK = lpTag.agentSDK;
             var pathToData = "engagementInfo.skill";
             var notificationHandler = function(data) {
                 // Do something with the notifications
@@ -13,15 +12,20 @@
             var focusHandler = function() {
                 // Do something when the visitor is focused
                 // Assume the visitor is focused to begin with
-                lpTag.agentSDK.get(pathToData, onSuccess, onError);
+                lpTag.agentSDK.bind(pathToData, updateCallback, notifyWhenDone);
             };
             var blurHandler = function() {
                 // Do something when the visitor is blurred
                 // Assume the visitor is focused to begin with
             };
-            var onSuccess = function(data) {
+            var updateCallback = function(data) {
                 // Do something with the returning data
-                console.log(data);
+                var path = data.key;
+                var value = data.newValue;
+                // called each time the value is updated.
+                // If there's an existing value when bind is called - this callback
+                // will be called with the existing value
+                console.log(value);
                 if(data.trim() === "Spanish") {
                     console.log("sp");
                 }
@@ -32,16 +36,20 @@
                     console.log("nothing");
                 }
             };
-            var onError = function(err) {
-                // Do something with the error
-                console.log("unable to get the skill of the chat.");
+            var notifyWhenDone = function(err) {
+                if (err) {
+                    // Do something with the error
+                }
+                // called when the bind is completed successfully,
+                // or when the action terminated with an error.
             };
-            SDK.init({
+
+            lpTag.agentSDK.init({
                 notificationCallback: notificationHandler,
                 visitorFocusedCallback: focusHandler,
                 visitorBlurredCallback: blurHandler
             });
-            lpTag.agentSDK.get(pathToData, onSuccess, onError);
+            lpTag.agentSDK.bind(pathToData, updateCallback, notifyWhenDone);
         </script>
     </body>
 </html>
