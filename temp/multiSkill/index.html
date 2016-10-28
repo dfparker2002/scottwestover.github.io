@@ -13,7 +13,7 @@
             var focusHandler = function() {
                 // Do something when the visitor is focused
                 // Assume the visitor is focused to begin with
-                //lpTag.agentSDK.get(pathToData, onSuccess, onError);
+                lpTag.agentSDK.get(pathToData, onSuccess, onError);
             };
             var blurHandler = function() {
                 // Do something when the visitor is blurred
@@ -27,11 +27,11 @@
                 // Do something with the error
                 console.log("unable to get the skill of the chat.");
             };
-            SDK.init(
+            SDK.init({
                 notificationCallback: notificationHandler,
                 visitorFocusedCallback: focusHandler,
                 visitorBlurredCallback: blurHandler
-            );
+            });
         </script>
     </body>
 </html>
