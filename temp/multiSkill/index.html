@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script type="text/javascript" charset="utf8" src="https://lpcdn.lpsnmedia.net/webagent/client-SDK.min.js"></script>
+    </head>
+    <body>
+        <center><img src="img/loading.gif" /></center>
+        <script>
+            var SDK = lpTag.agentSDK;
+            var pathToData = "engagementInfo.skill";
+            var notificationHandler = function(data) {
+                // Do something with the notifications
+            };
+            var focusHandler = function() {
+                // Do something when the visitor is focused
+                // Assume the visitor is focused to begin with
+                lpTag.agentSDK.get(pathToData, onSuccess, onError);
+            };
+            var blurHandler = function() {
+                // Do something when the visitor is blurred
+                // Assume the visitor is focused to begin with
+            };
+            var onSuccess = function(data) {
+                // Do something with the returning data
+                console.log(data);
+            };
+            var onError = function(err) {
+                // Do something with the error
+                console.log("unable to get the skill of the chat.");
+            };
+            SDK.init(
+                notificationCallback: notificationHandler,
+                visitorFocusedCallback: focusHandler,
+                visitorBlurredCallback: blurHandler
+            );
+        </script>
+    </body>
+</html>
