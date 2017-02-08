@@ -269,15 +269,15 @@ function parseToHtml(obj){
             cursor: pointer;
             color: #515254;
         }
-        div.searchResp {
+        li.response {
             padding: 5px 0px 5px 10px;
             border-top: 1px solid rgba(193, 194, 195, .4);
         }
-        div.searchSub {
+        li.subcategory {
             padding: 5px 0px 5px 10px;
             border-top: 1px solid rgba(193, 194, 195, .7);
         }
-        div.searchCat {
+        li.category {
             padding: 5px 0px 5px 10px;
             border-top: 1px solid rgba(193, 194, 195, 1);
         }
@@ -340,6 +340,9 @@ function parseToHtml(obj){
             width: 16px;
             background: url('img/16x16-sprite.png') -400px 0 no-repeat;
             opacity: .85;
+        }
+        .searchCat,.searchSub,.searchResp{
+            display:inline-block !important;
         }
       </style>
 </head>
