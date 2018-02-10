@@ -1,0 +1,23 @@
+menu:
+    Blog: /
+    Archive: /archives/
+    Tags: /tag/
+    GitHub: https://github.com/scottwestover
+    Rss: /atom.xml
+
+language: en
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus: scottwestover
+duoshuo:
+
+# Analytics
+# google-analytics:
+ga: UA-65933410-1
+
+# Copyright Infomation
+startyear: 2015
+
