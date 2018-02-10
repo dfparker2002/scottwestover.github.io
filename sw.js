@@ -24,6 +24,8 @@ var precacheUrls = [];
 
   precacheUrls.push('/');
 
+  precacheUrls.push('/2018/02/10/Progressive-Web-App/');
+
   precacheUrls.push('/2018/02/08/Switching-to-Hexo/');
 
 toolbox.precache(precacheUrls);
