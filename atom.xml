@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog</title>
+  
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://scottwestover.github.io/blog/"/>
+  <updated>2018-02-09T04:21:44.000Z</updated>
+  <id>https://scottwestover.github.io/blog/</id>
+  
+  <author>
+    <name>Scott Westover</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Switching to Hexo</title>
+    <link href="https://scottwestover.github.io/blog/2018/02/08/Switching-to-Hexo/"/>
+    <id>https://scottwestover.github.io/blog/2018/02/08/Switching-to-Hexo/</id>
+    <published>2018-02-09T04:04:32.000Z</published>
+    <updated>2018-02-09T04:21:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>It has been awhile since my last post, and with a new year, I figured it was time for a change. I started looking into new ways to blog, and I decided to give Hexo a try.<br><a id="more"></a><br>Also, with the switch to a new platform, I decided to update the look of my blog and went with a simple theme so I could just focus on the blog posts. Originally, I started to update my blog to use Jekyll (awhile ago), and I wanted to try hosting the site on GitHub instead of Blogger. However, I never quite got around to finishing the migration. Hexo seemed very easy to use, and I liked how easy it was to deploy to GitHub, so I figured I would give it a shot. </p><p>Instead of waiting for me to move everything over to Hexo, I decided I would do a fresh launch and start bringing posts over as time allowed. One of my goals for this year is to get this blog back up and running, and to do posts more frequently. I hope you enjoy the new look.</p><p>In case you are looking for any of the old posts, you can find them on Blogger here: <a href="http://scottwestover.blogspot.com/" target="_blank" rel="noopener">http://scottwestover.blogspot.com/</a>.</p><p>If you have any comments, please share them below.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;It has been awhile since my last post, and with a new year, I figured it was time for a change. I started looking into new ways to blog, and I decided to give Hexo a try.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="misc" scheme="https://scottwestover.github.io/blog/tags/misc/"/>
+    
+  </entry>
+  
+</feed>
