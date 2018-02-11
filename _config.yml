@@ -79,7 +79,7 @@ theme: apollo
 deploy:
   type: git
   repo: https://github.com/scottwestover/scottwestover.github.io
-  branch: gh-pages
+  branch: master
 
 archive_generator:
   per_page: 0
@@ -93,35 +93,3 @@ disqus: scottwestover
 
 tag_generator:
   per_page: 10
-
-pwa:
-  manifest:
-    path: /manifest.json
-    body:
-      name: Scott Westover Blog
-      short_name: ScottW Blog
-      theme_color": 2196f3
-      background_color": 2196f3
-      display": browser
-      Scope": /
-      start_url": /
-      icons:
-        - src: /images/android-chrome-192x192.png
-          sizes: 192x192
-          type: image/png
-  serviceWorker:
-    path: /sw.js
-    preload:
-      urls:
-        - /
-      posts: 5
-    opts:
-      networkTimeoutSeconds: 5
-    routes:
-      - pattern: !!js/regexp /hm.baidu.com/
-        strategy: networkOnly
-      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
-        strategy: cacheFirst
-      - pattern: !!js/regexp /\//
-        strategy: networkFirst
-  priority: 5
