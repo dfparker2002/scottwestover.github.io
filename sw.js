@@ -34,7 +34,7 @@ toolbox.options = {"networkTimeoutSeconds":5};
 
 toolbox.router.any(/hm.baidu.com/, toolbox.networkOnly);
 
-toolbox.router.any(/.*\.(js|css|jpg|jpeg|png|gif)$/, toolbox.cacheFirst);
+toolbox.router.any(/.*apollo\.(js|css|jpg|jpeg|png|gif)$/, toolbox.cacheFirst);
 
 toolbox.router.any(/\//, toolbox.networkFirst);
 
