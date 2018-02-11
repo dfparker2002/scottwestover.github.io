@@ -34,3 +34,5 @@ toolbox.options = {"networkTimeoutSeconds":5};
 
 toolbox.router.any(/.*apollo\.(js|css|jpg|jpeg|png|gif)$/, toolbox.cacheFirst);
 
+toolbox.router.any(/\//, toolbox.networkFirst);
+
