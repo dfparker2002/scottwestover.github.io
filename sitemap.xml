@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://scottwestover.github.io/2018/02/11/test/</loc>
+    
+    <lastmod>2018-02-11T06:55:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://scottwestover.github.io/2018/02/11/Phaser-3-Release/</loc>
     
     <lastmod>2018-02-11T06:46:57.000Z</lastmod>
