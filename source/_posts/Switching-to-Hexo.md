@@ -1,7 +1,7 @@
 ---
 title: Switching to Hexo
 date: 2018-02-08 23:04:32
-tags: misc
+tags: Misc
 desc: New post for a new blog
 ---
 

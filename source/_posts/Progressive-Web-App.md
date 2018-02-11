@@ -1,7 +1,7 @@
 ---
 title: Progressive Web App
 date: 2018-02-10 02:58:22
-tags: misc
+tags: Misc
 desc: Updated blog to be a PWA!
 ---
 
