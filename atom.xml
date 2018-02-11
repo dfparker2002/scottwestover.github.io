@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://scottwestover.github.io/"/>
-  <updated>2018-02-11T05:28:30.000Z</updated>
+  <updated>2018-02-11T06:46:57.000Z</updated>
   <id>http://scottwestover.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Phaser 3 Release</title>
+    <link href="http://scottwestover.github.io/2018/02/11/Phaser-3-Release/"/>
+    <id>http://scottwestover.github.io/2018/02/11/Phaser-3-Release/</id>
+    <published>2018-02-11T06:24:04.000Z</published>
+    <updated>2018-02-11T06:46:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>In just a few short days, Phaser 3 will officially be released (Feb. 12th)! If you are not familiar with Phaser, it is a desktop and mobile HTML5 game framework that is written in JavaScript. The framework is easy to use, free, and completely open source.</p><a id="more"></a><p>Phaser 3 has been in continuous development since October 2016, and it has undergone a lot of changes since then. While waiting for the new version to be released, the developers has regularly been releasing beta builds of the framework, so it has been interesting to watch how it has changed. The API has undergone a lot of changes, and everything has been rewritten since version 2.</p><p>You can find lots of examples on the new API here: <a href="http://labs.phaser.io/index.html" target="_blank" rel="noopener">http://labs.phaser.io/index.html</a></p><p>There are a variety of ways on how you can get started using Phaser 3, but my favorite is the webpack template that they made (<a href="https://github.com/photonstorm/phaser3-project-template" target="_blank" rel="noopener">https://github.com/photonstorm/phaser3-project-template</a>). The template will automatically grab the latest version of Phaser, and it has live reload so it is easy to test your game changes as you build it. </p><p>I have been spending more time with the latest beta, and I can’t wait for the official version to come out in just a few days. Once it is released, I am hoping to release some more most posts on it here.</p><p>If you have any comments, please share them below.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;In just a few short days, Phaser 3 will officially be released (Feb. 12th)! If you are not familiar with Phaser, it is a desktop and mobile HTML5 game framework that is written in JavaScript. The framework is easy to use, free, and completely open source.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Game Development, PhaserJS" scheme="http://scottwestover.github.io/tags/Game-Development-PhaserJS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Progressive Web App</title>
     <link href="http://scottwestover.github.io/2018/02/10/Progressive-Web-App/"/>
     <id>http://scottwestover.github.io/2018/02/10/Progressive-Web-App/</id>
     <published>2018-02-10T07:58:22.000Z</published>
-    <updated>2018-02-11T05:28:30.000Z</updated>
+    <updated>2018-02-11T06:25:01.000Z</updated>
     
     <content type="html"><![CDATA[<p>At the beginning of January, I was accepted into the Grow With Google Scholarship from Udacity. If you are not familar with this program, I really recommend that you check it out. Basically, Google is scholarships for the Nano degrees that are available on Udacity. However, the scholarship is split into two phases.<br><a id="more"></a><br>During the first phase, they admit 10,000 or 15,000 into the first phase (depends on which track you applied for), and you have 3 months to complete the courses that they make available to you. After these 3 months are over, they will offer 1,000 of these applicants a full scholarship for the Nanodegree. You can read more about it here: <a href="https://www.udacity.com/grow-with-google" target="_blank" rel="noopener">https://www.udacity.com/grow-with-google</a></p><p>The first course that I took as part of this program was all about offline first and what a pwa (progressive web app) is. A pwa is a regular website that can appear and behave like a traditional mobile app. When implemented correctly, the pwa will allow users to <code>install</code> or <code>add</code> your website to the home screen of their phone, like it was an app. It can also cache some of the assets of your website, that way if the user tries to visit your site when offline, they will see some content, just like in a mobile app.</p><p>You can read more about pwa here: <a href="https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/" target="_blank" rel="noopener">https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/</a></p><p>Also, you can learn more about them on Udacity here: <a href="https://www.udacity.com/course/intro-to-progressive-web-apps--ud811" target="_blank" rel="noopener">https://www.udacity.com/course/intro-to-progressive-web-apps--ud811</a></p><p>After taking this course, I was ready to implement what I learned, and I thought it would be great to turn my blog into a pwa. With Hexo, it was actually pretty easy to do. I just needed to create a manifest.json, a precache service worker, and register it. There is an excellent blog post here that details how to do this: <a href="https://alexjoverm.github.io/2017/08/07/How-I-made-a-Progressive-Web-App-out-of-my-Blog/" target="_blank" rel="noopener">https://alexjoverm.github.io/2017/08/07/How-I-made-a-Progressive-Web-App-out-of-my-Blog/</a></p><p>To test the pwa functionality, you can visit the home page of my blog, turn off your internet connection, and then refresh the page. Instead of seeing the normal offline message of your web browser, you should still see some of the content of my blog. Also, if you visit the site on your mobile device, you should get a prompt about adding this site to your home screen!</p><p>If you have any comments, please share them below.</p>]]></content>
     
@@ -32,7 +52,7 @@
     </summary>
     
     
-      <category term="misc" scheme="http://scottwestover.github.io/tags/misc/"/>
+      <category term="Misc" scheme="http://scottwestover.github.io/tags/Misc/"/>
     
   </entry>
   
@@ -41,7 +61,7 @@
     <link href="http://scottwestover.github.io/2018/02/08/Switching-to-Hexo/"/>
     <id>http://scottwestover.github.io/2018/02/08/Switching-to-Hexo/</id>
     <published>2018-02-09T04:04:32.000Z</published>
-    <updated>2018-02-09T04:21:44.000Z</updated>
+    <updated>2018-02-11T06:25:05.000Z</updated>
     
     <content type="html"><![CDATA[<p>It has been awhile since my last post, and with a new year, I figured it was time for a change. I started looking into new ways to blog, and I decided to give Hexo a try.<br><a id="more"></a><br>Also, with the switch to a new platform, I decided to update the look of my blog and went with a simple theme so I could just focus on the blog posts. Originally, I started to update my blog to use Jekyll (awhile ago), and I wanted to try hosting the site on GitHub instead of Blogger. However, I never quite got around to finishing the migration. Hexo seemed very easy to use, and I liked how easy it was to deploy to GitHub, so I figured I would give it a shot. </p><p>Instead of waiting for me to move everything over to Hexo, I decided I would do a fresh launch and start bringing posts over as time allowed. One of my goals for this year is to get this blog back up and running, and to do posts more frequently. I hope you enjoy the new look.</p><p>In case you are looking for any of the old posts, you can find them on Blogger here: <a href="http://scottwestover.blogspot.com/" target="_blank" rel="noopener">http://scottwestover.blogspot.com/</a>.</p><p>If you have any comments, please share them below.</p>]]></content>
     
@@ -52,7 +72,7 @@
     </summary>
     
     
-      <category term="misc" scheme="http://scottwestover.github.io/tags/misc/"/>
+      <category term="Misc" scheme="http://scottwestover.github.io/tags/Misc/"/>
     
   </entry>
   
