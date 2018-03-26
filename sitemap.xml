@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://scottwestover.github.io/2018/03/25/Unity-2D-Snake-Tutorial-Part-1/</loc>
+    
+    <lastmod>2018-03-26T03:59:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://scottwestover.github.io/2018/02/14/Phaser3-Create-a-simple-preloader/</loc>
     
     <lastmod>2018-02-15T00:13:14.000Z</lastmod>
