@@ -1,7 +1,6 @@
 # blog
 starter repo for blog relocation
 
-
 ### Create post
 ```
 hex new post "Post title"

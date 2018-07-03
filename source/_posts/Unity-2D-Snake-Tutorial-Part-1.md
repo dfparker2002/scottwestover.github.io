@@ -5,7 +5,7 @@ tags:
 ---
 
 <p> For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970's, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.</p>
-
+<!-- more -->
 <p>For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself. As you eat apples, the snake will get longer, and the speed of the game will pick up, forcing the player to react faster, and to have to think strategically.</p>
 
 <p>In order to follow along with this tutorial, you will need to have Unity installed. For this tutorial we will be using Unity 5.4.1f1, however newer versions of Unity should work just fine. One thing to note is that this is not a tutorial on how to use Unity, so it is best to have some basic understanding of Unity and how it works. However, if you are not familiar with it, you should still be able to follow along with this tutorial.</p>
@@ -38,7 +38,7 @@ tags:
       <li>Will need to destroy the snake and apple objects on the screen</li>
     </ul>
   </li>
-</ul> 
+</ul>
 </p>
 
 <div>With our basic game mechanics laid out, lets get started.</div>

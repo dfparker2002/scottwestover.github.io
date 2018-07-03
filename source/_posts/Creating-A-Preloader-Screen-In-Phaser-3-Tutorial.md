@@ -15,6 +15,6 @@ In this tutorial, I show you how to make a simple preloader scene by displaying 
  - display the percentage of the loading bar
  - a simple 'loading...' message
 
-You can checkout the tutorial here: https://gamedevacademy.org/creating-a-preloading-screen-in-phaser-3/ 
+You can checkout the tutorial here: https://gamedevacademy.org/creating-a-preloading-screen-in-phaser-3/
 
 {% asset_img "1.png" "Phaser 3 preloader screen tutorial" %}
