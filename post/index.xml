@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Scott Westover</title>
+    <link>https://scottwestover.github.io/post/</link>
+    <description>Recent content in Posts on Scott Westover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 May 2018 01:24:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://scottwestover.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Site Updates</title>
+      <link>https://scottwestover.github.io/post/2018/07/under-contruction/</link>
+      <pubDate>Tue, 15 May 2018 01:24:04 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/07/under-contruction/</guid>
+      <description>After working with the Hugo static site generator, I&amp;rsquo;ve decided that I wanted to move my blog over to this template.
+For the most part, this should be an easy transition since all of the blog files were already Markdown files, but with the transition, there could be some small issues.
+Hopefully this will be a smooth transition, and I hope you like the new site design!</description>
+    </item>
+    
+    <item>
+      <title>Creating A Preloader Screen In Phaser 3 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/</link>
+      <pubDate>Fri, 20 Apr 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/</guid>
+      <description>Recently, I took a Phaser 3 tutorial writer position at Zenva (Game Dev Academy - https://gamedevacademy.org/), and now that my first tutorial has been approved and it is finally live, I wanted to share it here.
+For my first tutorial, I decided to expand on the simple preloader tutorial I wrote about in Feburary (here is a link in case you missed it: https://scottwestover.github.io/2018/02/14/Phaser3-Create-a-simple-preloader/).
+In this tutorial, I show you how to make a simple preloader scene by displaying a progress bar.</description>
+    </item>
+    
+    <item>
+      <title>Phaser3 - Create a simple preloader</title>
+      <link>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</link>
+      <pubDate>Wed, 14 Feb 2018 17:45:42 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</guid>
+      <description>With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index.</description>
+    </item>
+    
+    <item>
+      <title>Phaser 3 Release</title>
+      <link>https://scottwestover.github.io/post/2018/02/phaser-3-release/</link>
+      <pubDate>Sun, 11 Feb 2018 01:24:04 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/phaser-3-release/</guid>
+      <description>In just a few short days, Phaser 3 will officially be released (Feb. 12th)! If you are not familiar with Phaser, it is a desktop and mobile HTML5 game framework that is written in JavaScript. The framework is easy to use, free, and completely open source.
+Phaser 3 has been in continuous development since October 2016, and it has undergone a lot of changes since then. While waiting for the new version to be released, the developers has regularly been releasing beta builds of the framework, so it has been interesting to watch how it has changed.</description>
+    </item>
+    
+    <item>
+      <title>Progressive Web App</title>
+      <link>https://scottwestover.github.io/post/2018/02/progressive-web-app/</link>
+      <pubDate>Sat, 10 Feb 2018 02:58:22 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/progressive-web-app/</guid>
+      <description>At the beginning of January, I was accepted into the Grow With Google Scholarship from Udacity. If you are not familar with this program, I really recommend that you check it out. Basically, Google is scholarships for the Nano degrees that are available on Udacity. However, the scholarship is split into two phases.
+During the first phase, they admit 10,000 or 15,000 into the first phase (depends on which track you applied for), and you have 3 months to complete the courses that they make available to you.</description>
+    </item>
+    
+    <item>
+      <title>Switching to Hexo</title>
+      <link>https://scottwestover.github.io/post/2018/02/switching-to-hexo/</link>
+      <pubDate>Thu, 08 Feb 2018 23:04:32 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/switching-to-hexo/</guid>
+      <description>Update: 2018-07-15 - With the new updates to the blog it is no longer a PWA. This is coming soon&amp;hellip;
+It has been awhile since my last post, and with a new year, I figured it was time for a change. I started looking into new ways to blog, and I decided to give Hexo a try.
+Also, with the switch to a new platform, I decided to update the look of my blog and went with a simple theme so I could just focus on the blog posts.</description>
+    </item>
+    
+    <item>
+      <title>Unity 2D Snake Tutorial Part 1</title>
+      <link>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</link>
+      <pubDate>Fri, 01 Dec 2017 23:32:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</guid>
+      <description>For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970&#39;s, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.
+For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself.</description>
+    </item>
+    
+  </channel>
+</rss>

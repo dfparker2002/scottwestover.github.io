@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phaserjs on Scott Westover</title>
+    <link>https://scottwestover.github.io/tags/phaserjs/</link>
+    <description>Recent content in Phaserjs on Scott Westover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Apr 2018 21:34:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://scottwestover.github.io/tags/phaserjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating A Preloader Screen In Phaser 3 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/</link>
+      <pubDate>Fri, 20 Apr 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/</guid>
+      <description>Recently, I took a Phaser 3 tutorial writer position at Zenva (Game Dev Academy - https://gamedevacademy.org/), and now that my first tutorial has been approved and it is finally live, I wanted to share it here.
+For my first tutorial, I decided to expand on the simple preloader tutorial I wrote about in Feburary (here is a link in case you missed it: https://scottwestover.github.io/2018/02/14/Phaser3-Create-a-simple-preloader/).
+In this tutorial, I show you how to make a simple preloader scene by displaying a progress bar.</description>
+    </item>
+    
+    <item>
+      <title>Phaser3 - Create a simple preloader</title>
+      <link>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</link>
+      <pubDate>Wed, 14 Feb 2018 17:45:42 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</guid>
+      <description>With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index.</description>
+    </item>
+    
+    <item>
+      <title>Phaser 3 Release</title>
+      <link>https://scottwestover.github.io/post/2018/02/phaser-3-release/</link>
+      <pubDate>Sun, 11 Feb 2018 01:24:04 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/phaser-3-release/</guid>
+      <description>In just a few short days, Phaser 3 will officially be released (Feb. 12th)! If you are not familiar with Phaser, it is a desktop and mobile HTML5 game framework that is written in JavaScript. The framework is easy to use, free, and completely open source.
+Phaser 3 has been in continuous development since October 2016, and it has undergone a lot of changes since then. While waiting for the new version to be released, the developers has regularly been releasing beta builds of the framework, so it has been interesting to watch how it has changed.</description>
+    </item>
+    
+  </channel>
+</rss>

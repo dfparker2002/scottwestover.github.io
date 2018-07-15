@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on Scott Westover</title>
+    <link>https://scottwestover.github.io/tags/unity/</link>
+    <description>Recent content in Unity on Scott Westover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Dec 2017 23:32:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://scottwestover.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unity 2D Snake Tutorial Part 1</title>
+      <link>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</link>
+      <pubDate>Fri, 01 Dec 2017 23:32:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</guid>
+      <description>For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970&#39;s, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.
+For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself.</description>
+    </item>
+    
+  </channel>
+</rss>

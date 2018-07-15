@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Scott Westover</title>
+    <link>https://scottwestover.github.io/categories/</link>
+    <description>Recent content in Categories on Scott Westover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://scottwestover.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Game Development</title>
+      <link>https://scottwestover.github.io/categories/game-development/</link>
+      <pubDate>Fri, 20 Apr 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/game-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://scottwestover.github.io/categories/misc/</link>
+      <pubDate>Tue, 15 May 2018 01:24:04 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phaserjs</title>
+      <link>https://scottwestover.github.io/categories/phaserjs/</link>
+      <pubDate>Fri, 20 Apr 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/phaserjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://scottwestover.github.io/categories/tutorial/</link>
+      <pubDate>Wed, 14 Feb 2018 17:45:42 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>https://scottwestover.github.io/categories/unity/</link>
+      <pubDate>Fri, 01 Dec 2017 23:32:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/unity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

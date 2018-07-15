@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on Scott Westover</title>
+    <link>https://scottwestover.github.io/categories/misc/</link>
+    <description>Recent content in Misc on Scott Westover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 May 2018 01:24:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://scottwestover.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Site Updates</title>
+      <link>https://scottwestover.github.io/post/2018/07/under-contruction/</link>
+      <pubDate>Tue, 15 May 2018 01:24:04 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/07/under-contruction/</guid>
+      <description>After working with the Hugo static site generator, I&amp;rsquo;ve decided that I wanted to move my blog over to this template.
+For the most part, this should be an easy transition since all of the blog files were already Markdown files, but with the transition, there could be some small issues.
+Hopefully this will be a smooth transition, and I hope you like the new site design!</description>
+    </item>
+    
+    <item>
+      <title>Progressive Web App</title>
+      <link>https://scottwestover.github.io/post/2018/02/progressive-web-app/</link>
+      <pubDate>Sat, 10 Feb 2018 02:58:22 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/progressive-web-app/</guid>
+      <description>At the beginning of January, I was accepted into the Grow With Google Scholarship from Udacity. If you are not familar with this program, I really recommend that you check it out. Basically, Google is scholarships for the Nano degrees that are available on Udacity. However, the scholarship is split into two phases.
+During the first phase, they admit 10,000 or 15,000 into the first phase (depends on which track you applied for), and you have 3 months to complete the courses that they make available to you.</description>
+    </item>
+    
+    <item>
+      <title>Switching to Hexo</title>
+      <link>https://scottwestover.github.io/post/2018/02/switching-to-hexo/</link>
+      <pubDate>Thu, 08 Feb 2018 23:04:32 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/switching-to-hexo/</guid>
+      <description>Update: 2018-07-15 - With the new updates to the blog it is no longer a PWA. This is coming soon&amp;hellip;
+It has been awhile since my last post, and with a new year, I figured it was time for a change. I started looking into new ways to blog, and I decided to give Hexo a try.
+Also, with the switch to a new platform, I decided to update the look of my blog and went with a simple theme so I could just focus on the blog posts.</description>
+    </item>
+    
+  </channel>
+</rss>

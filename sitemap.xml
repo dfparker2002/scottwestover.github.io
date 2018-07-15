@@ -1,46 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="https://scottwestover.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://scottwestover.github.io/2017/12/01/Unity-2D-Snake-Tutorial-Part-1/</loc>
-    
-    <lastmod>2018-03-26T04:02:23.000Z</lastmod>
-    
+    <loc>https://scottwestover.github.io/post/2018/07/under-contruction/</loc>
+    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://scottwestover.github.io/2018/02/14/Phaser3-Create-a-simple-preloader/</loc>
-    
-    <lastmod>2018-02-15T00:13:14.000Z</lastmod>
-    
+    <loc>https://scottwestover.github.io/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://scottwestover.github.io/2018/02/11/Phaser-3-Release/</loc>
-    
-    <lastmod>2018-02-11T06:46:57.000Z</lastmod>
-    
+    <loc>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</loc>
+    <lastmod>2018-02-14T17:45:42+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://scottwestover.github.io/2018/02/08/Switching-to-Hexo/</loc>
-    
-    <lastmod>2018-02-11T06:25:05.000Z</lastmod>
-    
+    <loc>https://scottwestover.github.io/post/2018/02/phaser-3-release/</loc>
+    <lastmod>2018-02-11T01:24:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://scottwestover.github.io/2018/02/10/Progressive-Web-App/</loc>
-    
-    <lastmod>2018-02-11T06:25:01.000Z</lastmod>
-    
+    <loc>https://scottwestover.github.io/post/2018/02/progressive-web-app/</loc>
+    <lastmod>2018-02-10T02:58:22+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://scottwestover.github.io/tag/index.html</loc>
-    
-    <lastmod>2018-02-09T03:43:29.000Z</lastmod>
-    
+    <loc>https://scottwestover.github.io/post/2018/02/switching-to-hexo/</loc>
+    <lastmod>2018-02-08T23:04:32+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</loc>
+    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/about/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/game-development/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/game-development/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/misc/</loc>
+    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/misc/</loc>
+    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/</loc>
+    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/</loc>
+    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
+    <lastmod>2018-02-14T17:45:42+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/tutorial/</loc>
+    <lastmod>2018-02-14T17:45:42+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/unity/</loc>
+    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/unity/</loc>
+    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
   </url>
   
 </urlset>

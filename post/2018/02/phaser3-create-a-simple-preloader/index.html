@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Phaser3 - Create a simple preloader - Scott Westover</title>
+  <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="scottwestover" />
+  <meta name="description" content="With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index." />
+
+  <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Phaser3 - Create a simple preloader" />
+<meta property="og:description" content="With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/" />
+
+
+
+<meta property="article:published_time" content="2018-02-14T17:45:42&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-02-14T17:45:42&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Phaser3 - Create a simple preloader">
+<meta itemprop="description" content="With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index.">
+
+
+<meta itemprop="datePublished" content="2018-02-14T17:45:42&#43;00:00" />
+<meta itemprop="dateModified" content="2018-02-14T17:45:42&#43;00:00" />
+<meta itemprop="wordCount" content="589">
+
+
+
+<meta itemprop="keywords" content="Game Development,PhaserJS,Tutorial," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Phaser3 - Create a simple preloader"/>
+<meta name="twitter:description" content="With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65933410-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3ae122d776597f" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Scott Westover</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Scott Westover
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Phaser3 - Create a simple preloader</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-02-14 </span>
+        <div class="post-category">
+            
+              <a href="/categories/game-development/"> Game Development </a>
+            
+              <a href="/categories/phaserjs/"> PhaserJS </a>
+            
+              <a href="/categories/tutorial/"> Tutorial </a>
+            
+          </div>
+        <span class="more-meta"> 589 words </span>
+        <span class="more-meta"> 3 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.</p>
+
+<p>For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an <code>index.html</code> file, add the <code>phaser.min.js</code> script, and initialize our Phaser game object. Here is an example of that:
+<script src="https://gist.github.com/scottwestover/d7ab1a8b2643f038c00412960013e83e.js?file=start.html"></script></p>
+
+<p>In order to run your game, you will need to host it on a local web server. If you are not sure on how to do this, you can read more about it here: <a href="https://phaser.io/tutorials/getting-started">https://phaser.io/tutorials/getting-started</a>.</p>
+
+<p>If you try running your game right now, you should see an empty screen with a black box. However, if you open the console, you should see that Phaser 3 is running.</p>
+
+<p><img src="/img/Phaser3-Create-a-simple-preloader/1.png" alt="empty game" /></p>
+
+<p>Next, we will load an image into our game. For this tutorial, I am going to use the Phaser logo. You can right click on the image, and choose &lsquo;Save Image As&hellip;&rsquo;, or you can use any image you have. You will need to add this image to the same directory that your index.html file is in.</p>
+
+<p><img src="/img/Phaser3-Create-a-simple-preloader/logo.png" alt="Phaser logo image" /></p>
+
+<p>In the <code>preload</code> function, add the following code to load the image:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">this.load.image(&#39;logo&#39;, &#39;logo.png&#39;);</pre></td></tr></table>
+</div>
+</div>
+<p>In the <code>create</code> function, add the following code to add the image to our game:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">var logo = this.add.image(400, 300, &#39;logo&#39;);</pre></td></tr></table>
+</div>
+</div>
+<p>If you reload the game, you should see your image appear in the game.
+![Phaser game step 2]](/img/Phaser3-Create-a-simple-preloader/2.png)</p>
+
+<p>The image loads pretty quickly, right? Well, if your game has to load a large number assets (images, audio files, fonts, etc), or the user has a slow internet connection, it could take awhile for all your assets to load, and the user would just see a black screen. To simulate this, you can add the following code to the <code>preload</code> function below the image you loaded:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">for (var i = 0; i &lt; 500; i++) {
+  this.load.image(&#39;logo&#39;+i, &#39;assets/logo.png&#39;);
+}</pre></td></tr></table>
+</div>
+</div>
+<p>If you reload your game, you should see that it takes a little while for our game image to appear. To show the users that your game is loading, we can add a progress bar. To do this, we are going to create 2 rectangles, one for the progress bar, and one as a boarder to the bar. In the <code>preload</code> function, add the following code at the top of the function:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">var progress = this.add.graphics();
+var progressBox = this.add.graphics();
+progressBox.fillStyle(0x222222, 0.8);
+progressBox.fillRect(240, 270, 320, 50);</pre></td></tr></table>
+</div>
+</div>
+<p>To update the fill of the progress bar as the assets are loaded, we listen to the <code>progress</code> event. In the <code>preload</code> function, add the following code below the code you just added:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">this.load.on(&#39;progress&#39;, (value) =&gt; {
+  progress.clear();
+  progress.fillStyle(0xffffff, 1);
+  progress.fillRect(250, 280, 300 * value, 30);
+});</pre></td></tr></table>
+</div>
+</div>
+<p>Lastly, we can remove the progress bar from the game by destorying it once everything is loaded. We can do this by listening to the <code>complete</code> event. Add the following code below the code you just added:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></pre></td>
+<td class="lntd">
+<pre class="chroma">this.load.on(&#39;complete&#39;, () =&gt; {
+  progress.destroy();
+  progressBox.destroy();
+});</pre></td></tr></table>
+</div>
+</div>
+<p>If you reload your game, you should see a nice preloader that fills up as assets are loaded.
+<img src="/img/Phaser3-Create-a-simple-preloader/3.png" alt="completed preloader" /></p>
+
+<p>You can find the complete code below:
+<script src="https://gist.github.com/scottwestover/d7ab1a8b2643f038c00412960013e83e.js?file=index.html"></script></p>
+
+<p>I hope you enjoyed this short tutorial. If you have any questions or comments, please share them below.</p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/game-development/">Game Development</a>
+          
+          <a href="/tags/phaserjs/">PhaserJS</a>
+          
+          <a href="/tags/tutorial/">Tutorial</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Creating A Preloader Screen In Phaser 3 Tutorial</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2018/02/phaser-3-release/">
+            <span class="next-text nav-default">Phaser 3 Release</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox"></div>
+
+
+  
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/swestover06" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://www.linkedin.com/in/scott-westover-77393a97/" rel="me noopener" class="iconfont icon-linkedin"
+        title="linkedin" target="_blank">
+      </a>
+      <a href="https://github.com/scottwestover" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://scottwestover.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">scottwestover</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

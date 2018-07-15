@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://scottwestover.github.io/sitemap.xml

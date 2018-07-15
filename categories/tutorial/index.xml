@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Scott Westover</title>
+    <link>https://scottwestover.github.io/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Scott Westover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Feb 2018 17:45:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://scottwestover.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phaser3 - Create a simple preloader</title>
+      <link>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</link>
+      <pubDate>Wed, 14 Feb 2018 17:45:42 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</guid>
+      <description>With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index.</description>
+    </item>
+    
+    <item>
+      <title>Unity 2D Snake Tutorial Part 1</title>
+      <link>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</link>
+      <pubDate>Fri, 01 Dec 2017 23:32:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</guid>
+      <description>For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970&#39;s, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.
+For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself.</description>
+    </item>
+    
+  </channel>
+</rss>
