@@ -6,10 +6,50 @@
     <description>Recent content in Phaserjs on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Apr 2018 21:34:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 May 2018 21:34:18 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/phaserjs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</link>
+      <pubDate>Tue, 29 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</guid>
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text</description>
+    </item>
+    
+    <item>
+      <title>Create a Dialog Modal Plugin in Phaser 3 – Part 1 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</link>
+      <pubDate>Tue, 15 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</guid>
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, we focus on the basics of creating a plugin that can be reused in all of your Phaser games. We then move on to creating our basic plugin, and then we wrap up the tutorial by getting the plugin to render our dialog window in our game.</description>
+    </item>
+    
+    <item>
+      <title>Create A Basic Multiplayer Game In Phaser 3 With Socket.io – Part 2 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</link>
+      <pubDate>Wed, 02 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</guid>
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the second part of the multiplayer tutorial.
+In this tuorial, we pick up were we left in part 1, and we start adding the client side logic for adding players to our game. We then move on by adding the logic for player input and finally we wrap up the game by adding some collectables for the players to collect.</description>
+    </item>
+    
+    <item>
+      <title>Create A Basic Multiplayer Game In Phaser 3 With Socket.io – Part 1 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</link>
+      <pubDate>Wed, 25 Apr 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</guid>
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, I show you how to create a simple multiplayer game by using NodeJS and SocketIO. I start by showing you how to setup your Node server, rendering your Phaser game, and then finally we add SocketIO to the project.</description>
+    </item>
     
     <item>
       <title>Creating A Preloader Screen In Phaser 3 Tutorial</title>

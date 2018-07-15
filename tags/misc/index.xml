@@ -6,7 +6,7 @@
     <description>Recent content in Misc on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 May 2018 01:24:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jul 2018 01:24:04 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Site Updates</title>
       <link>https://scottwestover.github.io/post/2018/07/under-contruction/</link>
-      <pubDate>Tue, 15 May 2018 01:24:04 +0000</pubDate>
+      <pubDate>Sun, 15 Jul 2018 01:24:04 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/07/under-contruction/</guid>
       <description>After working with the Hugo static site generator, I&amp;rsquo;ve decided that I wanted to move my blog over to this template.

@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 May 2018 01:24:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jul 2018 01:24:04 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,12 +14,52 @@
     <item>
       <title>Site Updates</title>
       <link>https://scottwestover.github.io/post/2018/07/under-contruction/</link>
-      <pubDate>Tue, 15 May 2018 01:24:04 +0000</pubDate>
+      <pubDate>Sun, 15 Jul 2018 01:24:04 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/07/under-contruction/</guid>
       <description>After working with the Hugo static site generator, I&amp;rsquo;ve decided that I wanted to move my blog over to this template.
 For the most part, this should be an easy transition since all of the blog files were already Markdown files, but with the transition, there could be some small issues.
 Hopefully this will be a smooth transition, and I hope you like the new site design!</description>
+    </item>
+    
+    <item>
+      <title>Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</link>
+      <pubDate>Tue, 29 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</guid>
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text</description>
+    </item>
+    
+    <item>
+      <title>Create a Dialog Modal Plugin in Phaser 3 – Part 1 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</link>
+      <pubDate>Tue, 15 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</guid>
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, we focus on the basics of creating a plugin that can be reused in all of your Phaser games. We then move on to creating our basic plugin, and then we wrap up the tutorial by getting the plugin to render our dialog window in our game.</description>
+    </item>
+    
+    <item>
+      <title>Create A Basic Multiplayer Game In Phaser 3 With Socket.io – Part 2 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</link>
+      <pubDate>Wed, 02 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</guid>
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the second part of the multiplayer tutorial.
+In this tuorial, we pick up were we left in part 1, and we start adding the client side logic for adding players to our game. We then move on by adding the logic for player input and finally we wrap up the game by adding some collectables for the players to collect.</description>
+    </item>
+    
+    <item>
+      <title>Create A Basic Multiplayer Game In Phaser 3 With Socket.io – Part 1 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</link>
+      <pubDate>Wed, 25 Apr 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</guid>
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, I show you how to create a simple multiplayer game by using NodeJS and SocketIO. I start by showing you how to setup your Node server, rendering your Phaser game, and then finally we add SocketIO to the project.</description>
     </item>
     
     <item>
@@ -173,51 +213,6 @@ I know it has been awhile since my last post here, so I just wanted to give ever
       <guid>https://scottwestover.github.io/post/2016/02/2016-02-10-liveengage-engagement-history-api/</guid>
       <description>Today I wanted to share with you a program I made that will allow you to use the Engagement History API to send out emails for transcripts that have a particular keyword.
 The program will use the API to pull all of your chat transcripts for the previous day that contain a certain keyword, and then it will send it to an email address that you specify. The program makes use of the SendGrid API in order to send the emails.</description>
-    </item>
-    
-    <item>
-      <title>LiveEngage - Use Your Own Custom Chat Button By Using JQuery</title>
-      <link>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</link>
-      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</guid>
-      <description>Update: With the new HTML engagements in LiveEngage, this method is now outdated. It is recommended that you use the supported method listed above.
-The purpose of this tutorial is to show you how you can use your own chat buttons with LiveEngage by using JavaScript.
-Currently in LiveEngage, you have a limited number of options for creating a chat button in the LiveEngage studio. This can make it hard for the chat button to match the look of your site, especially with all of the things you can do with CSS and JavaScript today.</description>
-    </item>
-    
-    <item>
-      <title>Free Code Camp - A Community Where You Can Learn To Code And Help Nonprofits</title>
-      <link>https://scottwestover.github.io/post/2016/01/2016-01-11-free-code-camp-community-where-you-can/</link>
-      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2016/01/2016-01-11-free-code-camp-community-where-you-can/</guid>
-      <description>Today I wanted to share with everyone a website that I came across and that I have started using:&amp;nbsp;http://www.freecodecamp.com/
-Free Code Camp is a community that provides to you hundreds of hours of coding lessons, a way to build your portfolio, and they will put you in touch with non-profit organizations that will allow you to apply your new skills.
-Some of the skills you can learn include:
- HTML5 CSS3 JavaScript Databases Git and GitHub Node.</description>
-    </item>
-    
-    <item>
-      <title>AEM Gems - Oak Lucene Indexes</title>
-      <link>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</guid>
-      <description>Adobe will be holding another &amp;ldquo;AEM Gem&amp;rdquo; on January 20th at 11 A.M. - 12:00 P.M. EST.
-This session will be a technical deep dive on Oak Lucene Indexes and how they can be used to get your queries perform better. This gem will also provide insight into how asynchronous indexing works and how it can be monitored.
-Here is a link to sign up if you are interested:&amp;nbsp;Register
- This session will be hosted by Chetan Mehrotra and Alex Parvulescu.</description>
-    </item>
-    
-    <item>
-      <title>Looking Back At 2015</title>
-      <link>https://scottwestover.github.io/post/2015/12/2015-12-28-looking-back-at-2015/</link>
-      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2015/12/2015-12-28-looking-back-at-2015/</guid>
-      <description>We are fast approaching the end of this year, and I just wanted to thank everyone that has stopped by and read some of my posts. This was my 1st year of maintaining a blog, and what a learning experience it has been.
-Initially, I started this blog as a way to share what I had learned on AEM, and I was able to share a lot of information. However, with a career change, and not knowing how popular some of the posts where going to be, I had to start allocating time for comments, and time to improve general design of my blog.</description>
     </item>
     
   </channel>

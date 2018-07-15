@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Archive - Scott Westover - Blog</title>
+  <title>Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial - Scott Westover - Blog</title>
   <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
 
 <meta name="renderer" content="webkit" />
@@ -25,7 +25,9 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="scottwestover" />
-  <meta name="description" content="A developer&#39;s blog. Contains tutorials and other programming articles." />
+  <meta name="description" content="My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text" />
+
   <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
 
 
@@ -36,8 +38,7 @@
 <meta name="generator" content="Hugo 0.44" />
 
 
-<link rel="canonical" href="https://scottwestover.github.io/post/" />
-<link href="https://scottwestover.github.io/post/index.xml" rel="alternate" type="application/rss+xml" title="Scott Westover - Blog" />
+<link rel="canonical" href="https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/" />
 
 
 
@@ -57,14 +58,17 @@
 
 
 
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="A developer&#39;s blog. Contains tutorials and other programming articles." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://scottwestover.github.io/post/" />
+<meta property="og:title" content="Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial" />
+<meta property="og:description" content="My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/" />
 
 
 
-<meta property="og:updated_time" content="2015-03-28T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2018-05-29T21:34:18&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-05-29T21:34:18&#43;00:00"/>
 
 
 
@@ -75,12 +79,23 @@
 
 
 
-<meta itemprop="name" content="Posts">
-<meta itemprop="description" content="A developer&#39;s blog. Contains tutorials and other programming articles.">
 
+<meta itemprop="name" content="Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial">
+<meta itemprop="description" content="My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text">
+
+
+<meta itemprop="datePublished" content="2018-05-29T21:34:18&#43;00:00" />
+<meta itemprop="dateModified" content="2018-05-29T21:34:18&#43;00:00" />
+<meta itemprop="wordCount" content="86">
+
+
+
+<meta itemprop="keywords" content="Game Development,PhaserJS,Tutorial," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="A developer&#39;s blog. Contains tutorials and other programming articles."/>
+<meta name="twitter:title" content="Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial"/>
+<meta name="twitter:description" content="My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -288,252 +303,123 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-<section id="archive" class="archive">
+          <article class="post bg-white">
     
-      <div class="collection-title">
-        <h2 class="archive-year">2015</h2>
+    <header class="post-header">
+      <h1 class="post-title">Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-05-29 </span>
+        <div class="post-category">
+            
+              <a href="/categories/game-development/"> Game Development </a>
+            
+              <a href="/categories/phaserjs/"> PhaserJS </a>
+            
+              <a href="/categories/tutorial/"> Tutorial </a>
+            
+          </div>
+        <span class="more-meta"> 86 words </span>
+        <span class="more-meta"> 1 min read </span>
       </div>
+    </header>
 
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-28
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-28-ask-community-experts-session-aem_28/" class="archive-post-link">
-          Ask the Community Experts Session: AEM Workflows Update
-        </a>
-      </span>
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.</p>
+
+<p>In this tuorial, we pickup were we left off in the first tutorial we focus on the following:
+* adding logic to for a close button on the dialog window
+* add logic to show/hide the window
+* add logic to show dialog
+* add logic to animate the text</p>
+
+<p>You can chekxout the tutorial here: <a href="https://gamedevacademy.org/create-a-dialog-modal-plugin-in-phaser-3-part-2/">https://gamedevacademy.org/create-a-dialog-modal-plugin-in-phaser-3-part-2/</a></p>
+
+<p><img src="/img/misc/Phaser-UI-Series.png" alt="Phaser 3 tutorial" /></p>
+
     </div>
+
+    
     
 
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-26
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-26-aem-interview-questions-part-2/" class="archive-post-link">
-          AEM Interview Questions Part 2
-        </a>
-      </span>
-    </div>
+    
     
 
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-19
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/" class="archive-post-link">
-          AEM CQ:Listeners Node Tutorial
-        </a>
-      </span>
-    </div>
-    
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/game-development/">Game Development</a>
+          
+          <a href="/tags/phaserjs/">PhaserJS</a>
+          
+          <a href="/tags/tutorial/">Tutorial</a>
+          
+        </div>
 
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-17
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/" class="archive-post-link">
-          AEM ShareThis Component Tutorial
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-16
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-16-aem-cqlisteners-node-for-components/" class="archive-post-link">
-          AEM CQ:Listeners Node For A Component
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-16
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/" class="archive-post-link">
-          AEM Basic Project Setup Tutorial
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-14
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/" class="archive-post-link">
-          AEM Brackets Extension Tutorial
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-13
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-13-aem-sightly-brackets-extension/" class="archive-post-link">
-          AEM Sightly Brackets Extension
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-12
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-12-aem-interview-questions/" class="archive-post-link">
-          AEM Interview Questions Part 1
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-10
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-10-aem-dialog-conversion-tool/" class="archive-post-link">
-          AEM Dialog Conversion Tool
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-10
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-10-aem-developer-chrome-extension/" class="archive-post-link">
-          AEM Developer Chrome Extension
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-09
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-09-ask-community-experts-session-aem/" class="archive-post-link">
-          Ask the Community Experts Session: AEM Workflows
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-06
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-06-aem-component-to-send-email-tutorial/" class="archive-post-link">
-          AEM Component To Send An Email Tutorial
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-02
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-02-my-first-post/" class="archive-post-link">
-          My First Post
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-02
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-02-create-swing-application-to-post-files/" class="archive-post-link">
-          Create A Swing Application To Post Files To AEM
-        </a>
-      </span>
-    </div>
-    
-
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2015-03-02
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/" class="archive-post-link">
-          AEM Component To Display X3D File Tutorial
-        </a>
-      </span>
-    </div></section>
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
       
-      <li >
-        <a href="/post/">1</a>
-      </li>
-      
-      <li >
-        <a href="/post/page/2/">2</a>
-      </li>
-      
-      <li >
-        <a href="/post/page/3/">3</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/post/page/4/">4</a>
-      </li>
-      
-    </ul>
-  </nav>
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2018/07/under-contruction/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Site Updates</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/">
+            <span class="next-text nav-default">Create a Dialog Modal Plugin in Phaser 3 – Part 1 Tutorial</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
+<br>
+
 
   
   
 
+  
 
+  
 
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
 
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
 
         </div>
       </div>

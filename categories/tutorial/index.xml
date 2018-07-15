@@ -6,10 +6,50 @@
     <description>Recent content in Tutorial on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Feb 2018 17:45:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 May 2018 21:34:18 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</link>
+      <pubDate>Tue, 29 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</guid>
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text</description>
+    </item>
+    
+    <item>
+      <title>Create a Dialog Modal Plugin in Phaser 3 – Part 1 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</link>
+      <pubDate>Tue, 15 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</guid>
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, we focus on the basics of creating a plugin that can be reused in all of your Phaser games. We then move on to creating our basic plugin, and then we wrap up the tutorial by getting the plugin to render our dialog window in our game.</description>
+    </item>
+    
+    <item>
+      <title>Create A Basic Multiplayer Game In Phaser 3 With Socket.io – Part 2 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</link>
+      <pubDate>Wed, 02 May 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</guid>
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the second part of the multiplayer tutorial.
+In this tuorial, we pick up were we left in part 1, and we start adding the client side logic for adding players to our game. We then move on by adding the logic for player input and finally we wrap up the game by adding some collectables for the players to collect.</description>
+    </item>
+    
+    <item>
+      <title>Create A Basic Multiplayer Game In Phaser 3 With Socket.io – Part 1 Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</link>
+      <pubDate>Wed, 25 Apr 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</guid>
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, I show you how to create a simple multiplayer game by using NodeJS and SocketIO. I start by showing you how to setup your Node server, rendering your Phaser game, and then finally we add SocketIO to the project.</description>
+    </item>
     
     <item>
       <title>Phaser3 - Create a simple preloader</title>
@@ -173,47 +213,6 @@ In order to follow along with this tutorial, you will need to install GitHub for
       <description>The purpose of this tutorial is to show you how to build an AEM page component using sightly. You can read more about sightly here:&amp;nbsp;Sightly
 For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
 For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.</description>
-    </item>
-    
-    <item>
-      <title>AEM CQ:Listeners Node Tutorial</title>
-      <link>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</link>
-      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</guid>
-      <description>The purpose of this tutorial is to show you how to add the &amp;ldquo;cq:listeners&amp;rdquo; node to a component so when the component is modified the page will automatically refresh. You can read more about &amp;ldquo;cq:listeners&amp;rdquo; from a previous post I made here:&amp;nbsp;cq:listeners node
-For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.</description>
-    </item>
-    
-    <item>
-      <title>AEM ShareThis Component Tutorial</title>
-      <link>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</link>
-      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</guid>
-      <description>The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
-For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.</description>
-    </item>
-    
-    <item>
-      <title>AEM Basic Project Setup Tutorial</title>
-      <link>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</link>
-      <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</guid>
-      <description>The purpose of this tutorial is to show you how to set up a basic project structure in AEM. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this project for learning purposes.
-For this tutorial I was using AEM 6.0. You should be able to follow along with other versions of this software.</description>
-    </item>
-    
-    <item>
-      <title>AEM Brackets Extension Tutorial</title>
-      <link>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</link>
-      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</guid>
-      <description>The purpose of this tutorial is to install the AEM Sightly Brackets Extension and see how easy it is to transfer content back and forth between Brackets and your local instance of AEM.
-For this tutorial I was using: AEM 6.0, AEM Brackets Extension 0.0.12, and Brackets 1.1. You should be able to follow along with other versions of this software.
-In order to follow along you will need the following:</description>
     </item>
     
   </channel>

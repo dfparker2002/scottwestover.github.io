@@ -4,7 +4,35 @@
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/07/under-contruction/</loc>
-    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</loc>
+    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</loc>
+    <lastmod>2018-05-15T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</loc>
+    <lastmod>2018-05-02T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</loc>
+    <lastmod>2018-04-25T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -592,14 +620,14 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/game-development/</loc>
-    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/game-development/</loc>
-    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -676,42 +704,42 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/misc/</loc>
-    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/misc/</loc>
-    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
-    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
-    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/</loc>
-    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/</loc>
-    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -739,14 +767,14 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/tutorial/</loc>
-    <lastmod>2018-02-14T17:45:42+00:00</lastmod>
+    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/tutorial/</loc>
-    <lastmod>2018-02-14T17:45:42+00:00</lastmod>
+    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
