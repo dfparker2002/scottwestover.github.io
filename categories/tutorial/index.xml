@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on Scott Westover</title>
+    <title>Tutorial on Scott Westover - Blog</title>
     <link>https://scottwestover.github.io/categories/tutorial/</link>
-    <description>Recent content in Tutorial on Scott Westover</description>
+    <description>Recent content in Tutorial on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 14 Feb 2018 17:45:42 +0000</lastBuildDate>
@@ -29,6 +29,191 @@ For this tutorial, we are going to keep things simple, and just put all of our c
       <guid>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</guid>
       <description>For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970&#39;s, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.
 For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself.</description>
+    </item>
+    
+    <item>
+      <title>How To Connect To The Engagement History API Through Postman</title>
+      <link>https://scottwestover.github.io/post/2016/10/2016-10-29-how-to-connect-to-engagement-history/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/10/2016-10-29-how-to-connect-to-engagement-history/</guid>
+      <description>I have gotten a lot of request from people on how to connect to the APIs that are available from LivePerson using Postman, so I decided to share how to do this here.
+In order to follow along with this tutorial, you will need the API keys that are available for Engagement History API, and you will need access to the Postman App. To get these keys, you can log into the LiveEngage console, and grab them from them from the API tab under data sources, which is on the campaigns tab.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Use Your Own Custom Chat Button By Using JQuery</title>
+      <link>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</guid>
+      <description>Update: With the new HTML engagements in LiveEngage, this method is now outdated. It is recommended that you use the supported method listed above.
+The purpose of this tutorial is to show you how you can use your own chat buttons with LiveEngage by using JavaScript.
+Currently in LiveEngage, you have a limited number of options for creating a chat button in the LiveEngage studio. This can make it hard for the chat button to match the look of your site, especially with all of the things you can do with CSS and JavaScript today.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Connecting To The Engagement History API In Java Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-16-liveengage-connecting-to-engagement/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-16-liveengage-connecting-to-engagement/</guid>
+      <description>The purpose of this tutorial is to show you how to connect to the Engagement History API in Java.
+The Engagement History API is a REST API that is offered through LivePerson that allows you to pull your chat transcripts without having to manually go through and export them. In order to connect to the API, you will need to get a set of API keys from LivePerson and install them on your account.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage Best Practice - Multitasking With Hot Keys</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-01-liveengage-best-practice-multitasking/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-01-liveengage-best-practice-multitasking/</guid>
+      <description>One of the main things that I usually hear from agents is that they are always multitasking and that they are looking for ways to be more efficient when they are chatting, so they can provide the best experience possible to the customers that they are chatting with. My response to the client is, “Are you utilizing the hot keys that are available in LiveEngage?”
+ Hot keys are shortcuts that are available to you in LiveEngage that you can use to easily move between tasks such taking a chat, changing your status, or even viewing the visitor list.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Using CSS To Modify Embedded Chat Buttons</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-25-liveengage-using-css-to-modify-embedded/</link>
+      <pubDate>Wed, 25 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-25-liveengage-using-css-to-modify-embedded/</guid>
+      <description>Update: With the new HTML engagements in LiveEngage, this method is now outdated. It is recommended that you use the supported method listed above. The purpose of this tutorial is to show you how to use your own custom CSS to modify your embedded chat buttons from LiveEngage.
+Currently in LiveEngage, the only options you have for an embedded button is to use an image or the few text styling elements that are available in the engagement studio.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Use The Web App SDK To Send Chat Lines To The Agent Console</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-19-liveengage-use-web-app-sdk-to-send-chat/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-19-liveengage-use-web-app-sdk-to-send-chat/</guid>
+      <description>The purpose of this tutorial is to show you how to use the Web Application SDK to send chat lines from your own web application.
+The Web Application SDK is a client-side package that can be used to communicate with the LivePerson Agent Workspace. In order to use the SDK, your web application needs to be able to open inside an iFrame, and your application must be hosted over SSL. You can read more about the SDK here:&amp;nbsp;Web App SDK PDF</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Use URL To Pre-fill Your Account ID On The Login Page</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-04-liveengage-use-url-to-pre-fill-your/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-04-liveengage-use-url-to-pre-fill-your/</guid>
+      <description>On the LiveEngage login page, there is a &amp;lsquo;remember me&amp;rsquo; check box that you can check to have your information stored in a cookie, however this is not always a valid option for everyone. For example, if your computer automatically clears your cookies and cache every night, or if you have cookies disabled, then the &amp;lsquo;remember me&amp;rsquo; check box will not remember your information, which then requires you to enter your account number, username, and password every time you want to login.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Remove Cancel &amp; Submit Buttons From Offline Survey</title>
+      <link>https://scottwestover.github.io/post/2015/10/2015-10-23-liveengage-remove-cancel-submit-buttons/</link>
+      <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/10/2015-10-23-liveengage-remove-cancel-submit-buttons/</guid>
+      <description>Update: This method is now outdated. Now, in LiveEngage, when you create a new survey with no questions, it will automatically remove the Submit button from the survey.
+The purpose of this tutorial is to show you how to remove the Cancel &amp;amp; Submit buttons from your offline survey in LiveEngage.
+The default offline survey in LiveEngage is nice, but sometimes you want added functionality that is not there, or sometimes you want to display your own custom offline message, but you do not want the customers to leave an offline message using the LiveEngage chat.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Custom Offline Message With Link To Your Leave A Message Form</title>
+      <link>https://scottwestover.github.io/post/2015/10/2015-10-19-liveengage-custom-offline-message-with/</link>
+      <pubDate>Mon, 19 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/10/2015-10-19-liveengage-custom-offline-message-with/</guid>
+      <description>Update 6/10/16: This work around is no longer needed for LiveEngage. Instead, if you just include your message in the header of the survey, and delete all questions of the offline survey. The header will show correctly with a close button for the offline survey.
+The purpose of this tutorial is to show you how to add your own custom offline message on the offline survey in LiveEngage, and have a link to your own leave a message form.</description>
+    </item>
+    
+    <item>
+      <title>Create A Chrome Extension Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to make a simple Chrome Extension. Throughout this tutorial we will be making a simple extension that when clicked, will show an HTML page with the text &amp;ldquo;Hello World!&amp;rdquo;.
+A Chrome Extension is just some basic HTML, CSS, and JavaScript that allows you to add some type of functionality to Chrome by using Chrome&amp;rsquo;s JavaScript APIs. For this tutorial, we are going to focus on building a simple Hello World html page that uses basic JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Android - Adding A Facebook Share Button That Shares A Screen Shot</title>
+      <link>https://scottwestover.github.io/post/2015/07/2015-07-14-android-adding-facebook-share-button/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/07/2015-07-14-android-adding-facebook-share-button/</guid>
+      <description>The purpose of this tutorial is to show you how to add a Facebook Share button to your Android Application that will share a screen shot. I have added a new tutorial that shows just how to add a basic share button to your android application. You can read the tutorial here: Android - Add A Facebook Share Button
+For this tutorial I was using: Android Studio 1.1.0, and Facebook SDK v4.</description>
+    </item>
+    
+    <item>
+      <title>Android Facebook Integration Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to integrate the Facebook SDK with your Android application. Throughout this tutorial, we will register our application with Facebook and then add the SDK to our project.
+For this tutorial I was using: Android Studio 1.1.0, OpenSSL for Windows, and Facebook SDK v4.0.0. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:</description>
+    </item>
+    
+    <item>
+      <title>Using GitHub To Share Your Code Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-14-using-github-to-share-your-code-tutorial/</link>
+      <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-14-using-github-to-share-your-code-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to use GitHub to share your code with others.
+For this tutorial we will be using GitHub for Windows. This tutorial does not go into full detail, but does provide all the steps that are needed for learning purposes.
+In order to follow along with this tutorial, you will need to install GitHub for Windows. You can download the program from here:&amp;nbsp;https://windows.</description>
+    </item>
+    
+    <item>
+      <title>AEM Tutorial On Building A Sightly Page Component</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-10-aem-tutorial-on-building-sightly-page/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-10-aem-tutorial-on-building-sightly-page/</guid>
+      <description>The purpose of this tutorial is to show you how to build an AEM page component using sightly. You can read more about sightly here:&amp;nbsp;Sightly
+For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>AEM CQ:Listeners Node Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</link>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to add the &amp;ldquo;cq:listeners&amp;rdquo; node to a component so when the component is modified the page will automatically refresh. You can read more about &amp;ldquo;cq:listeners&amp;rdquo; from a previous post I made here:&amp;nbsp;cq:listeners node
+For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.</description>
+    </item>
+    
+    <item>
+      <title>AEM ShareThis Component Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</guid>
+      <description>The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>AEM Basic Project Setup Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</link>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to set up a basic project structure in AEM. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this project for learning purposes.
+For this tutorial I was using AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>AEM Brackets Extension Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</link>
+      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</guid>
+      <description>The purpose of this tutorial is to install the AEM Sightly Brackets Extension and see how easy it is to transfer content back and forth between Brackets and your local instance of AEM.
+For this tutorial I was using: AEM 6.0, AEM Brackets Extension 0.0.12, and Brackets 1.1. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:</description>
     </item>
     
   </channel>

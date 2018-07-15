@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>AEM Dialog Conversion Tool - Scott Westover - Blog</title>
+  <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="scottwestover" />
+  <meta name="description" content="Adobe has recently released a new tool that can extend your existing components dialog that is defined for the classic view and update it to the new Touch UI dialog. The tool will use the original dialog that was built with ExtJS and create a duplicate dialog that is based on the Granite UI.
+Even though your classic dialog will work on the Touch UI, it does not have the nice new design that fits in with the Touch UI and it really stands out." />
+
+  <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://scottwestover.github.io/post/2015/03/2015-03-10-aem-dialog-conversion-tool/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="AEM Dialog Conversion Tool" />
+<meta property="og:description" content="Adobe has recently released a new tool that can extend your existing components dialog that is defined for the classic view and update it to the new Touch UI dialog. The tool will use the original dialog that was built with ExtJS and create a duplicate dialog that is based on the Granite UI.
+Even though your classic dialog will work on the Touch UI, it does not have the nice new design that fits in with the Touch UI and it really stands out." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2015/03/2015-03-10-aem-dialog-conversion-tool/" />
+
+
+
+<meta property="article:published_time" content="2015-03-10T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-03-10T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="AEM Dialog Conversion Tool">
+<meta itemprop="description" content="Adobe has recently released a new tool that can extend your existing components dialog that is defined for the classic view and update it to the new Touch UI dialog. The tool will use the original dialog that was built with ExtJS and create a duplicate dialog that is based on the Granite UI.
+Even though your classic dialog will work on the Touch UI, it does not have the nice new design that fits in with the Touch UI and it really stands out.">
+
+
+<meta itemprop="datePublished" content="2015-03-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2015-03-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="193">
+
+
+
+<meta itemprop="keywords" content="AEM," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AEM Dialog Conversion Tool"/>
+<meta name="twitter:description" content="Adobe has recently released a new tool that can extend your existing components dialog that is defined for the classic view and update it to the new Touch UI dialog. The tool will use the original dialog that was built with ExtJS and create a duplicate dialog that is based on the Granite UI.
+Even though your classic dialog will work on the Touch UI, it does not have the nice new design that fits in with the Touch UI and it really stands out."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65933410-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3ae122d776597f"></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Scott Westover - Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Scott Westover - Blog
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">AEM Dialog Conversion Tool</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2015-03-10 </span>
+        <div class="post-category">
+            
+              <a href="/categories/aem/"> AEM </a>
+            
+          </div>
+        <span class="more-meta"> 193 words </span>
+        <span class="more-meta"> 1 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>Adobe has recently released a new tool that can extend your existing components dialog that is defined for the classic view and update it to the new Touch UI dialog. The tool will use the original dialog that was built with ExtJS and create a duplicate dialog that is based on the Granite UI.<br />
+<br />
+Even though your classic dialog will work on the Touch UI, it does not have the nice new design that fits in with the Touch UI and it really stands out. If you wanted a new dialog before, you would have to create a new dialog for your component. Now with this new tool, it can be done automatically for you, which will save you time as a developer and allow you to focus elsewhere.<br />
+<br />
+The tool is not perfect and cannot always create a dialog for you. So, you need to verify that your new dialog works correctly and that it meets your needs. It is a great tool that will help you get started with your dialog creation, and will save you time in the long run.<br />
+<br />
+For more information go to the following link:<span style="color: blue;">&nbsp;<a href="http://docs.adobe.com/docs/en/aem/6-0/develop/dev-tools/dialog-conversion.html" target="_blank">Dialog Conversion Tool</a></span></p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/aem/">AEM</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2015/03/2015-03-10-aem-developer-chrome-extension/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">AEM Developer Chrome Extension</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2015/03/2015-03-09-ask-community-experts-session-aem/">
+            <span class="next-text nav-default">Ask the Community Experts Session: AEM Workflows</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
+<br>
+
+
+  
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/swestover06" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://www.linkedin.com/in/scott-westover-77393a97/" rel="me noopener" class="iconfont icon-linkedin"
+        title="linkedin" target="_blank">
+      </a>
+      <a href="https://github.com/scottwestover" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://scottwestover.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">scottwestover</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

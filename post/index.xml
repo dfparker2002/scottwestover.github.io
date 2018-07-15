@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Scott Westover</title>
+    <title>Posts on Scott Westover - Blog</title>
     <link>https://scottwestover.github.io/post/</link>
-    <description>Recent content in Posts on Scott Westover</description>
+    <description>Recent content in Posts on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 May 2018 01:24:04 +0000</lastBuildDate>
@@ -82,6 +82,142 @@ Also, with the switch to a new platform, I decided to update the look of my blog
       <guid>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</guid>
       <description>For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970&#39;s, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.
 For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself.</description>
+    </item>
+    
+    <item>
+      <title>Unity Live Training Session On December 19th (Making A Flappy Bird Style Game)</title>
+      <link>https://scottwestover.github.io/post/2016/12/2016-12-16-unity-live-training-session-on-december/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/12/2016-12-16-unity-live-training-session-on-december/</guid>
+      <description>Unity will be holding another live training session on December 19th, at 3:00 - 4:00 PM EST. For this live session they will be going over how to make a simple 2D flappy bird style game. During this session, they will be going over the flapping mechanic, spawning random obstacles, and setting up a simple game manager.
+This session will be hosted by Matthew-Schell. If you are interested in learning more or in signing up, you can do so here:&amp;nbsp;https://unity3d.</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 37 Game Entry</title>
+      <link>https://scottwestover.github.io/post/2016/12/2016-12-15-ludum-dare-37-game-entry/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/12/2016-12-15-ludum-dare-37-game-entry/</guid>
+      <description>This past weekend, I got the chance to participate in the Ludum Dare game jam. If you are not familiar with Ludum Dare it is a game jam that has been around for over 12 years.
+This time around the theme was &amp;ldquo;One Room&amp;rdquo;, so my teammates and I came up with the idea that you would play as a room in a house, and you would need to fight the rest of rooms to be the best room in the house.</description>
+    </item>
+    
+    <item>
+      <title>Unity Live Training Session On November 14th (Creating A Quiz Game: Session 1)</title>
+      <link>https://scottwestover.github.io/post/2016/11/2016-11-12-unity-live-training-session-on-november/</link>
+      <pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/11/2016-11-12-unity-live-training-session-on-november/</guid>
+      <description>Unity will be holding another live training session on November 14th, at 3:00 - 4:00 PM EST. For this live session they will be going over how to make a multiple choice quiz game. During this session, they will be going over the core game loop, the code architecture best practices, and how to make the code easy to maintain and extend.
+This session will be hosted by Matthew-Schell. If you are interested in learning more or in signing up, you can do so here:&amp;nbsp;https://unity3d.</description>
+    </item>
+    
+    <item>
+      <title>How To Connect To The Engagement History API Through Postman</title>
+      <link>https://scottwestover.github.io/post/2016/10/2016-10-29-how-to-connect-to-engagement-history/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/10/2016-10-29-how-to-connect-to-engagement-history/</guid>
+      <description>I have gotten a lot of request from people on how to connect to the APIs that are available from LivePerson using Postman, so I decided to share how to do this here.
+In order to follow along with this tutorial, you will need the API keys that are available for Engagement History API, and you will need access to the Postman App. To get these keys, you can log into the LiveEngage console, and grab them from them from the API tab under data sources, which is on the campaigns tab.</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 36 Game Entry</title>
+      <link>https://scottwestover.github.io/post/2016/09/2016-09-05-ludum-dare-36-game-entry/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/09/2016-09-05-ludum-dare-36-game-entry/</guid>
+      <description>Last weekend a few friends from work and I decided to enter Ludum Dare. Ludum Dare is one of the longest running game jams that happens every April, August, and December. It has been around for 12 years, and we finally decided to enter this time around.
+   It was a really interesting experience, since you have a strict deadline to make a game, and you do not receive the theme of the game jam until the jam starts.</description>
+    </item>
+    
+    <item>
+      <title>Querying The Engagement History API With Firefox RESTClient</title>
+      <link>https://scottwestover.github.io/post/2016/05/2016-05-14-querying-engagement-history-api-with/</link>
+      <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/05/2016-05-14-querying-engagement-history-api-with/</guid>
+      <description>The Engagement History API is an API that is available from LivePerson, and it allows for you to search, filter, and keep copies of chat transcripts and the related data, such as visitor information, agent information, and much more.
+Before writing any code to start querying the API, it can be useful to use a tool that will allow for you to connect to the API in seconds.
+ This article discusses how you can use the RESTClient query to the Engagement History API.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting APIs With A RESTClient</title>
+      <link>https://scottwestover.github.io/post/2016/03/2016-03-25-troubleshooting-apis-with-restclient/</link>
+      <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/03/2016-03-25-troubleshooting-apis-with-restclient/</guid>
+      <description>When it comes time to connect to APIs, I find that it is a lot easier to test them using a REST client before you start writing any code. Using a REST client allows for you to make sure that you are able to connect to it successfully, and it allows for you to try out different parameters of the API.
+One of the best tools that I was introduced to is, the Firefox RESTClient Plugin.</description>
+    </item>
+    
+    <item>
+      <title>Update For March</title>
+      <link>https://scottwestover.github.io/post/2016/03/2016-03-23-update-for-march/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/03/2016-03-23-update-for-march/</guid>
+      <description>Hi Everyone,
+I know it has been awhile since my last post here, so I just wanted to give everyone a quick update. I haven&amp;rsquo;t had a lot of time to create content rich posts since I have had a few life changes in the past 2 months. I ended up fracturing my ankle mid February, so my daily routine has changed quite a bit, and I had been asked to create blog posts for the new support community at LivePerson, so I have been focusing on creating content there.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Engagement History API Program To Send Email</title>
+      <link>https://scottwestover.github.io/post/2016/02/2016-02-10-liveengage-engagement-history-api/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/02/2016-02-10-liveengage-engagement-history-api/</guid>
+      <description>Today I wanted to share with you a program I made that will allow you to use the Engagement History API to send out emails for transcripts that have a particular keyword.
+The program will use the API to pull all of your chat transcripts for the previous day that contain a certain keyword, and then it will send it to an email address that you specify. The program makes use of the SendGrid API in order to send the emails.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Use Your Own Custom Chat Button By Using JQuery</title>
+      <link>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</guid>
+      <description>Update: With the new HTML engagements in LiveEngage, this method is now outdated. It is recommended that you use the supported method listed above.
+The purpose of this tutorial is to show you how you can use your own chat buttons with LiveEngage by using JavaScript.
+Currently in LiveEngage, you have a limited number of options for creating a chat button in the LiveEngage studio. This can make it hard for the chat button to match the look of your site, especially with all of the things you can do with CSS and JavaScript today.</description>
+    </item>
+    
+    <item>
+      <title>Free Code Camp - A Community Where You Can Learn To Code And Help Nonprofits</title>
+      <link>https://scottwestover.github.io/post/2016/01/2016-01-11-free-code-camp-community-where-you-can/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/01/2016-01-11-free-code-camp-community-where-you-can/</guid>
+      <description>Today I wanted to share with everyone a website that I came across and that I have started using:&amp;nbsp;http://www.freecodecamp.com/
+Free Code Camp is a community that provides to you hundreds of hours of coding lessons, a way to build your portfolio, and they will put you in touch with non-profit organizations that will allow you to apply your new skills.
+Some of the skills you can learn include:
+ HTML5 CSS3 JavaScript Databases Git and GitHub Node.</description>
+    </item>
+    
+    <item>
+      <title>AEM Gems - Oak Lucene Indexes</title>
+      <link>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</guid>
+      <description>Adobe will be holding another &amp;ldquo;AEM Gem&amp;rdquo; on January 20th at 11 A.M. - 12:00 P.M. EST.
+This session will be a technical deep dive on Oak Lucene Indexes and how they can be used to get your queries perform better. This gem will also provide insight into how asynchronous indexing works and how it can be monitored.
+Here is a link to sign up if you are interested:&amp;nbsp;Register
+ This session will be hosted by Chetan Mehrotra and Alex Parvulescu.</description>
+    </item>
+    
+    <item>
+      <title>Looking Back At 2015</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-28-looking-back-at-2015/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-28-looking-back-at-2015/</guid>
+      <description>We are fast approaching the end of this year, and I just wanted to thank everyone that has stopped by and read some of my posts. This was my 1st year of maintaining a blog, and what a learning experience it has been.
+Initially, I started this blog as a way to share what I had learned on AEM, and I was able to share a lot of information. However, with a career change, and not knowing how popular some of the posts where going to be, I had to start allocating time for comments, and time to improve general design of my blog.</description>
     </item>
     
   </channel>

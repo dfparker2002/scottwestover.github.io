@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Android Facebook Integration Tutorial - Scott Westover - Blog</title>
+  <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="scottwestover" />
+  <meta name="description" content="The purpose of this tutorial is to show you how to integrate the Facebook SDK with your Android application. Throughout this tutorial, we will register our application with Facebook and then add the SDK to our project.
+For this tutorial I was using: Android Studio 1.1.0, OpenSSL for Windows, and Facebook SDK v4.0.0. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:" />
+
+  <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Android Facebook Integration Tutorial" />
+<meta property="og:description" content="The purpose of this tutorial is to show you how to integrate the Facebook SDK with your Android application. Throughout this tutorial, we will register our application with Facebook and then add the SDK to our project.
+For this tutorial I was using: Android Studio 1.1.0, OpenSSL for Windows, and Facebook SDK v4.0.0. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/" />
+
+
+
+<meta property="article:published_time" content="2015-07-12T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-07-12T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Android Facebook Integration Tutorial">
+<meta itemprop="description" content="The purpose of this tutorial is to show you how to integrate the Facebook SDK with your Android application. Throughout this tutorial, we will register our application with Facebook and then add the SDK to our project.
+For this tutorial I was using: Android Studio 1.1.0, OpenSSL for Windows, and Facebook SDK v4.0.0. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:">
+
+
+<meta itemprop="datePublished" content="2015-07-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2015-07-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="722">
+
+
+
+<meta itemprop="keywords" content="Tutorial,Android,Facebook," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Android Facebook Integration Tutorial"/>
+<meta name="twitter:description" content="The purpose of this tutorial is to show you how to integrate the Facebook SDK with your Android application. Throughout this tutorial, we will register our application with Facebook and then add the SDK to our project.
+For this tutorial I was using: Android Studio 1.1.0, OpenSSL for Windows, and Facebook SDK v4.0.0. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65933410-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3ae122d776597f"></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Scott Westover - Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Scott Westover - Blog
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Android Facebook Integration Tutorial</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2015-07-12 </span>
+        <div class="post-category">
+            
+              <a href="/categories/tutorial/"> Tutorial </a>
+            
+              <a href="/categories/android/"> Android </a>
+            
+              <a href="/categories/facebook/"> Facebook </a>
+            
+          </div>
+        <span class="more-meta"> 722 words </span>
+        <span class="more-meta"> 4 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>The purpose of this tutorial is to show you how to integrate the Facebook SDK with your Android application. Throughout this tutorial, we will register our application with Facebook and then add the SDK to our project.<br />
+<br />
+For this tutorial I was using: Android Studio 1.1.0, OpenSSL for Windows, and Facebook SDK v4.0.0. You should be able to follow along with other versions of this software.<br />
+<br />
+In order to follow along you will need the following:<br />
+<ul>
+<li>Android Studio. If you do not already have this installed, you can get a copy from here:&nbsp;<a href="https://developer.android.com/sdk/index.html" target="_blank"><span style="color: blue;">Android Studio</span></a>. Just follow the download and install instructions from the website to get started.</li>
+<li>SSL. If you do not already have this installed, you can get a copy from here:&nbsp;<a href="http://code.google.com/p/openssl-for-windows/downloads/detail?name=openssl-0.9.8k_X64.zip"><span style="color: blue;">OpenSSL</span></a>. Just follow the download and install instructions from the website to get started.</li>
+<li>You will need to have an existing project already created in Android Studio.</li>
+<li>You will need to have a developer account with Facebook in order to register your application, and work with their SDK. You can do this here:&nbsp;<a href="https://developers.facebook.com/"><span style="color: blue;"><a href="https://developers.facebook.com/">https://developers.facebook.com/</a></span></a></li>
+</ul>
+<div>
+If you have completed the following steps, we can get started.</div>
+<div>
+<br /></div>
+<div>
+1. Go to the Facebook developers website, hover over the &ldquo;My Apps&rdquo; button, and then click on &ldquo;Add a New App&rdquo;.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-qO8h5Doya0k/VaJnOclrMgI/AAAAAAAAATI/Hht8_ostPBo/s1600/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="101" src="https://3.bp.blogspot.com/-qO8h5Doya0k/VaJnOclrMgI/AAAAAAAAATI/Hht8_ostPBo/s400/Untitled.png" width="400" /></a></div>
+<br />
+2. In the &ldquo;Add a New App&rdquo; window that appears, choose &ldquo;Android&rdquo;.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-EkV4JGhkpqQ/VaJtOWQRUyI/AAAAAAAAATc/b9bVkZcxLDc/s1600/2015-07-12_0915.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="164" src="https://4.bp.blogspot.com/-EkV4JGhkpqQ/VaJtOWQRUyI/AAAAAAAAATc/b9bVkZcxLDc/s320/2015-07-12_0915.png" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+3. Next, type in the name for the app you want to create, and then click the &ldquo;Create New Facebook App ID&rdquo;.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-EfgDU5uPhdY/VaJtRVj0sPI/AAAAAAAAAUA/yWEQluuMvIQ/s1600/2015-07-12_0919.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="169" src="https://2.bp.blogspot.com/-EfgDU5uPhdY/VaJtRVj0sPI/AAAAAAAAAUA/yWEQluuMvIQ/s320/2015-07-12_0919.png" width="320" /></a></div>
+<br />
+4. Then, in the &ldquo;Create a New App ID&rdquo; window that appears, choose &ldquo;No&rdquo; for &ldquo;is this a test version of another app&rdquo;, and choose a relevant category for your application. Lastly, click on the &ldquo;Create App ID&rdquo; button.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-1wVsqyDMhoE/VaJtREVSAGI/AAAAAAAAATs/pLGanXUlTMQ/s1600/2015-07-12_0921.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="143" src="https://1.bp.blogspot.com/-1wVsqyDMhoE/VaJtREVSAGI/AAAAAAAAATs/pLGanXUlTMQ/s320/2015-07-12_0921.png" width="320" /></a></div>
+<br />
+5. Open your Android Studio project, &nbsp;and open the &ldquo;build.gradle&rdquo; file at the app level.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-zO_3Y7nv4t0/VaJyPSD7naI/AAAAAAAAAUU/X49Qg4aHNc8/s1600/2015-07-12_1000.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="195" src="https://2.bp.blogspot.com/-zO_3Y7nv4t0/VaJyPSD7naI/AAAAAAAAAUU/X49Qg4aHNc8/s320/2015-07-12_1000.png" width="320" /></a></div>
+<br />
+6. In this file, add &ldquo; compile &lsquo;com.facebook.android:facebook-android-sdk:4.4.0&rsquo; &ldquo; to your dependencies and add &ldquo;mavenCentral()&rdquo; to your repositories. You will want to rebuild your project after this.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-QJRSR_CQgUI/VaKXxOgaREI/AAAAAAAAAVc/iiwnm32TVQc/s1600/2015-07-12_1242.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="94" src="https://1.bp.blogspot.com/-QJRSR_CQgUI/VaKXxOgaREI/AAAAAAAAAVc/iiwnm32TVQc/s320/2015-07-12_1242.png" width="320" /></a></div>
+<br />
+9. Go back to the Facebook Developers site, and in the spot &ldquo;Tell us about your Android project&rdquo;, you will want to enter the package name for your application, and the default activity class name.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-bP-rbTY3Opw/VaJtRTZWDuI/AAAAAAAAAT8/VfwCPorIvpg/s1600/2015-07-12_0933.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="162" src="https://4.bp.blogspot.com/-bP-rbTY3Opw/VaJtRTZWDuI/AAAAAAAAAT8/VfwCPorIvpg/s400/2015-07-12_0933.png" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+10. You will now need to generate an Android key hash for your development environment in order to test your application. In order to do this, you will need to have SSL installed. Open a command prompt window and navigate to your &ldquo;Java JRE&rdquo; folder. Once here you will want to run the following command:<br />
+<br />
+<script src="https://gist.github.com/scottwestover/7a09e3c5a1ea06077da9.js"></script>
+11. The command prompt should generate a 28-character key hash. You will want to enter this in the &ldquo;Development Key Hashes&rdquo; field on the Facebook Developers site:<br />
+<br />
+12. Then, you will want to click on the &ldquo;Dashboard&rdquo; link to take you to the app dashboard. You will see that your app now has an &ldquo;App ID&rdquo; and an &ldquo;App Secret&rdquo;. You will need to add the APP ID to your Android App.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-0h3tzdLusL8/VaJ58VFcjHI/AAAAAAAAAU0/b93hGYqOfrg/s1600/2015-07-12_1036.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="91" src="https://2.bp.blogspot.com/-0h3tzdLusL8/VaJ58VFcjHI/AAAAAAAAAU0/b93hGYqOfrg/s320/2015-07-12_1036.png" width="320" /></a></div>
+<br />
+13. Returning back to your Android project, open the &ldquo;MainActivity&rdquo; file for your app. At the top of the file, in the imports section add the following:&nbsp;import com.facebook.FacebookSdk;<br />
+<br />
+14. You will need to initialize the Facebook SDK before you can use it. This can be done by calling the Facebook.SDK.sdkInitialize from onCreate function. Your onCreate function should look similar to this:<br />
+<br />
+<script src="https://gist.github.com/scottwestover/1bd7b8ae6e1204ae7b38.js"></script>
+15. Now, we just need to add your Facebook App ID to your Application. Open your &ldquo;strings.xml&rdquo; file located here:<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-c6wqIBq7fB8/VaJ-dJENdfI/AAAAAAAAAVE/RYQXrYznOU8/s1600/2015-07-12_1056.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-c6wqIBq7fB8/VaJ-dJENdfI/AAAAAAAAAVE/RYQXrYznOU8/s1600/2015-07-12_1056.png" /></a></div>
+<br />
+16. You will want to add a new string to this file. The name of the string should be &ldquo;facebook_app_id&rdquo;, and the value of the string should be your apps id. Here is an example: &lt;string name=&ldquo;facebook_app_id&rdquo;&gt;Your App ID Goes Here&lt;/string&gt;</div>
+<div>
+<br /></div>
+<div>
+17. Finally, you will need to update your Android manifest. Once you have this file open, you will need to add the following:</div>
+<div>
+<ul>
+<li>&lt;uses-permission android:name=&ldquo;android.permission.INTERNET&rdquo;/&gt;</li>
+<li>&lt;meta-data android:name=&ldquo;com.facebook.sdk.ApplicationId&rdquo; android:value=&ldquo;@string/facebook_app_id&rdquo;/&gt;</li>
+</ul>
+</div>
+<div>
+You have now integrated the Facebook SDK with your Android application. Now, you will be able to use the Facebook SDK to add a Facebook Login, Share content to Facebook, or even send App Invites to friends on Facebook.<br />
+<br /></div>
+<div>
+Summary: This tutorial showed you how to crate a Facebook Developers App, how to add the Facebook SDK to your Android Application, and how to sync the two together.</div>
+<div>
+<br /></div>
+<div>
+I hope you enjoyed this tutorial. If you have any questions or comments, please feel free to post them below.</div></p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/tutorial/">Tutorial</a>
+          
+          <a href="/tags/android/">Android</a>
+          
+          <a href="/tags/facebook/">Facebook</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2015/07/2015-07-13-july-ask-community-experts-session/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">July Ask the Community Experts Session: Advanced AEM Component Development</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2015/06/2015-06-29-trello-for-project-management/">
+            <span class="next-text nav-default">Trello For Project Management</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
+<br>
+
+
+  
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/swestover06" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://www.linkedin.com/in/scott-westover-77393a97/" rel="me noopener" class="iconfont icon-linkedin"
+        title="linkedin" target="_blank">
+      </a>
+      <a href="https://github.com/scottwestover" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://scottwestover.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">scottwestover</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

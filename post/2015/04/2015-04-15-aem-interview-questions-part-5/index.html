@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>AEM Interview Questions Part 5 - Scott Westover - Blog</title>
+  <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="scottwestover" />
+  <meta name="description" content="This is part five of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;-&amp;nbsp;Part 2&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;-&amp;nbsp;Part 4&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q:&amp;nbsp;What is a replication agent?
+ A:&amp;nbsp;A replication agent is used to publish active content from the author environment to the publish environment, to flush content from the dispatcher cache, and return user input from the publish environment to the author environment." />
+
+  <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://scottwestover.github.io/post/2015/04/2015-04-15-aem-interview-questions-part-5/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="AEM Interview Questions Part 5" />
+<meta property="og:description" content="This is part five of my AEM interview&nbsp;questions. You find the other parts here:
+Part 1&nbsp;-&nbsp;Part 2&nbsp;-&nbsp;Part 3&nbsp;-&nbsp;Part 4&nbsp;-&nbsp;Part 6&nbsp;-&nbsp;Part 7&nbsp;-&nbsp;Part 8&nbsp;-&nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q:&nbsp;What is a replication agent?
+ A:&nbsp;A replication agent is used to publish active content from the author environment to the publish environment, to flush content from the dispatcher cache, and return user input from the publish environment to the author environment." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2015/04/2015-04-15-aem-interview-questions-part-5/" />
+
+
+
+<meta property="article:published_time" content="2015-04-15T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-04-15T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="AEM Interview Questions Part 5">
+<meta itemprop="description" content="This is part five of my AEM interview&nbsp;questions. You find the other parts here:
+Part 1&nbsp;-&nbsp;Part 2&nbsp;-&nbsp;Part 3&nbsp;-&nbsp;Part 4&nbsp;-&nbsp;Part 6&nbsp;-&nbsp;Part 7&nbsp;-&nbsp;Part 8&nbsp;-&nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q:&nbsp;What is a replication agent?
+ A:&nbsp;A replication agent is used to publish active content from the author environment to the publish environment, to flush content from the dispatcher cache, and return user input from the publish environment to the author environment.">
+
+
+<meta itemprop="datePublished" content="2015-04-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2015-04-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="394">
+
+
+
+<meta itemprop="keywords" content="AEM,Interview Prep," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AEM Interview Questions Part 5"/>
+<meta name="twitter:description" content="This is part five of my AEM interview&nbsp;questions. You find the other parts here:
+Part 1&nbsp;-&nbsp;Part 2&nbsp;-&nbsp;Part 3&nbsp;-&nbsp;Part 4&nbsp;-&nbsp;Part 6&nbsp;-&nbsp;Part 7&nbsp;-&nbsp;Part 8&nbsp;-&nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q:&nbsp;What is a replication agent?
+ A:&nbsp;A replication agent is used to publish active content from the author environment to the publish environment, to flush content from the dispatcher cache, and return user input from the publish environment to the author environment."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65933410-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3ae122d776597f"></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Scott Westover - Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Scott Westover - Blog
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">AEM Interview Questions Part 5</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2015-04-15 </span>
+        <div class="post-category">
+            
+              <a href="/categories/aem/"> AEM </a>
+            
+              <a href="/categories/interview-prep/"> Interview Prep </a>
+            
+          </div>
+        <span class="more-meta"> 394 words </span>
+        <span class="more-meta"> 2 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p><span style="font-family: inherit;">This is part five of my AEM interview&nbsp;questions. You find the other parts here:</span><br />
+<span style="font-family: inherit;"><br /><span style="color: blue;"><a href="http://scottwestover.blogspot.com/2015/03/aem-interview-questions.html">Part 1</a>&nbsp;-&nbsp;<a href="http://scottwestover.blogspot.com/2015/03/aem-interview-questions-part-2.html">Part 2</a>&nbsp;-&nbsp;<a href="http://scottwestover.blogspot.com/2015/04/aem-interview-questions-part-3.html">Part 3</a>&nbsp;-&nbsp;<a href="http://scottwestover.blogspot.com/2015/04/aem-interview-questions-part-4.html">Part 4</a>&nbsp;-&nbsp;</span></span><span style="color: blue;"><a href="http://scottwestover.blogspot.com/2015/04/aem-interview-questions-part-6.html">Part 6</a>&nbsp;-&nbsp;<a href="http://scottwestover.blogspot.com/2015/05/aem-interview-questions-part-7.html">Part 7</a>&nbsp;-&nbsp;<a href="http://scottwestover.blogspot.com/2015/05/aem-interview-questions-part-8.html">Part 8</a>&nbsp;-&nbsp;<a href="http://scottwestover.blogspot.com/2015/08/aem-interview-questions-pdf.html">PDF</a></span><br />
+<span style="font-family: inherit;"><br />Here are some more AEM interview questions that could come up during a technical interview:</span><br />
+<span style="font-family: inherit;"><br /><span style="color: orange; line-height: 17.1200008392334px;">Q</span><span style="color: orange; line-height: 17.1200008392334px;">:&nbsp;</span><span style="color: orange; line-height: 17.1200008392334px;">What is a replication agent?</span></span><br />
+<div class="MsoNormal">
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><span style="line-height: 17.1200008392334px;"><span style="color: orange;">A</span></span><span style="line-height: 17.1200008392334px;"><span style="color: orange;">:</span>&nbsp;</span><span style="line-height: 107%;">A
+replication agent is used to publish active content from the author environment
+to the publish environment, to flush content from the dispatcher cache, and
+return user input from the publish environment to the author environment. The
+replication agents are central to AEM.</span></span><br />
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;"><br /></span>
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;">Q</span><span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;">: What is resource mapping</span><span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;">?</span></div>
+<div class="MsoNormal">
+<div class="MsoNormal">
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><span style="line-height: 17.1200008392334px;"><span style="color: orange;">A</span></span><span style="line-height: 17.1200008392334px;"><span style="color: orange;">:</span>&nbsp;</span><span style="line-height: 107%;">Resource
+mapping is used to define redirects, vanity URLs and virtual hosts for AEM. You
+can use resource mapping to prefix all requests with “/content” so the internal
+structure of the AEM site is hidden from your visitors. You can also use
+resource mapping to define a redirect so that all requests to the gateway page
+of your site are redirected to another site.</span></span><br />
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;"><br /></span>
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;">Q</span><span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;">: What is resource resolution in Sling</span><span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;">?</span><br />
+<div class="MsoNormal">
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><span style="line-height: 17.1200008392334px;"><span style="color: orange;">A</span></span><span style="line-height: 17.1200008392334px;"><span style="color: orange;">:</span>&nbsp;</span><span style="line-height: 107%;">Resource
+resolution in Sling is how Sling takes a URL and attempts to resolve it to a
+script. This is done by extracting information from the URL. Here is an example
+URL:</span></span><br />
+<span style="font-family: inherit; line-height: 107%;"><br /></span>
+<span style="font-family: inherit; line-height: 107%;"><a href="http://myhost/tools/spy.printable.a4.html/a/b?x=12">http://myhost/tools/spy.printable.a4.html/a/b?x=12</a></span><br />
+<div class="MsoNormal">
+<span style="line-height: 107%;"><span style="font-family: inherit;"><br /></span></span></div>
+<div class="MsoNormal">
+<span style="line-height: 107%;"><span style="font-family: inherit;">It can be
+broken down as follows:<o:p><a href="/o:p">/o:p</a></span></span></div>
+<div class="MsoNormal">
+<span style="line-height: 107%;"><span style="font-family: inherit;"><br /></span></span></div>
+<table border="1" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184;">
+ <tbody>
+<tr>
+  <td style="border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.05pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">Protocol<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.05pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">Host<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">Content path<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">Selector(s)<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">Extension<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<br /></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">Suffix<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<br /></div>
+</td>
+  <td style="border-left: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">Param(s)<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+ </tr>
+<tr>
+  <td style="border-top: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.05pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">http://<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.05pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">myhost<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">tools/spy<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">.printable.a4.<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">html<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">/<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">a/b<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">?<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0cm 5.4pt 0cm 5.4pt; width: 50.1pt;" valign="top" width="67"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+<span style="font-family: inherit;">x=12<o:p><a href="/o:p">/o:p</a></span></div>
+</td>
+ </tr>
+</tbody></table>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal">
+<span style="line-height: 107%;"><span style="font-family: inherit;">Sling uses
+the content path that is extracted from the request to locate the resource in
+the JCR. When this resource is located, the sling resource type is extracted,
+and then it is used to located the script to be used for rendering that
+content.<o:p><a href="/o:p">/o:p</a></span></span></div>
+<ul></ul>
+</div>
+</div>
+</div>
+<div class="MsoNormal">
+<div class="MsoNormal">
+<span style="font-family: inherit;"><span style="color: orange; line-height: 17.1200008392334px;"><br /></span><span style="color: orange; line-height: 17.1200008392334px;">Q</span><span style="color: orange; line-height: 17.1200008392334px;">: What design patterns are used in AEM?</span></span></div>
+<div class="MsoNormal">
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;"><br /></span></div>
+<span style="font-family: inherit;"><span style="line-height: 17.1200008392334px;"><span style="color: orange;">A</span></span><span style="line-height: 17.1200008392334px;"><span style="color: orange;">:</span>&nbsp;</span><span style="line-height: 107%;">Since AEM is
+built using OSGI, many of the design patterns for OSGI are valid. Some of these
+design patterns are Singleton (Service), Adapter Service, Resource Adapter
+Service, and Whiteboard.&nbsp;</span></span><br />
+<span style="font-family: inherit; line-height: 107%;"><br /></span>
+<span style="font-family: inherit; line-height: 107%;">Also, since
+AEM is modular, you should be able to use any design pattern in your
+application.</span><br />
+<div class="MsoNormal">
+<div class="MsoNormal">
+<span style="font-family: inherit; line-height: 17.1200008392334px;"><br /></span></div>
+<div class="MsoNormal">
+<span style="font-family: inherit;"><span style="color: orange; line-height: 17.1200008392334px;">Q</span><span style="color: orange; line-height: 17.1200008392334px;">: What is reverse replication</span><span style="color: orange; line-height: 17.1200008392334px;">?</span></span></div>
+<div class="MsoNormal">
+<span style="color: orange; font-family: inherit; line-height: 17.1200008392334px;"><br /></span></div>
+<span style="font-family: inherit;"><span style="line-height: 17.1200008392334px;"><span style="color: orange;">A</span></span><span style="line-height: 17.1200008392334px;"><span style="color: orange;">:</span>&nbsp;</span><span style="line-height: 107%;">Reverse
+replication is the process of replicating content from publish environment to
+the author environment. In order to accomplish this you need a reverse
+replication agent on your author instance that is configured to get content
+from the publish environment outbox.</span></span><br />
+<div class="MsoNormal">
+<span style="font-family: inherit;"><br />I plan to add more interview questions to this blog, so make sure to check back.</span></div>
+</div>
+<span style="font-family: inherit;"><span style="line-height: 17.1200008392334px;"></span><br />I hope you enjoyed this post. Please feel free to post any comments below.</span></div></p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/aem/">AEM</a>
+          
+          <a href="/tags/interview-prep/">Interview Prep</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2015/04/2015-04-28-aem-interview-questions-part-6/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">AEM Interview Questions Part 6</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2015/04/2015-04-14-using-github-to-share-your-code-tutorial/">
+            <span class="next-text nav-default">Using GitHub To Share Your Code Tutorial</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
+<br>
+
+
+  
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/swestover06" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://www.linkedin.com/in/scott-westover-77393a97/" rel="me noopener" class="iconfont icon-linkedin"
+        title="linkedin" target="_blank">
+      </a>
+      <a href="https://github.com/scottwestover" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://scottwestover.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">scottwestover</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

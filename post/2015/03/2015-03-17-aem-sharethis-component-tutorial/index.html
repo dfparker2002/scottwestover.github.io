@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>AEM ShareThis Component Tutorial - Scott Westover - Blog</title>
+  <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="scottwestover" />
+  <meta name="description" content="The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software." />
+
+  <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="AEM ShareThis Component Tutorial" />
+<meta property="og:description" content="The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/" />
+
+
+
+<meta property="article:published_time" content="2015-03-17T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-03-17T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="AEM ShareThis Component Tutorial">
+<meta itemprop="description" content="The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.">
+
+
+<meta itemprop="datePublished" content="2015-03-17T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2015-03-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="718">
+
+
+
+<meta itemprop="keywords" content="AEM,Tutorial," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AEM ShareThis Component Tutorial"/>
+<meta name="twitter:description" content="The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65933410-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3ae122d776597f"></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Scott Westover - Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Scott Westover - Blog
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">AEM ShareThis Component Tutorial</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2015-03-17 </span>
+        <div class="post-category">
+            
+              <a href="/categories/aem/"> AEM </a>
+            
+              <a href="/categories/tutorial/"> Tutorial </a>
+            
+          </div>
+        <span class="more-meta"> 718 words </span>
+        <span class="more-meta"> 4 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.<br />
+<br />
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.<br />
+<br />
+ShareThis is a tool that makes it easy to share your content across many social media websites. ShareThis also allows you to track when your content is shared. This is all accomplished by using their simple to use plugin. You can find more information here:<br />
+<br />
+<a href="http://www.sharethis.com/" target="_blank"><span style="color: blue;"><a href="http://www.sharethis.com/">http://www.sharethis.com/</a></span></a><br />
+<br />
+In order to follow along with this tutorial, you will need an account with ShareThis. The reason you need an account is because they will assign you a publisher id, which you will need in order to use their plugin. If you do not have an account, click on the link above and then sign up for their site. Registering is free and only takes a few seconds.<br />
+<br />
+Now that you have an account with ShareThis, we can get started.<br />
+<br />
+1. Once you have your local instance of AEM running, navigate to crxde lite. In your project folder, go to the &ldquo;components&rdquo; folder, right click and choose &ldquo;Create Component&rdquo;. An example is posted below:<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-lb4CWpxNKO8/VQcTabTLhwI/AAAAAAAAAGY/sGiFnd8EdPE/s1600/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="270" src="https://4.bp.blogspot.com/-lb4CWpxNKO8/VQcTabTLhwI/AAAAAAAAAGY/sGiFnd8EdPE/s1600/Untitled.png" width="320" /></a></div>
+<br />
+Just keep clicking &ldquo;Next&rdquo; until the component is created.<br />
+<br />
+2. Open the JSP file that was just created for your component and replace the content with the following code:<br />
+<br />
+<script src="https://gist.github.com/scottwestover/e68ff636c0885f8f5eff.js"></script><br />
+3. Next, right click on the component you just created, and choose &ldquo;Create Dialog&rdquo;. An example is posted below:<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-i14Le1YV-P0/VQcWFQjAcJI/AAAAAAAAAGk/X5z-6ZjH1NQ/s1600/Untitled2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="209" src="https://4.bp.blogspot.com/-i14Le1YV-P0/VQcWFQjAcJI/AAAAAAAAAGk/X5z-6ZjH1NQ/s1600/Untitled2.png" width="320" /></a></div>
+<br />
+4. Navigate to the &ldquo;tab1&rdquo; node under the dialog you just created. Right click on the node and choose &ldquo;Create Node&rdquo;. Enter the following information:<br />
+<ul>
+<li>Name: items</li>
+<li>Type: cq:WidgetCollection</li>
+</ul>
+<div>
+<br />
+5. On the &ldquo;items&rdquo; node that you just created, right click and choose &ldquo;Create Node&rdquo;. Enter the following information:</div>
+<div>
+<ul>
+<li>Name: pubID</li>
+<li>Type: cq:Widget</li>
+</ul>
+<div>
+<br />
+6. Your dialog node for the component should look similar to this:</div>
+</div>
+<div>
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-iI5L4j5-KyY/VQcYRFk3csI/AAAAAAAAAGw/fxifMjkNTk4/s1600/Untitled3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-iI5L4j5-KyY/VQcYRFk3csI/AAAAAAAAAGw/fxifMjkNTk4/s1600/Untitled3.png" /></a></div>
+<div>
+<br /></div>
+7. On the &ldquo;pubID&rdquo; node that you created, add the following properties:<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-0GaSmgwGTuo/VQcYpaZiugI/AAAAAAAAAG4/lPhETNu4YS0/s1600/Untitled4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="139" src="https://3.bp.blogspot.com/-0GaSmgwGTuo/VQcYpaZiugI/AAAAAAAAAG4/lPhETNu4YS0/s1600/Untitled4.png" width="640" /></a></div>
+<br />
+<div class="separator" style="clear: both;">
+8. Now you just need a template to add this component to. If you already have a page that you can add components to, you can skip these next few steps and go to step 13.&nbsp;</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both;">
+9. In your project folder go to your &ldquo;components&rdquo; folder, right click on it and choose &ldquo;Create Component&rdquo;. An example is posted below:</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-llJTWS3GJow/VQMX7OTdVsI/AAAAAAAAAFs/s8YQHchzyiQ/s1600/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="273" src="https://3.bp.blogspot.com/-llJTWS3GJow/VQMX7OTdVsI/AAAAAAAAAFs/s8YQHchzyiQ/s1600/Untitled.png" width="320" /></a></div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both;">
+You can keep clicking next until you have the option to create the component.</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both;">
+10. Open up the &ldquo;empty.jsp&rdquo; file that was created and replace all the code inside with the following code:</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<br />
+<div class="separator" style="clear: both;">
+11. In your project folder, create a &ldquo;templates&rdquo; folder if one does not already exist. Right click on this folder and choose &ldquo;Create Template&rdquo;. An example is posted below:</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-r_vZ8o4yf2w/VQMbOCy8YKI/AAAAAAAAAGE/33tY-YG3ksU/s1600/Untitled2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="274" src="https://2.bp.blogspot.com/-r_vZ8o4yf2w/VQMbOCy8YKI/AAAAAAAAAGE/33tY-YG3ksU/s1600/Untitled2.png" width="320" /></a></div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both;">
+You will want to update the &ldquo;Resource Type:&rdquo; field with the path to the &ldquo;empty&rdquo; component you just created. Click next and in the &ldquo;Allowed Paths&rdquo; option, add &ldquo;/content(/.*)?&ldquo;. Then keep clicking next until you have an option to create a template.&nbsp;</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both;">
+12. Next go to the websites console and choose the option to create a page. Make sure to choose the &ldquo;Empty Template&rdquo; from the template options.</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both;">
+13. Now, open the web page and add the ShareThis component to the page. You can do this by switching over to the Classic UI, and then selecting design mode from the sidekick. Next, click on edit the design of your paragraph system, and check the box next to the &ldquo;Share This Component&rdquo;. Then switch back to edit mode, and add the component to your page.</div>
+<div class="separator" style="clear: both;">
+<br /></div>
+<div class="separator" style="clear: both;">
+Now click on the component to go into the dialog and enter your developer ID. Once the page is refreshed, the component will display the ShareThis buttons.</div>
+<br />
+Summary: This tutorial showed you how to create a component that uses the ShareThis plugin, how to add a custom dialog to the component for the publisher ID, and how to add this component to a page.<br />
+<br />
+I hope you enjoyed this tutorial. If you have any questions or comments, please feel free to post them below.<br />
+<br />
+You can download a package of the component on GitHub from here:&nbsp;<a href="https://github.com/scottwestover/ShareThis-AEM-Component" target="_blank"><span style="color: blue;">GitHub AEM Component</span></a></p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/aem/">AEM</a>
+          
+          <a href="/tags/tutorial/">Tutorial</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">AEM CQ:Listeners Node Tutorial</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/">
+            <span class="next-text nav-default">AEM Basic Project Setup Tutorial</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
+<br>
+
+
+  
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/swestover06" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://www.linkedin.com/in/scott-westover-77393a97/" rel="me noopener" class="iconfont icon-linkedin"
+        title="linkedin" target="_blank">
+      </a>
+      <a href="https://github.com/scottwestover" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://scottwestover.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">scottwestover</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

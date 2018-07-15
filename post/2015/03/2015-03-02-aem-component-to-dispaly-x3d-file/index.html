@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>AEM Component To Display X3D File Tutorial - Scott Westover - Blog</title>
+  <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="scottwestover" />
+  <meta name="description" content="The purpose of this tutorial is to develop a component for AEM, which will allow you to display 3D models. This is accomplished by loading in an X3D file and then displaying it on your webpage. For this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes." />
+
+  <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://scottwestover.github.io/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="AEM Component To Display X3D File Tutorial" />
+<meta property="og:description" content="The purpose of this tutorial is to develop a component for AEM, which will allow you to display 3D models. This is accomplished by loading in an X3D file and then displaying it on your webpage. For this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/" />
+
+
+
+<meta property="article:published_time" content="2015-03-02T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-03-02T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="AEM Component To Display X3D File Tutorial">
+<meta itemprop="description" content="The purpose of this tutorial is to develop a component for AEM, which will allow you to display 3D models. This is accomplished by loading in an X3D file and then displaying it on your webpage. For this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes.">
+
+
+<meta itemprop="datePublished" content="2015-03-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2015-03-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="613">
+
+
+
+<meta itemprop="keywords" content="AEM,Tutorial," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AEM Component To Display X3D File Tutorial"/>
+<meta name="twitter:description" content="The purpose of this tutorial is to develop a component for AEM, which will allow you to display 3D models. This is accomplished by loading in an X3D file and then displaying it on your webpage. For this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65933410-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3ae122d776597f"></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Scott Westover - Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Scott Westover - Blog
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">AEM Component To Display X3D File Tutorial</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2015-03-02 </span>
+        <div class="post-category">
+            
+              <a href="/categories/aem/"> AEM </a>
+            
+              <a href="/categories/tutorial/"> Tutorial </a>
+            
+          </div>
+        <span class="more-meta"> 613 words </span>
+        <span class="more-meta"> 3 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>The purpose of this tutorial is to develop a component for AEM, which will allow you to display 3D models. This is accomplished by loading in an X3D file and then displaying it on your webpage. For this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes.<br />
+<br />
+This tutorial uses the following website:&nbsp;<a href="http://www.x3dom.org/" target="_blank"><span style="color: blue;"><a href="http://www.x3dom.org/">http://www.x3dom.org/</a></span></a><br />
+<div>
+  <br />
+  <div>
+    Lets get started -<br />
+    <br />
+  </div>
+  <div>
+    1. Once you have your version of AEM up and running, head over to crxde and create a component.
+    An example is posted below.
+  </div>
+</div>
+<div>
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="http://2.bp.blogspot.com/-mbB28BzBHoY/VPSUZazCcRI/AAAAAAAAAB0/X7kUkZC9sEg/s1600/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="272" src="http://2.bp.blogspot.com/-mbB28BzBHoY/VPSUZazCcRI/AAAAAAAAAB0/X7kUkZC9sEg/s1600/Untitled.png" width="320" /></a>
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  2. Add the following node to the component you just created:
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="http://4.bp.blogspot.com/-C0dMUKJ3K3M/VPSrfcecp2I/AAAAAAAAACE/OiTqkNmPOM0/s1600/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="196" src="http://4.bp.blogspot.com/-C0dMUKJ3K3M/VPSrfcecp2I/AAAAAAAAACE/OiTqkNmPOM0/s1600/Untitled.png" width="320" /></a>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  On the clientlibs node add the following property - Name: categories, Value: 3dmodel
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  3. Add the following files to your clientlibs folder:
+</div>
+<div class="separator" style="clear: both; text-align: left;"></div>
+<ul>
+  <li>css.txt</li>
+  <li>js.txt</li>
+  <li>x3dom.css</li>
+  <li>x3dom.js</li>
+</ul>
+<br />
+<div class="separator" style="clear: both; text-align: left;">
+  4. Open the css.txt file and add the following line - x3dom.css
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  5. Open the js.txt file and add the following line - x3dom.js
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  6. Open the following link and copy the content into the x3dom.css file:
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <a href="https://gist.githubusercontent.com/scottwestover/6936c517f3ae811c6c34/raw/c92109d1a0af1a623570c42b5abbc43ba2da3d23/x3dom.css" target="_blank"><span style="color: blue;">x3dom.css</span></a>
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  7. Open the following link and copy the content into the x3dom.js file:
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <a href="https://gist.githubusercontent.com/scottwestover/7c9f98517c22fb7a4c98/raw/13b2828525ad6372d0e449bdf9a50d6c56f6d6c7/x3dom.js" target="_blank"><span style="color: blue;">x3dom.js</span></a>
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  8. Add a dialog to the component that you created. Once this is created, navigate to the tab1 node and add the following node - Name: items, Value: cq:WidgetCollection
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  9. On the items node you just created add the following node - Name: linkURL, Value: cq:Widget
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  10. Your dialog should look like the following:
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="http://2.bp.blogspot.com/-B7WLHiFJExc/VPSxysYRvgI/AAAAAAAAACU/R8M3_Z2kqwU/s1600/Untitled2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-B7WLHiFJExc/VPSxysYRvgI/AAAAAAAAACU/R8M3_Z2kqwU/s1600/Untitled2.png" /></a>
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  11. Add the following properties to the linkURL node:
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="http://3.bp.blogspot.com/-jgJtMhBMiAA/VPSyLo-5qZI/AAAAAAAAACc/S7LDbRUtvWg/s1600/Untitled3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="72" src="http://3.bp.blogspot.com/-jgJtMhBMiAA/VPSyLo-5qZI/AAAAAAAAACc/S7LDbRUtvWg/s1600/Untitled3.png" width="320" /></a>
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  12. Open your jsp file that was created with your component and add the following code to it:
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+  <br />
+</div>
+<script src="https://gist.github.com/scottwestover/4139e8f6760db08a6081.js"></script>
+13. Upload a X3D file to your assets folder. Here is a link to a sample x3d file:&nbsp;<a href="http://doc.x3dom.org/tutorials/models/inline/Deer.x3d" target="_blank"><span style="color: blue;">Deer X3D File</span></a><br />
+<br />
+<div class="separator" style="clear: both;">
+  14. Now you just need a template to add this component to. If you already have a page that you can add components to, you can skip these next few steps and go to step 19.&nbsp;
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both;">
+  15. In your project folder go to your &ldquo;components&rdquo; folder, right click on it and choose &ldquo;Create Component&rdquo;. An example is posted below:
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="http://3.bp.blogspot.com/-llJTWS3GJow/VQMX7OTdVsI/AAAAAAAAAFs/s8YQHchzyiQ/s1600/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="273" src="http://3.bp.blogspot.com/-llJTWS3GJow/VQMX7OTdVsI/AAAAAAAAAFs/s8YQHchzyiQ/s1600/Untitled.png" width="320" /></a>
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both;">
+  You can keep clicking next until you have the option to create the component.
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both;">
+  16. Open up the &ldquo;empty.jsp&rdquo; file that was created and replace all the code inside with the following code:
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<script src="https://gist.github.com/scottwestover/5012f073d3ef6b06f233.js"></script>
+<br />
+<div class="separator" style="clear: both;">
+  17. In your project folder, create a &ldquo;templates&rdquo; folder if one does not already exist. Right click on this folder and choose &ldquo;Create Template&rdquo;. An example is posted below:
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="http://2.bp.blogspot.com/-r_vZ8o4yf2w/VQMbOCy8YKI/AAAAAAAAAGE/33tY-YG3ksU/s1600/Untitled2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="274" src="http://2.bp.blogspot.com/-r_vZ8o4yf2w/VQMbOCy8YKI/AAAAAAAAAGE/33tY-YG3ksU/s1600/Untitled2.png" width="320" /></a>
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both; text-align: center;"></div>
+<div class="separator" style="clear: both;">
+  You will want to update the &ldquo;Resource Type:&rdquo; field with the path to the &ldquo;empty&rdquo; component you just created. Click next and in the &ldquo;Allowed Paths&rdquo; option, add &ldquo;/content(/.*)?&ldquo;. Then keep clicking next until you have an option to create a template.&nbsp;
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both;">
+  18. Next go to the websites console and choose the option to create a page. Make sure to choose the &ldquo;Empty Template&rdquo; from the template options.
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both;">
+  19. Now, open the web page and add the 3D component to the page. You can do this by switching over to the Classic UI, and then selecting design mode from the sidekick. Next, click on edit the design of your paragraph system, and check the box next to the &ldquo;3D Model Component&rdquo;. Then switch back to edit mode, and add the component to your page.
+</div>
+<div class="separator" style="clear: both;">
+  <br />
+</div>
+<div class="separator" style="clear: both;">
+  Now click on the component to go into the dialog and choose a X3D file. Once the page is refreshed, the component will display that file.
+</div>
+<br />
+I hope you enjoyed this tutorial. If you have any questions or comments please feel free to post them below.<br />
+<br />
+You can download a package of the component on GitHub from here:<br />
+<a href="https://github.com/scottwestover/3D-Model-Component-AEM" target="_blank"><span style="color: blue;">3D-Model-Component-AEM</span></a><br />
+<br /></p>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/aem/">AEM</a>
+          
+          <a href="/tags/tutorial/">Tutorial</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2015/03/2015-03-06-aem-component-to-send-email-tutorial/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">AEM Component To Send An Email Tutorial</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2015/03/2015-03-02-create-swing-application-to-post-files/">
+            <span class="next-text nav-default">Create A Swing Application To Post Files To AEM</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
+<br>
+
+
+  
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/swestover06" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://www.linkedin.com/in/scott-westover-77393a97/" rel="me noopener" class="iconfont icon-linkedin"
+        title="linkedin" target="_blank">
+      </a>
+      <a href="https://github.com/scottwestover" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://scottwestover.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">scottwestover</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Phaserjs on Scott Westover</title>
+    <title>Phaserjs on Scott Westover - Blog</title>
     <link>https://scottwestover.github.io/tags/phaserjs/</link>
-    <description>Recent content in Phaserjs on Scott Westover</description>
+    <description>Recent content in Phaserjs on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 20 Apr 2018 21:34:18 +0000</lastBuildDate>
@@ -40,6 +40,16 @@ For this tutorial, we are going to keep things simple, and just put all of our c
       <guid>https://scottwestover.github.io/post/2018/02/phaser-3-release/</guid>
       <description>In just a few short days, Phaser 3 will officially be released (Feb. 12th)! If you are not familiar with Phaser, it is a desktop and mobile HTML5 game framework that is written in JavaScript. The framework is easy to use, free, and completely open source.
 Phaser 3 has been in continuous development since October 2016, and it has undergone a lot of changes since then. While waiting for the new version to be released, the developers has regularly been releasing beta builds of the framework, so it has been interesting to watch how it has changed.</description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare 36 Game Entry</title>
+      <link>https://scottwestover.github.io/post/2016/09/2016-09-05-ludum-dare-36-game-entry/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/09/2016-09-05-ludum-dare-36-game-entry/</guid>
+      <description>Last weekend a few friends from work and I decided to enter Ludum Dare. Ludum Dare is one of the longest running game jams that happens every April, August, and December. It has been around for 12 years, and we finally decided to enter this time around.
+   It was a really interesting experience, since you have a strict deadline to make a game, and you do not receive the theme of the game jam until the jam starts.</description>
     </item>
     
   </channel>

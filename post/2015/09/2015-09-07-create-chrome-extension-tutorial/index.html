@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Create A Chrome Extension Tutorial - Scott Westover - Blog</title>
+  <link rel="alternate" hreflang="en" href="https://scottwestover.github.io/" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="scottwestover" />
+  <meta name="description" content="The purpose of this tutorial is to show you how to make a simple Chrome Extension. Throughout this tutorial we will be making a simple extension that when clicked, will show an HTML page with the text &amp;ldquo;Hello World!&amp;rdquo;.
+A Chrome Extension is just some basic HTML, CSS, and JavaScript that allows you to add some type of functionality to Chrome by using Chrome&amp;rsquo;s JavaScript APIs. For this tutorial, we are going to focus on building a simple Hello World html page that uses basic JavaScript." />
+
+  <meta name="keywords" content="Hugo, theme, scottwestover, blog, a developers blog, programming, tutorials" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.44" />
+
+
+<link rel="canonical" href="https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Create A Chrome Extension Tutorial" />
+<meta property="og:description" content="The purpose of this tutorial is to show you how to make a simple Chrome Extension. Throughout this tutorial we will be making a simple extension that when clicked, will show an HTML page with the text &ldquo;Hello World!&rdquo;.
+A Chrome Extension is just some basic HTML, CSS, and JavaScript that allows you to add some type of functionality to Chrome by using Chrome&rsquo;s JavaScript APIs. For this tutorial, we are going to focus on building a simple Hello World html page that uses basic JavaScript." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/" />
+
+
+
+<meta property="article:published_time" content="2015-09-07T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-09-07T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Create A Chrome Extension Tutorial">
+<meta itemprop="description" content="The purpose of this tutorial is to show you how to make a simple Chrome Extension. Throughout this tutorial we will be making a simple extension that when clicked, will show an HTML page with the text &ldquo;Hello World!&rdquo;.
+A Chrome Extension is just some basic HTML, CSS, and JavaScript that allows you to add some type of functionality to Chrome by using Chrome&rsquo;s JavaScript APIs. For this tutorial, we are going to focus on building a simple Hello World html page that uses basic JavaScript.">
+
+
+<meta itemprop="datePublished" content="2015-09-07T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2015-09-07T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="636">
+
+
+
+<meta itemprop="keywords" content="Tutorial,Chrome Extension," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Create A Chrome Extension Tutorial"/>
+<meta name="twitter:description" content="The purpose of this tutorial is to show you how to make a simple Chrome Extension. Throughout this tutorial we will be making a simple extension that when clicked, will show an HTML page with the text &ldquo;Hello World!&rdquo;.
+A Chrome Extension is just some basic HTML, CSS, and JavaScript that allows you to add some type of functionality to Chrome by using Chrome&rsquo;s JavaScript APIs. For this tutorial, we are going to focus on building a simple Hello World html page that uses basic JavaScript."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-65933410-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b3ae122d776597f"></script>
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Scott Westover - Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+        
+      </li>
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Scott Westover - Blog
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://scottwestover.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">Create A Chrome Extension Tutorial</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2015-09-07 </span>
+        <div class="post-category">
+            
+              <a href="/categories/tutorial/"> Tutorial </a>
+            
+              <a href="/categories/chrome-extension/"> Chrome Extension </a>
+            
+          </div>
+        <span class="more-meta"> 636 words </span>
+        <span class="more-meta"> 3 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>The purpose of this tutorial is to show you how to make a simple Chrome Extension. Throughout this tutorial we will be making a simple extension that when clicked, will show an HTML page with the text &ldquo;Hello World!&rdquo;.<br />
+<br />
+A Chrome Extension is just some basic HTML, CSS, and JavaScript that allows you to add some type of functionality to Chrome by using Chrome&rsquo;s JavaScript APIs. For this tutorial, we are going to focus on building a simple Hello World html page that uses basic JavaScript.<br />
+<br />
+<div>
+Let&rsquo;s get started:</div>
+<div>
+<br /></div>
+<div>
+1. The first thing that you need to do is create a project folder for your extension. Somewhere on your computer, create a new folder called &ldquo;MyExtension&rdquo;.<br />
+<br />
+2. Next, we are going to choose what the icon for our extension is going to be. We will use the following image for this tutorial:<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-V9iT0dp7RzA/VdDKC2sRtaI/AAAAAAAAAXU/58_4ma0_x5o/s1600/icon.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-V9iT0dp7RzA/VdDKC2sRtaI/AAAAAAAAAXU/58_4ma0_x5o/s1600/icon.png" /></a></div>
+<br />
+You can either download this image and place it in your project folder, or use your own image.<br />
+<br />
+3. Next, we will create the basic HTML page that will be displayed when the user clicks on the extension. In your project folder, create a new html page called &ldquo;popup.html&rdquo;.<br />
+<br />
+4. Open the &ldquo;popup.html&rdquo; file, and add the following code:<br />
+<br />
+<script src="https://gist.github.com/scottwestover/ce6e1ac4b6baa31ddd18.js"></script>
+5. Next, you will need to create a manifest file that will tell Chrome how to load our extension. In our project folder, create a new file called &ldquo;manifest.json&rdquo;.<br />
+<br />
+6. Open the &ldquo;manifest.json&rdquo; file, and add the following code:<br />
+<br />
+<script src="https://gist.github.com/scottwestover/04e8587ac6c23cf1ed69.js"></script></p>
+
+<p>The top half of the file includes basic information about our extension, such as: the name, the description, and which version it is. The browser_action is used to let Chrome know which page should be loaded when the extension is clicked, and which icon should be displayed in the toolbar.<br />
+<br />
+7. Now, we are going to test out our extension. In Chrome, navigate to your extensions page by entering &ldquo;chrome://extensions&rdquo; in the navigation bar.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-lUUaqyk_F4Y/VdDQ5I9syGI/AAAAAAAAAXo/hk1_S2H4KO0/s1600/2015-08-16_1412.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="145" src="https://1.bp.blogspot.com/-lUUaqyk_F4Y/VdDQ5I9syGI/AAAAAAAAAXo/hk1_S2H4KO0/s400/2015-08-16_1412.png" width="400" /></a></div>
+<br />
+You will need to click the check box next to Developer mode to enable it. Then click on &ldquo;Load unpacked extension&hellip;&rdquo;, and select your project folder in the popup that opens. Your extension should load, and you should see your icon next to your navigation bar.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-e0VW7L0Akwk/VdDRfIKGnbI/AAAAAAAAAXw/Ld0nmLnK7fo/s1600/2015-08-16_1413.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-e0VW7L0Akwk/VdDRfIKGnbI/AAAAAAAAAXw/Ld0nmLnK7fo/s1600/2015-08-16_1413.png" /></a></div>
+<br />
+8. Now, click on your extension and you should see a popup window with the &ldquo;Hello World!&rdquo; text.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-ushABLiRU58/VdDUqlRdKLI/AAAAAAAAAYA/NPL1C6lfgjA/s1600/2015-08-16_1413_001.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-ushABLiRU58/VdDUqlRdKLI/AAAAAAAAAYA/NPL1C6lfgjA/s1600/2015-08-16_1413_001.png" /></a></div>
+<br />
+Now, we are going to add some basic JavaScript to update the text of our html page. For security reasons, we cannot add inline JavaScript to our html page, so we will need to create an external JavaScript file. You can read more about the content security policy here:&nbsp;<a href="https://developer.chrome.com/extensions/contentSecurityPolicy"><span style="color: blue;"><a href="https://developer.chrome.com/extensions/contentSecurityPolicy">https://developer.chrome.com/extensions/contentSecurityPolicy</a></span></a><br />
+<br />
+9. In our project folder, create a new JavaScript file called &ldquo;popup.js&rdquo;. Open this file, and add the following code:<br />
+<br />
+<script src="https://gist.github.com/scottwestover/88c4a24abd9eefad7d1d.js"></script></p>
+
+<ol>
+<li><p>Next, we will need to refer to this external JavaScript file in our &ldquo;popup.html&rdquo; file. Open this file, and add the following line before the closing body tag: &lt;script src=&ldquo;popup.js&rdquo;&gt;&lt;/script&gt;<br />
+<br />
+Your code should now look like this:<br />
+<br />
+<script src="https://gist.github.com/scottwestover/46b892eb005ad80f24ac.js"></script></p></li>
+
+<li><p>Lastly, we need to test out the changes we made to our extension. In Chrome, navigate to your extensions, and reload your extension by clicking on &ldquo;Load unpacked extension&hellip;&rdquo; and then by selecting your project folder in the popup window.<br />
+<br />
+Once your extension is loaded, click on the extension icon to test it. You should see the following:<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-0nKNTKsoWTo/VdDXS5dvRgI/AAAAAAAAAYQ/lpdL4XxUt14/s1600/2015-08-16_1439.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-0nKNTKsoWTo/VdDXS5dvRgI/AAAAAAAAAYQ/lpdL4XxUt14/s1600/2015-08-16_1439.png" /></a></div>
+<br /></div>
+<div>
+This was a very basic tutorial that showed you how easy it is to get started making an extension. If you are interested in learning more about Chrome Extensions, you can read more here:&nbsp;<a href="https://developer.chrome.com/extensions"><span style="color: blue;"><a href="https://developer.chrome.com/extensions">https://developer.chrome.com/extensions</a></span></a><br />
+<br />
+Summary: This tutorial showed you how to create a simple Chrome Extension, and when you click on it, it will display a simple HTML page that uses JavaScript. You can download the completed version of the extension we made here:&nbsp;<a href="https://drive.google.com/file/d/0B3v-p63HExgeRHRjdmhfS19IYlE/view?usp=sharing"><span style="color: blue;">MyExtension</span></a></div>
+<div>
+<br /></div>
+<div>
+I hope you enjoyed this tutorial. If you have any questions or comments, please feel free to post them below.</div></p></li>
+</ol>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/tutorial/">Tutorial</a>
+          
+          <a href="/tags/chrome-extension/">Chrome Extension</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/2015/09/2015-09-23-ask-community-experts-session-aem/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Ask the Community Experts Session: AEM Dispatcher</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/2015/09/2015-09-06-ibm-websphere-commerce-integration-for/">
+            <span class="next-text nav-default">IBM WebSphere Commerce Integration for AEM GEM</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  <div class="addthis_inline_share_toolbox" style="text-align: center;"></div>
+<br>
+
+
+  
+  
+
+  
+
+  
+
+  <div class="disqus-comment">
+  <div class="disqus-button" id="load_disqus" onclick="load_disqus()">
+    Show Disqus Comments
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    function load_disqus() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'scottwestover';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+
+      $('#load_disqus').remove();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  
+  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/swestover06" rel="me noopener" class="iconfont icon-twitter"
+        title="twitter" target="_blank">
+      </a>
+      <a href="https://www.linkedin.com/in/scott-westover-77393a97/" rel="me noopener" class="iconfont icon-linkedin"
+        title="linkedin" target="_blank">
+      </a>
+      <a href="https://github.com/scottwestover" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="https://scottwestover.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">scottwestover</span></span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+</body>
+</html>

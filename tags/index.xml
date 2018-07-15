@@ -1,15 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Scott Westover</title>
+    <title>Tags on Scott Westover - Blog</title>
     <link>https://scottwestover.github.io/tags/</link>
-    <description>Recent content in Tags on Scott Westover</description>
+    <description>Recent content in Tags on Scott Westover - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Apr 2018 21:34:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aem</title>
+      <link>https://scottwestover.github.io/tags/aem/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/aem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>https://scottwestover.github.io/tags/android/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brackets</title>
+      <link>https://scottwestover.github.io/tags/brackets/</link>
+      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/brackets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome Extension</title>
+      <link>https://scottwestover.github.io/tags/chrome-extension/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/chrome-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facebook</title>
+      <link>https://scottwestover.github.io/tags/facebook/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/facebook/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Game Development</title>
@@ -17,6 +62,51 @@
       <pubDate>Fri, 20 Apr 2018 21:34:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/tags/game-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Jams</title>
+      <link>https://scottwestover.github.io/tags/game-jams/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/game-jams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://scottwestover.github.io/tags/github/</link>
+      <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interview Prep</title>
+      <link>https://scottwestover.github.io/tags/interview-prep/</link>
+      <pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/interview-prep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liveengage</title>
+      <link>https://scottwestover.github.io/tags/liveengage/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/liveengage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare</title>
+      <link>https://scottwestover.github.io/tags/ludum-dare/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/ludum-dare/</guid>
       <description></description>
     </item>
     
@@ -35,6 +125,15 @@
       <pubDate>Fri, 20 Apr 2018 21:34:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/tags/phaserjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trello</title>
+      <link>https://scottwestover.github.io/tags/trello/</link>
+      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/trello/</guid>
       <description></description>
     </item>
     
