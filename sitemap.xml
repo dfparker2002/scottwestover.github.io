@@ -65,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/game-development/</loc>
-    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://scottwestover.github.io/tags/game-development/</loc>
     <lastmod>2018-04-20T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,8 +72,8 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/misc/</loc>
-    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
+    <loc>https://scottwestover.github.io/categories/game-development/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -93,14 +86,21 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
-    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <loc>https://scottwestover.github.io/categories/misc/</loc>
+    <lastmod>2018-05-15T01:24:04+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
+    <lastmod>2018-04-20T21:34:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
     <lastmod>2018-04-20T21:34:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -128,13 +128,6 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
-    <lastmod>2018-02-14T17:45:42+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://scottwestover.github.io/tags/tutorial/</loc>
     <lastmod>2018-02-14T17:45:42+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -142,14 +135,21 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/unity/</loc>
-    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
+    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
+    <lastmod>2018-02-14T17:45:42+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/unity/</loc>
+    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/unity/</loc>
     <lastmod>2017-12-01T23:32:18+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
