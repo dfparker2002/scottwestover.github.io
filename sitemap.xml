@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://scottwestover.github.io/post/2018/10/creating-a-phaser-3-template-tutorial-part-1/</loc>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2018/09/phaser-progressive-web-apps-tutorial/</loc>
+    <lastmod>2018-09-18T21:34:18+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2018/07/under-contruction/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
   </url>
@@ -455,13 +465,13 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/game-development/</loc>
-    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/game-development/</loc>
-    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -539,25 +549,25 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
-    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
-    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/</loc>
-    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/</loc>
-    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -581,13 +591,13 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/tutorial/</loc>
-    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/tutorial/</loc>
-    <lastmod>2018-05-29T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   

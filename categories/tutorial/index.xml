@@ -6,10 +6,32 @@
     <description>Recent content in Tutorial on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 May 2018 21:34:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Oct 2018 21:34:18 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating A Phaser 3 Template Tutorial - Part 1</title>
+      <link>https://scottwestover.github.io/post/2018/10/creating-a-phaser-3-template-tutorial-part-1/</link>
+      <pubDate>Tue, 16 Oct 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/10/creating-a-phaser-3-template-tutorial-part-1/</guid>
+      <description>My new Phaser 3 tutorial on creating a Phaser 3 template is finally live on Game Dev Academy.
+In this tuorial, I show you how to create a Phaser 3 template that you will be able to extend and reuse in future Phaser 3 game you work on. In the tutorial, I show you how to:
+ extend the basic Phaser 3 template adding a Boot scene adding a Preloader scene  In part 2 we will wrap up the tutorial by covering the following topics:</description>
+    </item>
+    
+    <item>
+      <title>Phaser Progressive Web Apps Tutorial</title>
+      <link>https://scottwestover.github.io/post/2018/09/phaser-progressive-web-apps-tutorial/</link>
+      <pubDate>Tue, 18 Sep 2018 21:34:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/09/phaser-progressive-web-apps-tutorial/</guid>
+      <description>My new Phaser 3 tutorial on creating an offline first game in Phaser 3 is finally live on Game Dev Academy.
+In this tuorial, I show you how to turn your Phaser Game into a Progressive Web App. In the tutorial, I show you how to:
+ add a service worker cache assets manage your cache assets how to allow users to add your game to their home screen  You can checkout the tutorial here: https://gamedevacademy.</description>
+    </item>
     
     <item>
       <title>Create a Dialog Modal Plugin in Phaser 3 – Part 2 Tutorial</title>
@@ -18,7 +40,8 @@
       
       <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</guid>
       <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
-In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text</description>
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following:
+ adding logic to for a close button on the dialog window add logic to show/hide the window add logic to show dialog add logic to animate the text  You can checkout the tutorial here: https://gamedevacademy.</description>
     </item>
     
     <item>
