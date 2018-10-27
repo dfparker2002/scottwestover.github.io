@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Misc on Scott Westover - Blog</title>
+    <title>Misc on Scott Westover</title>
     <link>https://scottwestover.github.io/tags/misc/</link>
-    <description>Recent content in Misc on Scott Westover - Blog</description>
+    <description>Recent content in Misc on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Sun, 15 Jul 2018 01:24:04 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />

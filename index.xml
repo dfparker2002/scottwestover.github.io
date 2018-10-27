@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scott Westover - Blog</title>
+    <title>Scott Westover</title>
     <link>https://scottwestover.github.io/</link>
-    <description>Recent content on Scott Westover - Blog</description>
+    <description>Recent content on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Sun, 15 Jul 2018 01:24:04 +0000</lastBuildDate>
     
-        <atom:link href="https://scottwestover.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://scottwestover.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,15 +17,9 @@
       <pubDate>Sun, 15 Jul 2018 01:24:04 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/07/under-contruction/</guid>
-      
-        <description>&lt;p&gt;After working with the Hugo static site generator, I&amp;rsquo;ve decided that I wanted to move my blog over to this template.&lt;/p&gt;
-
-&lt;p&gt;For the most part, this should be an easy transition since all of the blog files were already Markdown files, but with
-the transition, there could be some small issues.&lt;/p&gt;
-
-&lt;p&gt;Hopefully this will be a smooth transition, and I hope you like the new site design!&lt;/p&gt;
-</description>
-      
+      <description>After working with the Hugo static site generator, I&amp;rsquo;ve decided that I wanted to move my blog over to this template.
+For the most part, this should be an easy transition since all of the blog files were already Markdown files, but with the transition, there could be some small issues.
+Hopefully this will be a smooth transition, and I hope you like the new site design!</description>
     </item>
     
     <item>
@@ -34,20 +28,8 @@ the transition, there could be some small issues.&lt;/p&gt;
       <pubDate>Tue, 29 May 2018 21:34:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</guid>
-      
-        <description>&lt;p&gt;My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.&lt;/p&gt;
-
-&lt;p&gt;In this tuorial, we pickup were we left off in the first tutorial we focus on the following:
-* adding logic to for a close button on the dialog window
-* add logic to show/hide the window
-* add logic to show dialog
-* add logic to animate the text&lt;/p&gt;
-
-&lt;p&gt;You can chekxout the tutorial here: &lt;a href=&#34;https://gamedevacademy.org/create-a-dialog-modal-plugin-in-phaser-3-part-2/&#34;&gt;https://gamedevacademy.org/create-a-dialog-modal-plugin-in-phaser-3-part-2/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scottwestover.github.io/img/misc/Phaser-UI-Series.png&#34; alt=&#34;Phaser 3 tutorial&#34; /&gt;&lt;/p&gt;
-</description>
-      
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the second part of the tutorial.
+In this tuorial, we pickup were we left off in the first tutorial we focus on the following: * adding logic to for a close button on the dialog window * add logic to show/hide the window * add logic to show dialog * add logic to animate the text</description>
     </item>
     
     <item>
@@ -56,16 +38,8 @@ the transition, there could be some small issues.&lt;/p&gt;
       <pubDate>Tue, 15 May 2018 21:34:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</guid>
-      
-        <description>&lt;p&gt;My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.&lt;/p&gt;
-
-&lt;p&gt;In this tuorial, we focus on the basics of creating a plugin that can be reused in all of your Phaser games. We then move on to creating our basic plugin, and then we wrap up the tutorial by getting the plugin to render our dialog window in our game.&lt;/p&gt;
-
-&lt;p&gt;You can chekxout the tutorial here: &lt;a href=&#34;https://gamedevacademy.org/create-a-dialog-modal-plugin-in-phaser-3-part-1/&#34;&gt;https://gamedevacademy.org/create-a-dialog-modal-plugin-in-phaser-3-part-1/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scottwestover.github.io/img/misc/Phaser-UI-Series.png&#34; alt=&#34;Phaser 3 tutorial&#34; /&gt;&lt;/p&gt;
-</description>
-      
+      <description>My new Phaser 3 tutorial on making a dialog modal plugin in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, we focus on the basics of creating a plugin that can be reused in all of your Phaser games. We then move on to creating our basic plugin, and then we wrap up the tutorial by getting the plugin to render our dialog window in our game.</description>
     </item>
     
     <item>
@@ -74,16 +48,8 @@ the transition, there could be some small issues.&lt;/p&gt;
       <pubDate>Wed, 02 May 2018 21:34:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</guid>
-      
-        <description>&lt;p&gt;My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the second part of the multiplayer tutorial.&lt;/p&gt;
-
-&lt;p&gt;In this tuorial, we pick up were we left in part 1, and we start adding the client side logic for adding players to our game. We then move on by adding the logic for player input and finally we wrap up the game by adding some collectables for the players to collect.&lt;/p&gt;
-
-&lt;p&gt;You can chekxout the tutorial here: &lt;a href=&#34;https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/&#34;&gt;https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scottwestover.github.io/img/misc/2018-04-22_1732-825x501.png&#34; alt=&#34;Phaser 3 tutorial&#34; /&gt;&lt;/p&gt;
-</description>
-      
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the second part of the multiplayer tutorial.
+In this tuorial, we pick up were we left in part 1, and we start adding the client side logic for adding players to our game. We then move on by adding the logic for player input and finally we wrap up the game by adding some collectables for the players to collect.</description>
     </item>
     
     <item>
@@ -92,18 +58,8 @@ the transition, there could be some small issues.&lt;/p&gt;
       <pubDate>Wed, 25 Apr 2018 21:34:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</guid>
-      
-        <description>&lt;p&gt;My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.&lt;/p&gt;
-
-&lt;p&gt;In this tuorial, I show you how to create a simple multiplayer game by using NodeJS and SocketIO. I start by showing you how to setup your Node server, rendering your Phaser game, and then finally we add SocketIO to the project.&lt;/p&gt;
-
-&lt;p&gt;From there we start adding the logic for the game.&lt;/p&gt;
-
-&lt;p&gt;You can chekxout the tutorial here: &lt;a href=&#34;https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/&#34;&gt;https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scottwestover.github.io/img/misc/2018-04-18_2046-825x488.png&#34; alt=&#34;Phaser 3 tutorial&#34; /&gt;&lt;/p&gt;
-</description>
-      
+      <description>My new Phaser 3 tutorial on making a multiplayer game in Phaser 3 is finally live on Game Dev Academy. This is the first part of the tutorial.
+In this tuorial, I show you how to create a simple multiplayer game by using NodeJS and SocketIO. I start by showing you how to setup your Node server, rendering your Phaser game, and then finally we add SocketIO to the project.</description>
     </item>
     
     <item>
@@ -112,21 +68,9 @@ the transition, there could be some small issues.&lt;/p&gt;
       <pubDate>Fri, 20 Apr 2018 21:34:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/</guid>
-      
-        <description>&lt;p&gt;Recently, I took a Phaser 3 tutorial writer position at Zenva (Game Dev Academy - &lt;a href=&#34;https://gamedevacademy.org/&#34;&gt;https://gamedevacademy.org/&lt;/a&gt;), and now that my first tutorial has been approved and it is finally live, I wanted to share it here.&lt;/p&gt;
-
-&lt;p&gt;For my first tutorial, I decided to expand on the simple preloader tutorial I wrote about in Feburary (here is a link in case you missed it: &lt;a href=&#34;https://scottwestover.github.io/2018/02/14/Phaser3-Create-a-simple-preloader/&#34;&gt;https://scottwestover.github.io/2018/02/14/Phaser3-Create-a-simple-preloader/&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;In this tutorial, I show you how to make a simple preloader scene by displaying a progress bar. Then, we enhance the progress bar by adding:
- - some text that shows which file has been loaded
- - display the percentage of the loading bar
- - a simple &amp;lsquo;loading&amp;hellip;&amp;rsquo; message&lt;/p&gt;
-
-&lt;p&gt;You can checkout the tutorial here: &lt;a href=&#34;https://gamedevacademy.org/creating-a-preloading-screen-in-phaser-3/&#34;&gt;https://gamedevacademy.org/creating-a-preloading-screen-in-phaser-3/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scottwestover.github.io/img/Creating-A-Preloader-Screen-In-Phaser-3-Tutorial/1.png&#34; alt=&#34;Phaser 3 preloader screen tutorial&#34; /&gt;&lt;/p&gt;
-</description>
-      
+      <description>Recently, I took a Phaser 3 tutorial writer position at Zenva (Game Dev Academy - https://gamedevacademy.org/), and now that my first tutorial has been approved and it is finally live, I wanted to share it here.
+For my first tutorial, I decided to expand on the simple preloader tutorial I wrote about in Feburary (here is a link in case you missed it: https://scottwestover.github.io/2018/02/14/Phaser3-Create-a-simple-preloader/).
+In this tutorial, I show you how to make a simple preloader scene by displaying a progress bar.</description>
     </item>
     
     <item>
@@ -135,112 +79,8 @@ the transition, there could be some small issues.&lt;/p&gt;
       <pubDate>Wed, 14 Feb 2018 17:45:42 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</guid>
-      
-        <description>&lt;p&gt;With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.&lt;/p&gt;
-
-&lt;p&gt;For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an &lt;code&gt;index.html&lt;/code&gt; file, add the &lt;code&gt;phaser.min.js&lt;/code&gt; script, and initialize our Phaser game object. Here is an example of that:
-&lt;script src=&#34;https://gist.github.com/scottwestover/d7ab1a8b2643f038c00412960013e83e.js?file=start.html&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;In order to run your game, you will need to host it on a local web server. If you are not sure on how to do this, you can read more about it here: &lt;a href=&#34;https://phaser.io/tutorials/getting-started&#34;&gt;https://phaser.io/tutorials/getting-started&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you try running your game right now, you should see an empty screen with a black box. However, if you open the console, you should see that Phaser 3 is running.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scottwestover.github.io/img/Phaser3-Create-a-simple-preloader/1.png&#34; alt=&#34;empty game&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Next, we will load an image into our game. For this tutorial, I am going to use the Phaser logo. You can right click on the image, and choose &amp;lsquo;Save Image As&amp;hellip;&amp;rsquo;, or you can use any image you have. You will need to add this image to the same directory that your index.html file is in.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://scottwestover.github.io/img/Phaser3-Create-a-simple-preloader/logo.png&#34; alt=&#34;Phaser logo image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the &lt;code&gt;preload&lt;/code&gt; function, add the following code to load the image:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;this.load.image(&amp;#39;logo&amp;#39;, &amp;#39;logo.png&amp;#39;);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;In the &lt;code&gt;create&lt;/code&gt; function, add the following code to add the image to our game:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;var logo = this.add.image(400, 300, &amp;#39;logo&amp;#39;);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;If you reload the game, you should see your image appear in the game.
-![Phaser game step 2]](/img/Phaser3-Create-a-simple-preloader/2.png)&lt;/p&gt;
-
-&lt;p&gt;The image loads pretty quickly, right? Well, if your game has to load a large number assets (images, audio files, fonts, etc), or the user has a slow internet connection, it could take awhile for all your assets to load, and the user would just see a black screen. To simulate this, you can add the following code to the &lt;code&gt;preload&lt;/code&gt; function below the image you loaded:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;for (var i = 0; i &amp;lt; 500; i++) {
-  this.load.image(&amp;#39;logo&amp;#39;+i, &amp;#39;assets/logo.png&amp;#39;);
-}&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;If you reload your game, you should see that it takes a little while for our game image to appear. To show the users that your game is loading, we can add a progress bar. To do this, we are going to create 2 rectangles, one for the progress bar, and one as a boarder to the bar. In the &lt;code&gt;preload&lt;/code&gt; function, add the following code at the top of the function:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;var progress = this.add.graphics();
-var progressBox = this.add.graphics();
-progressBox.fillStyle(0x222222, 0.8);
-progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;To update the fill of the progress bar as the assets are loaded, we listen to the &lt;code&gt;progress&lt;/code&gt; event. In the &lt;code&gt;preload&lt;/code&gt; function, add the following code below the code you just added:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;this.load.on(&amp;#39;progress&amp;#39;, (value) =&amp;gt; {
-  progress.clear();
-  progress.fillStyle(0xffffff, 1);
-  progress.fillRect(250, 280, 300 * value, 30);
-});&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Lastly, we can remove the progress bar from the game by destorying it once everything is loaded. We can do this by listening to the &lt;code&gt;complete&lt;/code&gt; event. Add the following code below the code you just added:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;this.load.on(&amp;#39;complete&amp;#39;, () =&amp;gt; {
-  progress.destroy();
-  progressBox.destroy();
-});&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;If you reload your game, you should see a nice preloader that fills up as assets are loaded.
-&lt;img src=&#34;https://scottwestover.github.io/img/Phaser3-Create-a-simple-preloader/3.png&#34; alt=&#34;completed preloader&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can find the complete code below:
-&lt;script src=&#34;https://gist.github.com/scottwestover/d7ab1a8b2643f038c00412960013e83e.js?file=index.html&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;I hope you enjoyed this short tutorial. If you have any questions or comments, please share them below.&lt;/p&gt;
-</description>
-      
+      <description>With the official release of Phaser 3 this week, and Phaser 2 games not working on Phaser 3, it would be a great time to start using Phaser 3. In this tutorial, I am going to show you how to make a simple preloader in Phaser 3.
+For this tutorial, we are going to keep things simple, and just put all of our code in our HTML file. To get started, we need to create an index.</description>
     </item>
     
     <item>
@@ -249,20 +89,8 @@ progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/t
       <pubDate>Sun, 11 Feb 2018 01:24:04 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/02/phaser-3-release/</guid>
-      
-        <description>&lt;p&gt;In just a few short days, Phaser 3 will officially be released (Feb. 12th)! If you are not familiar with Phaser, it is a desktop and mobile HTML5 game framework that is written in JavaScript. The framework is easy to use, free, and completely open source.&lt;/p&gt;
-
-&lt;p&gt;Phaser 3 has been in continuous development since October 2016, and it has undergone a lot of changes since then. While waiting for the new version to be released, the developers has regularly been releasing beta builds of the framework, so it has been interesting to watch how it has changed. The API has undergone a lot of changes, and everything has been rewritten since version 2.&lt;/p&gt;
-
-&lt;p&gt;You can find lots of examples on the new API here: &lt;a href=&#34;http://labs.phaser.io/index.html&#34;&gt;http://labs.phaser.io/index.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There are a variety of ways on how you can get started using Phaser 3, but my favorite is the webpack template that they made (&lt;a href=&#34;https://github.com/photonstorm/phaser3-project-template&#34;&gt;https://github.com/photonstorm/phaser3-project-template&lt;/a&gt;). The template will automatically grab the latest version of Phaser, and it has live reload so it is easy to test your game changes as you build it.&lt;/p&gt;
-
-&lt;p&gt;I have been spending more time with the latest beta, and I can&amp;rsquo;t wait for the official version to come out in just a few days. Once it is released, I am hoping to release some more most posts on it here.&lt;/p&gt;
-
-&lt;p&gt;If you have any comments, please share them below.&lt;/p&gt;
-</description>
-      
+      <description>In just a few short days, Phaser 3 will officially be released (Feb. 12th)! If you are not familiar with Phaser, it is a desktop and mobile HTML5 game framework that is written in JavaScript. The framework is easy to use, free, and completely open source.
+Phaser 3 has been in continuous development since October 2016, and it has undergone a lot of changes since then. While waiting for the new version to be released, the developers has regularly been releasing beta builds of the framework, so it has been interesting to watch how it has changed.</description>
     </item>
     
     <item>
@@ -271,24 +99,8 @@ progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/t
       <pubDate>Sat, 10 Feb 2018 02:58:22 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/02/progressive-web-app/</guid>
-      
-        <description>&lt;p&gt;At the beginning of January, I was accepted into the Grow With Google Scholarship from Udacity. If you are not familar with this program, I really recommend that you check it out. Basically, Google is scholarships for the Nano degrees that are available on Udacity. However, the scholarship is split into two phases.&lt;/p&gt;
-
-&lt;p&gt;During the first phase, they admit 10,000 or 15,000 into the first phase (depends on which track you applied for), and you have 3 months to complete the courses that they make available to you. After these 3 months are over, they will offer 1,000 of these applicants a full scholarship for the Nanodegree. You can read more about it here: &lt;a href=&#34;https://www.udacity.com/grow-with-google&#34;&gt;https://www.udacity.com/grow-with-google&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The first course that I took as part of this program was all about offline first and what a pwa (progressive web app) is. A pwa is a regular website that can appear and behave like a traditional mobile app. When implemented correctly, the pwa will allow users to &lt;code&gt;install&lt;/code&gt; or &lt;code&gt;add&lt;/code&gt; your website to the home screen of their phone, like it was an app. It can also cache some of the assets of your website, that way if the user tries to visit your site when offline, they will see some content, just like in a mobile app.&lt;/p&gt;
-
-&lt;p&gt;You can read more about pwa here: &lt;a href=&#34;https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/&#34;&gt;https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, you can learn more about them on Udacity here: &lt;a href=&#34;https://www.udacity.com/course/intro-to-progressive-web-apps--ud811&#34;&gt;https://www.udacity.com/course/intro-to-progressive-web-apps--ud811&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;After taking this course, I was ready to implement what I learned, and I thought it would be great to turn my blog into a pwa. With Hexo, it was actually pretty easy to do. I just needed to create a manifest.json, a precache service worker, and register it. There is an excellent blog post here that details how to do this: &lt;a href=&#34;https://alexjoverm.github.io/2017/08/07/How-I-made-a-Progressive-Web-App-out-of-my-Blog/&#34;&gt;https://alexjoverm.github.io/2017/08/07/How-I-made-a-Progressive-Web-App-out-of-my-Blog/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;To test the pwa functionality, you can visit the home page of my blog, turn off your internet connection, and then refresh the page. Instead of seeing the normal offline message of your web browser, you should still see some of the content of my blog. Also, if you visit the site on your mobile device, you should get a prompt about adding this site to your home screen!&lt;/p&gt;
-
-&lt;p&gt;If you have any comments, please share them below.&lt;/p&gt;
-</description>
-      
+      <description>At the beginning of January, I was accepted into the Grow With Google Scholarship from Udacity. If you are not familar with this program, I really recommend that you check it out. Basically, Google is scholarships for the Nano degrees that are available on Udacity. However, the scholarship is split into two phases.
+During the first phase, they admit 10,000 or 15,000 into the first phase (depends on which track you applied for), and you have 3 months to complete the courses that they make available to you.</description>
     </item>
     
     <item>
@@ -297,20 +109,9 @@ progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/t
       <pubDate>Thu, 08 Feb 2018 23:04:32 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2018/02/switching-to-hexo/</guid>
-      
-        <description>&lt;p&gt;Update: 2018-07-15 - With the new updates to the blog it is no longer a PWA. This is coming soon&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;It has been awhile since my last post, and with a new year, I figured it was time for a change. I started looking into new ways to blog, and I decided to give Hexo a try.&lt;/p&gt;
-
-&lt;p&gt;Also, with the switch to a new platform, I decided to update the look of my blog and went with a simple theme so I could just focus on the blog posts. Originally, I started to update my blog to use Jekyll (awhile ago), and I wanted to try hosting the site on GitHub instead of Blogger. However, I never quite got around to finishing the migration. Hexo seemed very easy to use, and I liked how easy it was to deploy to GitHub, so I figured I would give it a shot.&lt;/p&gt;
-
-&lt;p&gt;Instead of waiting for me to move everything over to Hexo, I decided I would do a fresh launch and start bringing posts over as time allowed. One of my goals for this year is to get this blog back up and running, and to do posts more frequently. I hope you enjoy the new look.&lt;/p&gt;
-
-&lt;p&gt;In case you are looking for any of the old posts, you can find them on Blogger here: &lt;a href=&#34;http://scottwestover.blogspot.com/&#34;&gt;http://scottwestover.blogspot.com/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you have any comments, please share them below.&lt;/p&gt;
-</description>
-      
+      <description>Update: 2018-07-15 - With the new updates to the blog it is no longer a PWA. This is coming soon&amp;hellip;
+It has been awhile since my last post, and with a new year, I figured it was time for a change. I started looking into new ways to blog, and I decided to give Hexo a try.
+Also, with the switch to a new platform, I decided to update the look of my blog and went with a simple theme so I could just focus on the blog posts.</description>
     </item>
     
     <item>
@@ -319,118 +120,8 @@ progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/t
       <pubDate>Fri, 01 Dec 2017 23:32:18 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</guid>
-      
-        <description>&lt;p&gt; For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970&#39;s, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.&lt;/p&gt;
-
-&lt;p&gt;For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself. As you eat apples, the snake will get longer, and the speed of the game will pick up, forcing the player to react faster, and to have to think strategically.&lt;/p&gt;
-
-&lt;p&gt;In order to follow along with this tutorial, you will need to have Unity installed. For this tutorial we will be using Unity 5.4.1f1, however newer versions of Unity should work just fine. One thing to note is that this is not a tutorial on how to use Unity, so it is best to have some basic understanding of Unity and how it works. However, if you are not familiar with it, you should still be able to follow along with this tutorial.&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Game Mechanics&lt;/h4&gt;
-&lt;p&gt;Before we start our project, we will need to plan out how our game will work. We will want to include the following:
-&lt;ul&gt;
-  &lt;li&gt;Player (Snake):
-    &lt;ul&gt;
-      &lt;li&gt;Starts in the center of the game&lt;/li&gt;
-      &lt;li&gt;Is only 1 cell big when the game starts&lt;/li&gt;
-      &lt;li&gt;Will move automatically at a certain speed once the game begins&lt;/li&gt;
-      &lt;li&gt;Will need to be able to detect player input to change the direction of the snake&lt;/li&gt;
-      &lt;li&gt;Will need to be able to detect collisions with the apple, wall, and the tail of the snake.&lt;/li&gt;
-      &lt;li&gt;When an apple is eaten, will need to increase the the cells of the snake by 1&lt;/li&gt;
-      &lt;li&gt;When the snake collides with a wall or itself, the game will end&lt;/li&gt;
-      &lt;li&gt;Will need to keep track of the direction of the snake is heading so it can update the positions of each cell of the snake&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Apple:
-    &lt;ul&gt;
-      &lt;li&gt;Spawns randomly in the game area&lt;/li&gt;
-      &lt;li&gt;1 apple needs to spawn at the beginning of the game&lt;/li&gt;
-      &lt;li&gt;Need to spawn a new apple when the current one has been eaten&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Game Over:
-    &lt;ul&gt;
-      &lt;li&gt;Will display the Game Over text when the game is over&lt;/li&gt;
-      &lt;li&gt;Will need to destroy the snake and apple objects on the screen&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div&gt;With our basic game mechanics laid out, lets get started.&lt;/div&gt;
-&lt;h4&gt;Project Setup&lt;/h4&gt;
-&lt;p&gt;For the first step, we are going to make a new 2D project in Unity. Once Unity has started, click on &lt;b&gt;New Project&lt;/b&gt;.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot2.png&#34; alt=&#34;screen shot 2&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;Now, we are going to setup the folder structure for our project. In the &lt;b&gt;Project Area&lt;/b&gt; under the &lt;b&gt;Assets&lt;/b&gt; folder, create four new folders: &lt;b&gt;Prefabs&lt;/b&gt;, &lt;b&gt;Scenes&lt;/b&gt;, &lt;b&gt;Scripts&lt;/b&gt;, and &lt;b&gt;Sprites&lt;/b&gt;.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot3.png&#34; alt=&#34;screen shot 3&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;Next, we will save our current scene in the new &lt;b&gt;Scenes&lt;/b&gt; folder. In the main menu, click on &lt;b&gt;File-&amp;gt;Save Scene As&amp;hellip;&lt;/b&gt;, and in the dialog that pops up, enter &lt;b&gt;Main&lt;/b&gt;, and then click the save button.&lt;/p&gt;
-&lt;p&gt;With our basic scene now created, we are going to import the two sprites that are used in this tutorial. Right click on the following images, and click &lt;b&gt;Save Image As&amp;hellip;&lt;/b&gt; on each one.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;snake.png&lt;br&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/snake.png&#34; alt=&#34;snake&#34; /&gt;
-&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;apple.png&lt;br&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/apple.png&#34; alt=&#34;apple image for our game&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;In Unity, right click on the &lt;b&gt;Sprites&lt;/b&gt; folder, and choose &lt;b&gt;Import New Asset&amp;hellip;&lt;/b&gt;, you can also drag the two images directly into the folder. Once your images are imported into your project, you will need to update the &lt;b&gt;Pixels Per Unit&lt;/b&gt; setting for each image. If you are not familiar with this setting, it is a basic scale that determines how many pixels are equal to one of the units in Unity. In our game, we want each part of the snake, and the apple to be equal to one unit on the screen.&lt;/p&gt;
-&lt;p&gt;Click on each image in the &lt;b&gt;Sprites&lt;/b&gt; folder, and in the inspector, update the &lt;b&gt;PPU (Pixels Per Unit)&lt;/b&gt; to &lt;b&gt;15&lt;/b&gt;.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot4.png&#34; alt=&#34;screen shot 4&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;The last thing we need to do for our basic project setup is update the &lt;b&gt;Size&lt;/b&gt; setting of our &lt;b&gt;Main Camera&lt;/b&gt;. In the Hierarchy, click on the &lt;b&gt;Main Camera&lt;/b&gt;, and in the Inspector, in the Camera settings, update the default &lt;b&gt;Size&lt;/b&gt; setting to &lt;b&gt;15&lt;/b&gt;.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot5.png&#34; alt=&#34;screen shot 5&#34; /&gt;
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;h4&gt;Prefabs and Game Over Text&lt;/h4&gt;
-&lt;p&gt;With our basic project setup completed, we are going to create two prefabs for our game, the apple and the snakeTail. From the &lt;b&gt;Sprites&lt;/b&gt; folder, drag the &lt;b&gt;apple&lt;/b&gt; sprite into the Hierarchy to create a new Game Object.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot6.png&#34; alt=&#34;screen shot 6&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;With the apple Game Object selected, in the inspector make sure the name of the game object is &lt;b&gt;apple&lt;/b&gt;, and that the position of the Game Object is (0,0,0). Now, in the inspector, click on the &lt;b&gt;Add Component&lt;/b&gt; button, and in the dialog that appears, select the &lt;b&gt;Box Collider 2D&lt;/b&gt; component. In the new &lt;b&gt;Box Collider 2D&lt;/b&gt; settings in the inspector, click the check box for &lt;b&gt;Is Trigger&lt;/b&gt;.&lt;/p&gt;
-&lt;p&gt;By setting this collider as a trigger, it allows for the object to not behave as a solid object, and instead allows for other colliders to pass through the Game Object. However, we will still be able to detect when another object collides with this game object.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot7.png&#34; alt=&#34;screen shot 7&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;Now, drag the &lt;b&gt;apple&lt;/b&gt; Game Object from the Hierarchy, into our &lt;b&gt;Prefabs&lt;/b&gt; folder in the project view. By doing this, our &lt;b&gt;apple&lt;/b&gt; prefab is now created. With the &lt;b&gt;apple&lt;/b&gt; prefab created, we can delete our &lt;b&gt;apple&lt;/b&gt; Game Object from the Hierarchy. Right click on the apple Game Object, and select &lt;b&gt;Delete&lt;/b&gt; from the menu.&lt;/p&gt;
-&lt;p&gt;Next, we will create our &lt;b&gt;snakeTail&lt;/b&gt; prefab. From the &lt;b&gt;Sprites&lt;/b&gt; folder, drag the &lt;b&gt;snake&lt;/b&gt; sprite into the Hierarchy to create a new Game Object.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot9.png&#34; alt=&#34;screen shot 9&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;With the snake, Game Object selected, in the inspector, make sure the name of the game object is &lt;b&gt;snakeTail&lt;/b&gt;, and that the position of the Game Object is (0,0,0). Now, in the inspector, click on the &lt;b&gt;Add Component&lt;/b&gt; button, and in the dialog that appears, select the &lt;b&gt;Box Collider 2D&lt;/b&gt; component. In the new &lt;b&gt;Box Collider 2D&lt;/b&gt; settings in the inspector, click the check box for &lt;b&gt;Is Trigger&lt;/b&gt;, and update the &lt;b&gt;Size&lt;/b&gt; setting to be &lt;b&gt;0.9&lt;/b&gt; for both X and Y.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot10.png&#34; alt=&#34;screen shot 10&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;The last thing we will need to add to our &lt;b&gt;snakeTail&lt;/b&gt; Game Object is a &lt;b&gt;Rigidbody 2D&lt;/b&gt; component. In the inspector, click on the &lt;b&gt;Add Component&lt;/b&gt; button, and in the dialog that appears, select the &lt;b&gt;Rigidbody 2D&lt;/b&gt; component. In the new &lt;b&gt;Rigidbody 2D&lt;/b&gt; settings, change the &lt;b&gt;Gravity Scale&lt;/b&gt; setting to &lt;b&gt;0&lt;/b&gt;, and check the box for &lt;b&gt;Is Kinematic&lt;/b&gt;.
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot11.png&#34; alt=&#34;screen shot 11&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;By selecting the &lt;b&gt;Is Kinematic&lt;/b&gt; check box, we are telling Unity that all physics should not affect this Game Object, and that the rigidbody will need to be moved by a script.&lt;/p&gt;
-&lt;p&gt;Now, drag the &lt;b&gt;snakeTail&lt;/b&gt; Game Object from the Hierarchy, into our &lt;b&gt;Prefabs&lt;/b&gt; folder in the project view. By doing this, our &lt;b&gt;snakeTail&lt;/b&gt; prefab is now created. With the &lt;b&gt;snakeTail&lt;/b&gt; prefab created, we can delete our &lt;b&gt;snakeTail&lt;/b&gt; Game Object from the Hierarchy. Right click on the snakeTail Game Object, and select &lt;b&gt;Delete&lt;/b&gt; from the menu.&lt;/p&gt;
-&lt;p&gt;You should now have two prefabs created under the prefabs folder.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot12.png&#34; alt=&#34;screen shot 12&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;With our prefabs created, we will start working on our Game Over text. In the Hierarchy, click on &lt;b&gt;Create-&amp;gt;UI-&amp;gt;Text&lt;/b&gt;. Since this is our first UI Text object that has been added to our game, Unity will also add an EventSystem and a Canvas Game Object to our scene. Select the &lt;b&gt;text&lt;/b&gt; Game Object, and in the inspector, change the &lt;b&gt;Name&lt;/b&gt; of the Game Object to &lt;b&gt;GameOverText&lt;/b&gt;, update the &lt;b&gt;Font Size&lt;/b&gt; to &lt;b&gt;26&lt;/b&gt;, uncheck the &lt;b&gt;Rich Text&lt;/b&gt; check box, and update the &lt;b&gt;Alignment&lt;/b&gt; to be centered vertically and horizontally.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot13.png&#34; alt=&#34;screen shot 13&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;Next, change the &lt;b&gt;Text&lt;/b&gt; to &lt;b&gt;Game Over&lt;/b&gt;, and update the &lt;b&gt;Color&lt;/b&gt; of the text to &lt;b&gt;Black&lt;/b&gt;, by clicking on the rectangle that shows the current color. In the modal that appears, you can either click on the color, or enter the RGB value for the color you would like to use.&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot15.png&#34; alt=&#34;screen shot 15&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;Your text should look like this:&lt;/p&gt;
-&lt;p style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://scottwestover.github.io/img/Unity-2D-Snake-Tutorial-Part-1/screenShot14.png&#34; alt=&#34;screen shot 14&#34; /&gt;
-&lt;/p&gt;
-&lt;p&gt;The last thing we need to do with our &lt;b&gt;Game Over&lt;/b&gt; text is hide it, since we only want it to show to the player when the game is actually over. We can do this by changing the &lt;b&gt;Alpha&lt;/b&gt; of the text to &lt;b&gt;0&lt;/b&gt;. Click on the &lt;b&gt;Color&lt;/b&gt; of the text to update it one more time. In the modal that appears, change the value for &lt;b&gt;A&lt;/b&gt; (alpha) from 255 to &lt;b&gt;0&lt;/b&gt;. This should now hide the text on the screen.&lt;/p&gt;
-
-&lt;p&gt;With the Game Over text now created, this concludes part 1 of our tutorial. In part 2, we will create our game controller, and start working on the actual game play.&lt;/p&gt;
-</description>
-      
+      <description>For this tutorial we are going to make a simple 2D snake game in Unity. If you are not familiar with the classic arcade game Snake, it is a game that was originally created in the 1970&#39;s, and it gained a lot of popularity when it was included on Nokia phones. The game itself has a few variants.
+For this tutorial, the main objective of the game is to eat as many apples as you can without running into the any of the walls, obstacles, or yourself.</description>
     </item>
     
     <item>
@@ -439,10 +130,7 @@ progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/t
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
       <guid>https://scottwestover.github.io/about/</guid>
-      
-        <description>&lt;p&gt;Comming Soon&amp;hellip;&lt;/p&gt;
-</description>
-      
+      <description>Comming Soon&amp;hellip;</description>
     </item>
     
     <item>
@@ -451,12 +139,8 @@ progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/t
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/12/2016-12-16-unity-live-training-session-on-december/</guid>
-      
-        <description>&lt;p&gt;Unity will be holding another live training session on December 19th, at 3:00 - 4:00 PM EST. For this live session they will be going over how to make a simple 2D flappy bird style game. During this session, they will be going over the flapping mechanic, spawning random obstacles, and setting up a simple game manager.&lt;/p&gt;
-
-&lt;p&gt;This session will be hosted by Matthew-Schell. If you are interested in learning more or in signing up, you can do so here:&amp;nbsp;&lt;a href=&#34;https://unity3d.com/learn/live-training/session/making-flappy-bird-style-game&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;https://unity3d.com/learn/live-training/session/making-flappy-bird-style-game&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      
+      <description>Unity will be holding another live training session on December 19th, at 3:00 - 4:00 PM EST. For this live session they will be going over how to make a simple 2D flappy bird style game. During this session, they will be going over the flapping mechanic, spawning random obstacles, and setting up a simple game manager.
+This session will be hosted by Matthew-Schell. If you are interested in learning more or in signing up, you can do so here:&amp;nbsp;https://unity3d.</description>
     </item>
     
     <item>
@@ -465,26 +149,8 @@ progressBox.fillRect(240, 270, 320, 50);&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/t
       <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/12/2016-12-15-ludum-dare-37-game-entry/</guid>
-      
-        <description>&lt;p&gt;This past weekend, I got the chance to participate in the Ludum Dare game jam. If you are not familiar with Ludum Dare it is a game jam that has been around for over 12 years.&lt;br /&gt;
-&lt;br /&gt;
-This time around the theme was &amp;ldquo;One Room&amp;rdquo;, so my teammates and I came up with the idea that you would play as a room in a house, and you would need to fight the rest of rooms to be the best room in the house. The game was going to be a 2D &amp;ldquo;fighting&amp;rdquo; game, but with the combat being very basic.&lt;br /&gt;
-&lt;br /&gt;
-The game itself was made in Unity, all the audio was original, and most of the art was original this time. If you are interested in seeing our finished project, you can see it here:&amp;nbsp;&lt;a href=&#34;http://scottwestover.github.io/games/RoomWars/&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;http://scottwestover.github.io/games/RoomWars/&#34;&gt;http://scottwestover.github.io/games/RoomWars/&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-You can also view the game on Ludum Dare here:&amp;nbsp;&lt;a href=&#34;http://ludumdare.com/compo/ludum-dare-37/?action=preview&amp;amp;uid=113176&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;http://ludumdare.com/compo/ludum-dare-37/?action=preview&amp;amp;uid=113176&#34;&gt;http://ludumdare.com/compo/ludum-dare-37/?action=preview&amp;amp;uid=113176&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-&lt;a href=&#34;https://1.bp.blogspot.com/-6v2oCPfuD8E/WFMtAl_N6gI/AAAAAAAACsk/nUMoOwaXf98Lp7oOIQ6fAZ6ZNZ_BWpQuwCLcB/s1600/2016-12-15_1852.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;198&#34; src=&#34;https://1.bp.blogspot.com/-6v2oCPfuD8E/WFMtAl_N6gI/AAAAAAAACsk/nUMoOwaXf98Lp7oOIQ6fAZ6ZNZ_BWpQuwCLcB/s320/2016-12-15_1852.png&#34; width=&#34;320&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;div style=&#34;text-align: center;&#34;&gt;
-&lt;br /&gt;&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-&lt;a href=&#34;https://2.bp.blogspot.com/-d--AFNk_YHQ/WFMtHjajYZI/AAAAAAAACso/O7n1G0EA6as0K4c8wAqQE11tEBBfMF8tQCLcB/s1600/2016-12-15_1853.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;199&#34; src=&#34;https://2.bp.blogspot.com/-d--AFNk_YHQ/WFMtHjajYZI/AAAAAAAACso/O7n1G0EA6as0K4c8wAqQE11tEBBfMF8tQCLcB/s320/2016-12-15_1853.png&#34; width=&#34;320&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;div style=&#34;text-align: center;&#34;&gt;
-&lt;br /&gt;&lt;/div&gt;
-I hope you enjoyed this post. If you have any questions or comments, please feel free to post them below.&lt;/p&gt;
-</description>
-      
+      <description>This past weekend, I got the chance to participate in the Ludum Dare game jam. If you are not familiar with Ludum Dare it is a game jam that has been around for over 12 years.
+This time around the theme was &amp;ldquo;One Room&amp;rdquo;, so my teammates and I came up with the idea that you would play as a room in a house, and you would need to fight the rest of rooms to be the best room in the house.</description>
     </item>
     
     <item>
@@ -493,12 +159,8 @@ I hope you enjoyed this post. If you have any questions or comments, please feel
       <pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/11/2016-11-12-unity-live-training-session-on-november/</guid>
-      
-        <description>&lt;p&gt;Unity will be holding another live training session on November 14th, at 3:00 - 4:00 PM EST. For this live session they will be going over how to make a multiple choice quiz game. During this session, they will be going over the core game loop, the code architecture best practices, and how to make the code easy to maintain and extend.&lt;br /&gt;
-&lt;br /&gt;
-This session will be hosted by Matthew-Schell. If you are interested in learning more or in signing up, you can do so here:&amp;nbsp;&lt;a href=&#34;https://unity3d.com/learn/live-training/session/creating-quiz-game-session-1&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://unity3d.com/learn/live-training/session/creating-quiz-game-session-1&#34;&gt;https://unity3d.com/learn/live-training/session/creating-quiz-game-session-1&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-      
+      <description>Unity will be holding another live training session on November 14th, at 3:00 - 4:00 PM EST. For this live session they will be going over how to make a multiple choice quiz game. During this session, they will be going over the core game loop, the code architecture best practices, and how to make the code easy to maintain and extend.
+This session will be hosted by Matthew-Schell. If you are interested in learning more or in signing up, you can do so here:&amp;nbsp;https://unity3d.</description>
     </item>
     
     <item>
@@ -507,139 +169,8 @@ This session will be hosted by Matthew-Schell. If you are interested in learning
       <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/10/2016-10-29-how-to-connect-to-engagement-history/</guid>
-      
-        <description>&lt;p&gt;I have gotten a lot of request from people on how to connect to the APIs that are available from LivePerson using Postman, so I decided to share how to do this here.&lt;br /&gt;
-&lt;br /&gt;
-In order to follow along with this tutorial, you will need the API keys that are available for Engagement History API, and you will need access to the Postman App. To get these keys, you can log into the LiveEngage console, and grab them from them from the API tab under data sources, which is on the campaigns tab. If you are not sure on how to setup your keys, you can learn how to do so&amp;nbsp;&lt;a href=&#34;https://s3-eu-west-1.amazonaws.com/ce-sr/CA/API+Guides/Getting+Started+with+LiveEngage+APIs.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;br /&gt;
-&lt;br /&gt;
-If you do not already have Postman installed, you can learn more about it and install it from here:&amp;nbsp;&lt;a href=&#34;https://www.getpostman.com/&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://www.getpostman.com/&#34;&gt;https://www.getpostman.com/&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-If you would just like to import a template of the query into Postman, you can do so here:&amp;nbsp;&lt;a href=&#34;https://www.getpostman.com/collections/6bd9d4cc64bbee6843f1&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://www.getpostman.com/collections/6bd9d4cc64bbee6843f1&#34;&gt;https://www.getpostman.com/collections/6bd9d4cc64bbee6843f1&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-Let&amp;rsquo;s get started.&lt;br /&gt;
-&lt;br /&gt;
-1) The first thing you need to do is find out what the base URI is for your account. This will be needed to make any API calls. In Postman, make a new GET request with the following URL:&amp;nbsp;&lt;a href=&#34;https://api.liveperson.net/api/account/&#34;&gt;https://api.liveperson.net/api/account/&lt;/a&gt;&lt;span style=&#34;color: red;&#34;&gt;{Your Account Number}&lt;/span&gt;/service/engHistDomain/baseURI.json?version=1.0&lt;br /&gt;
-&lt;br /&gt;
-You will need to update the &amp;lsquo;&lt;span style=&#34;color: red;&#34;&gt;{Your Account Number}&lt;/span&gt;&amp;rsquo; with just your account number. For example, your updated link should look similar to this:&amp;nbsp;&lt;a href=&#34;https://api.liveperson.net/api/account/56072331/service/engHistDomain/baseURI.json?version=1.0&#34;&gt;https://api.liveperson.net/api/account/56072331/service/engHistDomain/baseURI.json?version=1.0&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-2) Now, click on the Send button and you should get a 200 response with your base URI.&lt;br /&gt;
-&lt;br /&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://2.bp.blogspot.com/-V_t46wZTiXk/WBNAag1-gVI/AAAAAAAABfY/4bnXpi5NTjwi9J_pGG0RIz14N_VGRVI0QCLcB/s1600/2016-10-28_0810.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;215&#34; src=&#34;https://2.bp.blogspot.com/-V_t46wZTiXk/WBNAag1-gVI/AAAAAAAABfY/4bnXpi5NTjwi9J_pGG0RIz14N_VGRVI0QCLcB/s400/2016-10-28_0810.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://3.bp.blogspot.com/-F2Qxx9Q31Vk/WBNG0quXT3I/AAAAAAAABgU/tkIj8LdCwTIBgnW7Sp_WfNbD8BAYhI1JACLcB/s1600/2016-10-28_0838.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;96&#34; src=&#34;https://3.bp.blogspot.com/-F2Qxx9Q31Vk/WBNG0quXT3I/AAAAAAAABgU/tkIj8LdCwTIBgnW7Sp_WfNbD8BAYhI1JACLcB/s320/2016-10-28_0838.png&#34; width=&#34;320&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  3) In a new tab in Postman, update the request to be a POST request, and add the following URL to the request:&amp;nbsp;https://&lt;span style=&#34;color: red;&#34;&gt;{YOUR BASE URI}&lt;/span&gt;/interaction_history/api/account/&lt;span style=&#34;color: red;&#34;&gt;{YOUR ACCOUNT NUMBER}&lt;/span&gt;/interactions/search?offset=0&amp;amp;limit=10
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  You will need to update the &amp;lsquo;&lt;span style=&#34;color: red;&#34;&gt;{YOUR BASE URI}&lt;/span&gt;&amp;rsquo; and the &amp;lsquo;&lt;span style=&#34;color: red;&#34;&gt;YOUR ACCOUNT NUMBER}&lt;/span&gt;&amp;rsquo; parts of the URL with your LiveEngage account number, and with the base URI that you received in the steps before. For example, your updated link should look similar to this:&amp;nbsp;&lt;a href=&#34;https://va-a.enghist.liveperson.net/interaction_history/api/account/56072331/interactions/search?offset=0&amp;amp;limit=10&#34;&gt;https://va-a.enghist.liveperson.net/interaction_history/api/account/56072331/interactions/search?offset=0&amp;amp;limit=10&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://2.bp.blogspot.com/-01fcuwKlg7E/WBNGfRAUuuI/AAAAAAAABgQ/XXiSTCYvB1MnOvHfNWjTpOwN76LWSAcdQCLcB/s1600/2016-10-28_0836.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;75&#34; src=&#34;https://2.bp.blogspot.com/-01fcuwKlg7E/WBNGfRAUuuI/AAAAAAAABgQ/XXiSTCYvB1MnOvHfNWjTpOwN76LWSAcdQCLcB/s640/2016-10-28_0836.png&#34; width=&#34;640&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  4) For the API call to be successful, you will need to add the following to the request: a body, a content type header, and an OAuth 1 header. To add the Body, click on Body, and choose &amp;ldquo;raw&amp;rdquo; as the type. Add the following parameters to the body:&amp;nbsp;{&amp;ldquo;start&amp;rdquo;:{&amp;ldquo;from&amp;rdquo;:1477052344000,&amp;ldquo;to&amp;rdquo;:1477657144000}}
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://4.bp.blogspot.com/-XC-C5SidCXQ/WBNH7USRUgI/AAAAAAAABgc/C90ggHLmnV0Tx9By8RRG8i9Kv5wWdIqUwCLcB/s1600/2016-10-28_0843.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;236&#34; src=&#34;https://4.bp.blogspot.com/-XC-C5SidCXQ/WBNH7USRUgI/AAAAAAAABgc/C90ggHLmnV0Tx9By8RRG8i9Kv5wWdIqUwCLcB/s640/2016-10-28_0843.png&#34; width=&#34;640&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  The data that you just added is the timeframe that you would like to query the API for. The time is entered as an epoch timestamp in milliseconds. To quickly get the date that you would like to use in an epoch timestamp format, you can use this website here: &lt;a href=&#34;http://www.epochconverter.com/&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;http://www.epochconverter.com/&#34;&gt;http://www.epochconverter.com/&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;. Note: You may need to update the timeframe for the query to work with your account.
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  5) Next, lets add the Content-Type header to the request. Click on &amp;ldquo;Headers&amp;rdquo; tab, and in the &amp;ldquo;key&amp;rdquo; field type in:&amp;nbsp;Content-Type, and in the &amp;ldquo;value&amp;rdquo; field type in:&amp;nbsp;application/json.
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://4.bp.blogspot.com/-AnQGB-h37Nw/WBNNhCvOmWI/AAAAAAAABg4/LQwwbFerQF8__I8dsUnHcHxmZIQ2HYcngCLcB/s1600/2016-10-28_0906.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;115&#34; src=&#34;https://4.bp.blogspot.com/-AnQGB-h37Nw/WBNNhCvOmWI/AAAAAAAABg4/LQwwbFerQF8__I8dsUnHcHxmZIQ2HYcngCLcB/s400/2016-10-28_0906.png&#34; width=&#34;400&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;
-  6) Lastly, you just need to add your OAuth 1 header to the API call. Click on &amp;ldquo;Authorization&amp;rdquo; tab, and in the type drop down choose &amp;ldquo;OAuth 1.0&amp;rdquo;. In the fields that appear, you will need to add your API keys from LiveEngage:
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: left;&#34;&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Consumer Key - Your App Key&lt;/li&gt;
-  &lt;li&gt;Consumer Secret - Your Secret&lt;/li&gt;
-  &lt;li&gt;Token - Your Access Token&lt;/li&gt;
-  &lt;li&gt;Token Secret - You Access Token Secret&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div&gt;
-  Also, on the right hand side, make sure the check for &amp;ldquo;Add params to header&amp;rdquo; is checked.
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://1.bp.blogspot.com/-WY3M1El60Aw/WBNPCRXsilI/AAAAAAAABhI/MbtBJyrwS6c9corSLCZDmYKhQyuDEG9MACLcB/s1600/2016-10-28_0910.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;387&#34; src=&#34;https://1.bp.blogspot.com/-WY3M1El60Aw/WBNPCRXsilI/AAAAAAAABhI/MbtBJyrwS6c9corSLCZDmYKhQyuDEG9MACLcB/s640/2016-10-28_0910.png&#34; width=&#34;640&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  Once you fill in your keys, click on the &amp;ldquo;Update Request&amp;rdquo; button to update your request.
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  Now, click on the &amp;ldquo;Send&amp;rdquo; button, and you should get a 200 response back with your chat transcripts.
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-  &lt;a href=&#34;https://1.bp.blogspot.com/-Y2mTiTHayqY/WBNVd6w5wVI/AAAAAAAABh8/fLeSN2afaaUvL04dkQWhHNct0ZaUNUIlgCLcB/s1600/2016-10-28_0923.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;276&#34; src=&#34;https://1.bp.blogspot.com/-Y2mTiTHayqY/WBNVd6w5wVI/AAAAAAAABh8/fLeSN2afaaUvL04dkQWhHNct0ZaUNUIlgCLcB/s640/2016-10-28_0923.png&#34; width=&#34;640&#34; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  You can import a template for this query directly into Postman by clicking this link here:&amp;nbsp;&lt;a href=&#34;https://www.getpostman.com/collections/6bd9d4cc64bbee6843f1&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://www.getpostman.com/collections/6bd9d4cc64bbee6843f1&#34;&gt;https://www.getpostman.com/collections/6bd9d4cc64bbee6843f1&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;div&gt;
-  Summary: This tutorial showed you how to use Postman to query the Engagement History API that is available from LivePerson.
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  I hope you enjoyed this tutorial. If you have any questions or comments, please feel free to post them below.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-      
+      <description>I have gotten a lot of request from people on how to connect to the APIs that are available from LivePerson using Postman, so I decided to share how to do this here.
+In order to follow along with this tutorial, you will need the API keys that are available for Engagement History API, and you will need access to the Postman App. To get these keys, you can log into the LiveEngage console, and grab them from them from the API tab under data sources, which is on the campaigns tab.</description>
     </item>
     
     <item>
@@ -648,75 +179,8 @@ You will need to update the &amp;lsquo;&lt;span style=&#34;color: red;&#34;&gt;{
       <pubDate>Mon, 05 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/09/2016-09-05-ludum-dare-36-game-entry/</guid>
-      
-        <description>&lt;p&gt;Last weekend a few friends from work and I decided to enter Ludum Dare. Ludum Dare is one of the longest running game jams that happens every April, August, and December. It has been around for 12 years, and we finally decided to enter this time around.&lt;br /&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  It was a really interesting experience, since you have a strict deadline to make a game, and you do not receive the theme of the game jam until the jam starts. The theme this time around was ancient technology, so we decided to try and make a 2D platformer that was similar to the old load runner games.&lt;br /&gt;
-  &lt;br /&gt;
-  You play as a caveman, and your objective is to try and steal the other caveman&amp;rsquo;s fire and get it back to your cave. You must dodge the other cavemen, until you are able to make a spear which will allow you to attack them. In the end, the game was only 2 levels long.
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  The game itself was made in Phaser, all audio in the game was original, and most of the art was obtained from opengameart.org. If you are interested in seeing our finished project, you can see it here:&amp;nbsp;&lt;a href=&#34;http://ludumdare.com/compo/ludum-dare-36/?action=preview&amp;amp;uid=113176&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;http://ludumdare.com/compo/ludum-dare-36/?action=preview&amp;amp;uid=113176&#34;&gt;http://ludumdare.com/compo/ludum-dare-36/?action=preview&amp;amp;uid=113176&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  Overall, it was a lot of fun, and it was nice to see this project through to completion. If you are interested in checking out the source code, you can find that on GitHub here:&amp;nbsp;&lt;a href=&#34;https://github.com/scottwestover/Ludum-Dare-36&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://github.com/scottwestover/Ludum-Dare-36&#34;&gt;https://github.com/scottwestover/Ludum-Dare-36&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-  &lt;br /&gt;
-  &lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-    &lt;a href=&#34;https://1.bp.blogspot.com/-Ci3R9W7CpGI/V8z7OTC46lI/AAAAAAAAAgs/ymcXND5cMucBMejldS8PX6cmwx3hBaI2gCLcB/s1600/113176-shot1-1472433402.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;243&#34; src=&#34;https://1.bp.blogspot.com/-Ci3R9W7CpGI/V8z7OTC46lI/AAAAAAAAAgs/ymcXND5cMucBMejldS8PX6cmwx3hBaI2gCLcB/s320/113176-shot1-1472433402.png&#34; width=&#34;320&#34; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;br /&gt;
-  &lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-    &lt;a href=&#34;https://2.bp.blogspot.com/-V3s12d8NdpE/V8z7OZXCg_I/AAAAAAAAAgo/gOhX7gFS7V070z3p0r8zN6590Fn5bMiGgCLcB/s1600/113176-shot0-1472433402.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;242&#34; src=&#34;https://2.bp.blogspot.com/-V3s12d8NdpE/V8z7OZXCg_I/AAAAAAAAAgo/gOhX7gFS7V070z3p0r8zN6590Fn5bMiGgCLcB/s320/113176-shot0-1472433402.png&#34; width=&#34;320&#34; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;br /&gt;
-  If you have an interest in game development, and if you have not had the chance to enter into a game jam, I would recommend that you do. It can be quite daunting at first, but it is really rewarding when at the end of the jam, you have something to show. It is a great learning experience since it allows for you to get feedback on your work, and you can see how other people made their games.&lt;br /&gt;
-  &lt;br /&gt;
-  I hope you enjoyed this post. If you have any questions or comments, please feel free to post them below.
-&lt;/div&gt;
-Last weekend a few friends from work and I decided to enter Ludum Dare. Ludum Dare is one of the longest running game jams that happens every April, August, and December. It has been around for 12 years, and we finally decided to enter this time around.&lt;br /&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  It was a really interesting experience, since you have a strict deadline to make a game, and you do not receive the theme of the game jam until the jam starts. The theme this time around was ancient technology, so we decided to try and make a 2D platformer that was similar to the old load runner games.&lt;br /&gt;
-  &lt;br /&gt;
-  You play as a caveman, and your objective is to try and steal the other caveman&amp;rsquo;s fire and get it back to your cave. You must dodge the other cavemen, until you are able to make a spear which will allow you to attack them. In the end, the game was only 2 levels long.
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  The game itself was made in Phaser, all audio in the game was original, and most of the art was obtained from opengameart.org. If you are interested in seeing our finished project, you can see it here:&amp;nbsp;&lt;a href=&#34;http://ludumdare.com/compo/ludum-dare-36/?action=preview&amp;amp;uid=113176&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;http://ludumdare.com/compo/ludum-dare-36/?action=preview&amp;amp;uid=113176&#34;&gt;http://ludumdare.com/compo/ludum-dare-36/?action=preview&amp;amp;uid=113176&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  &lt;br /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-  Overall, it was a lot of fun, and it was nice to see this project through to completion. If you are interested in checking out the source code, you can find that on GitHub here:&amp;nbsp;&lt;a href=&#34;https://github.com/scottwestover/Ludum-Dare-36&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://github.com/scottwestover/Ludum-Dare-36&#34;&gt;https://github.com/scottwestover/Ludum-Dare-36&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-  &lt;br /&gt;
-  &lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-    &lt;a href=&#34;https://1.bp.blogspot.com/-Ci3R9W7CpGI/V8z7OTC46lI/AAAAAAAAAgs/ymcXND5cMucBMejldS8PX6cmwx3hBaI2gCLcB/s1600/113176-shot1-1472433402.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;243&#34; src=&#34;https://1.bp.blogspot.com/-Ci3R9W7CpGI/V8z7OTC46lI/AAAAAAAAAgs/ymcXND5cMucBMejldS8PX6cmwx3hBaI2gCLcB/s320/113176-shot1-1472433402.png&#34; width=&#34;320&#34; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;br /&gt;
-  &lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-    &lt;a href=&#34;https://2.bp.blogspot.com/-V3s12d8NdpE/V8z7OZXCg_I/AAAAAAAAAgo/gOhX7gFS7V070z3p0r8zN6590Fn5bMiGgCLcB/s1600/113176-shot0-1472433402.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; height=&#34;242&#34; src=&#34;https://2.bp.blogspot.com/-V3s12d8NdpE/V8z7OZXCg_I/AAAAAAAAAgo/gOhX7gFS7V070z3p0r8zN6590Fn5bMiGgCLcB/s320/113176-shot0-1472433402.png&#34; width=&#34;320&#34; /&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;br /&gt;
-  If you have an interest in game development, and if you have not had the chance to enter into a game jam, I would recommend that you do. It can be quite daunting at first, but it is really rewarding when at the end of the jam, you have something to show. It is a great learning experience since it allows for you to get feedback on your work, and you can see how other people made their games.&lt;br /&gt;
-  &lt;br /&gt;
-  I hope you enjoyed this post. If you have any questions or comments, please feel free to post them below.
-&lt;/div&gt;&lt;/p&gt;
-</description>
-      
+      <description>Last weekend a few friends from work and I decided to enter Ludum Dare. Ludum Dare is one of the longest running game jams that happens every April, August, and December. It has been around for 12 years, and we finally decided to enter this time around.
+   It was a really interesting experience, since you have a strict deadline to make a game, and you do not receive the theme of the game jam until the jam starts.</description>
     </item>
     
     <item>
@@ -725,20 +189,9 @@ Last weekend a few friends from work and I decided to enter Ludum Dare. Ludum Da
       <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/05/2016-05-14-querying-engagement-history-api-with/</guid>
-      
-        <description>&lt;p&gt;The Engagement History API is an API that is available from LivePerson, and it allows for you to search, filter, and keep copies of chat transcripts and the related data, such as visitor information, agent information, and much more.&lt;br /&gt;
-&lt;br /&gt;
-Before writing any code to start querying the API, it can be useful to use a tool that will allow for you to connect to the API in seconds.&lt;br /&gt;
-&lt;br /&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-&lt;a href=&#34;https://3.bp.blogspot.com/-VNqijkLrbAE/VvWa1s3DuxI/AAAAAAAAAeY/uOWa3UdJePg4Ho2oE8LcEmkdwgCi4d7hw/s1600/bd91f8f0e02adffb70754133b032b2de-624x205.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://3.bp.blogspot.com/-VNqijkLrbAE/VvWa1s3DuxI/AAAAAAAAAeY/uOWa3UdJePg4Ho2oE8LcEmkdwgCi4d7hw/s1600/bd91f8f0e02adffb70754133b032b2de-624x205.png&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-This article discusses how you can use the RESTClient query to the Engagement History API. To read the article, click here:&amp;nbsp;&lt;a href=&#34;https://connect.liveperson.com/content/querying-engagement-history-api-firefox-restclient&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://connect.liveperson.com/content/querying-engagement-history-api-firefox-restclient&#34;&gt;https://connect.liveperson.com/content/querying-engagement-history-api-firefox-restclient&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-I hope you enjoyed this post. If you have any questions or comments, please feel free to post them below.&lt;/p&gt;
-</description>
-      
+      <description>The Engagement History API is an API that is available from LivePerson, and it allows for you to search, filter, and keep copies of chat transcripts and the related data, such as visitor information, agent information, and much more.
+Before writing any code to start querying the API, it can be useful to use a tool that will allow for you to connect to the API in seconds.
+ This article discusses how you can use the RESTClient query to the Engagement History API.</description>
     </item>
     
     <item>
@@ -747,20 +200,8 @@ I hope you enjoyed this post. If you have any questions or comments, please feel
       <pubDate>Fri, 25 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/03/2016-03-25-troubleshooting-apis-with-restclient/</guid>
-      
-        <description>&lt;p&gt;When it comes time to connect to APIs, I find that it is a lot easier to test them using a REST client before you start writing any code. Using a REST client allows for you to make sure that you are able to connect to it successfully, and it allows for you to try out different parameters of the API.&lt;br /&gt;
-&lt;br /&gt;
-One of the best tools that I was introduced to is, the Firefox RESTClient Plugin. This plugin is very easy to use, and it allows for you to save your request for quick reference.&lt;br /&gt;
-&lt;br /&gt;
-&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;
-&lt;a href=&#34;https://3.bp.blogspot.com/-VNqijkLrbAE/VvWa1s3DuxI/AAAAAAAAAeY/uOWa3UdJePg4Ho2oE8LcEmkdwgCi4d7hw/s1600/bd91f8f0e02adffb70754133b032b2de-624x205.png&#34; imageanchor=&#34;1&#34; style=&#34;margin-left: 1em; margin-right: 1em;&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://3.bp.blogspot.com/-VNqijkLrbAE/VvWa1s3DuxI/AAAAAAAAAeY/uOWa3UdJePg4Ho2oE8LcEmkdwgCi4d7hw/s1600/bd91f8f0e02adffb70754133b032b2de-624x205.png&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-This article discusses how you can use the RESTClient connect to an API and it goes through the different settings. To read the article, click here:&amp;nbsp;&lt;a href=&#34;https://connect.liveperson.com/content/troubleshooting-apis&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://connect.liveperson.com/content/troubleshooting-apis&#34;&gt;https://connect.liveperson.com/content/troubleshooting-apis&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-I hope you enjoyed this post. If you have any questions or comments, please feel free to post them below.&lt;/p&gt;
-</description>
-      
+      <description>When it comes time to connect to APIs, I find that it is a lot easier to test them using a REST client before you start writing any code. Using a REST client allows for you to make sure that you are able to connect to it successfully, and it allows for you to try out different parameters of the API.
+One of the best tools that I was introduced to is, the Firefox RESTClient Plugin.</description>
     </item>
     
     <item>
@@ -769,18 +210,611 @@ I hope you enjoyed this post. If you have any questions or comments, please feel
       <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/post/2016/03/2016-03-23-update-for-march/</guid>
+      <description>Hi Everyone,
+I know it has been awhile since my last post here, so I just wanted to give everyone a quick update. I haven&amp;rsquo;t had a lot of time to create content rich posts since I have had a few life changes in the past 2 months. I ended up fracturing my ankle mid February, so my daily routine has changed quite a bit, and I had been asked to create blog posts for the new support community at LivePerson, so I have been focusing on creating content there.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Engagement History API Program To Send Email</title>
+      <link>https://scottwestover.github.io/post/2016/02/2016-02-10-liveengage-engagement-history-api/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-        <description>&lt;p&gt;Hi Everyone,&lt;br /&gt;
-&lt;br /&gt;
-I know it has been awhile since my last post here, so I just wanted to give everyone a quick update. I haven&amp;rsquo;t had a lot of time to create content rich posts since I have had a few life changes in the past 2 months. I ended up fracturing my ankle mid February, so my daily routine has changed quite a bit, and I had been asked to create blog posts for the new support community at LivePerson, so I have been focusing on creating content there.&lt;br /&gt;
-&lt;br /&gt;
-I plan to start sharing those post here, and to start making new content for this blog shortly. In the mean time, I appreciate all of the readers that have still been dropping by.&lt;br /&gt;
-&lt;br /&gt;
-In case you are interested, here is a link to the Experts Blog on the new support community at LivePerson:&amp;nbsp;&lt;a href=&#34;https://connect.liveperson.com/blogs/expert-blog&#34;&gt;&lt;span style=&#34;color: blue;&#34;&gt;&lt;a href=&#34;https://connect.liveperson.com/blogs/expert-blog&#34;&gt;https://connect.liveperson.com/blogs/expert-blog&lt;/a&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-If you have any comments, please share them below.&lt;/p&gt;
-</description>
+      <guid>https://scottwestover.github.io/post/2016/02/2016-02-10-liveengage-engagement-history-api/</guid>
+      <description>Today I wanted to share with you a program I made that will allow you to use the Engagement History API to send out emails for transcripts that have a particular keyword.
+The program will use the API to pull all of your chat transcripts for the previous day that contain a certain keyword, and then it will send it to an email address that you specify. The program makes use of the SendGrid API in order to send the emails.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Use Your Own Custom Chat Button By Using JQuery</title>
+      <link>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
       
+      <guid>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</guid>
+      <description>Update: With the new HTML engagements in LiveEngage, this method is now outdated. It is recommended that you use the supported method listed above.
+The purpose of this tutorial is to show you how you can use your own chat buttons with LiveEngage by using JavaScript.
+Currently in LiveEngage, you have a limited number of options for creating a chat button in the LiveEngage studio. This can make it hard for the chat button to match the look of your site, especially with all of the things you can do with CSS and JavaScript today.</description>
+    </item>
+    
+    <item>
+      <title>Free Code Camp - A Community Where You Can Learn To Code And Help Nonprofits</title>
+      <link>https://scottwestover.github.io/post/2016/01/2016-01-11-free-code-camp-community-where-you-can/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/01/2016-01-11-free-code-camp-community-where-you-can/</guid>
+      <description>Today I wanted to share with everyone a website that I came across and that I have started using:&amp;nbsp;http://www.freecodecamp.com/
+Free Code Camp is a community that provides to you hundreds of hours of coding lessons, a way to build your portfolio, and they will put you in touch with non-profit organizations that will allow you to apply your new skills.
+Some of the skills you can learn include:
+ HTML5 CSS3 JavaScript Databases Git and GitHub Node.</description>
+    </item>
+    
+    <item>
+      <title>AEM Gems - Oak Lucene Indexes</title>
+      <link>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</guid>
+      <description>Adobe will be holding another &amp;ldquo;AEM Gem&amp;rdquo; on January 20th at 11 A.M. - 12:00 P.M. EST.
+This session will be a technical deep dive on Oak Lucene Indexes and how they can be used to get your queries perform better. This gem will also provide insight into how asynchronous indexing works and how it can be monitored.
+Here is a link to sign up if you are interested:&amp;nbsp;Register
+ This session will be hosted by Chetan Mehrotra and Alex Parvulescu.</description>
+    </item>
+    
+    <item>
+      <title>Looking Back At 2015</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-28-looking-back-at-2015/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-28-looking-back-at-2015/</guid>
+      <description>We are fast approaching the end of this year, and I just wanted to thank everyone that has stopped by and read some of my posts. This was my 1st year of maintaining a blog, and what a learning experience it has been.
+Initially, I started this blog as a way to share what I had learned on AEM, and I was able to share a lot of information. However, with a career change, and not knowing how popular some of the posts where going to be, I had to start allocating time for comments, and time to improve general design of my blog.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: Deep Dive into AEM and Translations</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-18-ask-community-experts-session-deep-dive/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-18-ask-community-experts-session-deep-dive/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; on January 19th at 11 A.M. - 12:00 P.M. EST.
+This is a follow up on the AEM Gems session AEM 6.1 Translation Integration &amp;amp; Best Practices that can be viewed here:&amp;nbsp;http://bit.ly/1YfAofQ
+Join this session for a deep dive into the best practices, and for tips and tricks for using translation within the Experience Manager.
+Here is a link to sign up if you are interested:&amp;nbsp;Ask the Community Experts</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Connecting To The Engagement History API In Java Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-16-liveengage-connecting-to-engagement/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-16-liveengage-connecting-to-engagement/</guid>
+      <description>The purpose of this tutorial is to show you how to connect to the Engagement History API in Java.
+The Engagement History API is a REST API that is offered through LivePerson that allows you to pull your chat transcripts without having to manually go through and export them. In order to connect to the API, you will need to get a set of API keys from LivePerson and install them on your account.</description>
+    </item>
+    
+    <item>
+      <title>Android - Adding A Facebook Share Button</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-10-android-adding-facebook-share-button/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-10-android-adding-facebook-share-button/</guid>
+      <description>I have gotten a lot of questions about adding a basic share button to your android app from one of my previous posts, so I decided to add a new tutorial that shows just how to add a basic share button.
+The purpose of this tutorial is to show you how to add a Facebook Share button to your Android Application. For this tutorial I was using: Android Studio 1.1.0, and Facebook SDK v4.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage Best Practice - Multitasking With Hot Keys</title>
+      <link>https://scottwestover.github.io/post/2015/12/2015-12-01-liveengage-best-practice-multitasking/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/12/2015-12-01-liveengage-best-practice-multitasking/</guid>
+      <description>One of the main things that I usually hear from agents is that they are always multitasking and that they are looking for ways to be more efficient when they are chatting, so they can provide the best experience possible to the customers that they are chatting with. My response to the client is, “Are you utilizing the hot keys that are available in LiveEngage?”
+ Hot keys are shortcuts that are available to you in LiveEngage that you can use to easily move between tasks such taking a chat, changing your status, or even viewing the visitor list.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Using CSS To Modify Embedded Chat Buttons</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-25-liveengage-using-css-to-modify-embedded/</link>
+      <pubDate>Wed, 25 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-25-liveengage-using-css-to-modify-embedded/</guid>
+      <description>Update: With the new HTML engagements in LiveEngage, this method is now outdated. It is recommended that you use the supported method listed above. The purpose of this tutorial is to show you how to use your own custom CSS to modify your embedded chat buttons from LiveEngage.
+Currently in LiveEngage, the only options you have for an embedded button is to use an image or the few text styling elements that are available in the engagement studio.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: AEM Apps Deep Dive</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-20-ask-community-experts-session-aem-apps/</link>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-20-ask-community-experts-session-aem-apps/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on November 24th at 11 A.M. - 1:00 P.M. EST.
+By attending this session you will gain a better understanding of:
+ Using AEM Apps Ask questions related to using AEM Apps for mobile apps solutions   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Use The Web App SDK To Send Chat Lines To The Agent Console</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-19-liveengage-use-web-app-sdk-to-send-chat/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-19-liveengage-use-web-app-sdk-to-send-chat/</guid>
+      <description>The purpose of this tutorial is to show you how to use the Web Application SDK to send chat lines from your own web application.
+The Web Application SDK is a client-side package that can be used to communicate with the LivePerson Agent Workspace. In order to use the SDK, your web application needs to be able to open inside an iFrame, and your application must be hosted over SSL. You can read more about the SDK here:&amp;nbsp;Web App SDK PDF</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Chat Transcript XML Parsing Tool</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-13-liveengage-chat-transcript-xml-parsing/</link>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-13-liveengage-chat-transcript-xml-parsing/</guid>
+      <description>Today I wanted to share with you a XML Chat Transcript Parsing tool that I created to parse the chat transcripts that you can export from LiveEngage.
+Inside LiveEngage, there is no easy way to see/analyze the chat transcripts without going through them one at a time. One of the options that is available to you, is you are able to export the transcripts as a text file or as xml file.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Use URL To Pre-fill Your Account ID On The Login Page</title>
+      <link>https://scottwestover.github.io/post/2015/11/2015-11-04-liveengage-use-url-to-pre-fill-your/</link>
+      <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/11/2015-11-04-liveengage-use-url-to-pre-fill-your/</guid>
+      <description>On the LiveEngage login page, there is a &amp;lsquo;remember me&amp;rsquo; check box that you can check to have your information stored in a cookie, however this is not always a valid option for everyone. For example, if your computer automatically clears your cookies and cache every night, or if you have cookies disabled, then the &amp;lsquo;remember me&amp;rsquo; check box will not remember your information, which then requires you to enter your account number, username, and password every time you want to login.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Remove Cancel &amp; Submit Buttons From Offline Survey</title>
+      <link>https://scottwestover.github.io/post/2015/10/2015-10-23-liveengage-remove-cancel-submit-buttons/</link>
+      <pubDate>Fri, 23 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/10/2015-10-23-liveengage-remove-cancel-submit-buttons/</guid>
+      <description>Update: This method is now outdated. Now, in LiveEngage, when you create a new survey with no questions, it will automatically remove the Submit button from the survey.
+The purpose of this tutorial is to show you how to remove the Cancel &amp;amp; Submit buttons from your offline survey in LiveEngage.
+The default offline survey in LiveEngage is nice, but sometimes you want added functionality that is not there, or sometimes you want to display your own custom offline message, but you do not want the customers to leave an offline message using the LiveEngage chat.</description>
+    </item>
+    
+    <item>
+      <title>LiveEngage - Custom Offline Message With Link To Your Leave A Message Form</title>
+      <link>https://scottwestover.github.io/post/2015/10/2015-10-19-liveengage-custom-offline-message-with/</link>
+      <pubDate>Mon, 19 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/10/2015-10-19-liveengage-custom-offline-message-with/</guid>
+      <description>Update 6/10/16: This work around is no longer needed for LiveEngage. Instead, if you just include your message in the header of the survey, and delete all questions of the offline survey. The header will show correctly with a close button for the offline survey.
+The purpose of this tutorial is to show you how to add your own custom offline message on the offline survey in LiveEngage, and have a link to your own leave a message form.</description>
+    </item>
+    
+    <item>
+      <title>Blog Redesign</title>
+      <link>https://scottwestover.github.io/post/2015/10/2015-10-18-blog-redesign/</link>
+      <pubDate>Sun, 18 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/10/2015-10-18-blog-redesign/</guid>
+      <description>Hi Everyone,
+After much thought, I decided to update the look and feel of my blog to make it look a little more modern. I liked the old design, but it seemed a little basic. With the redesign, I decided to add two new ways to navigate the site.
+The first is an archive list on the navigation bar. You can easily get between the older posts using this drop down menu.</description>
+    </item>
+    
+    <item>
+      <title>AEM Gems - Customizing Dialog Fields in Touch UI</title>
+      <link>https://scottwestover.github.io/post/2015/09/2015-09-29-aem-gems-customizing-dialog-fields-in/</link>
+      <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/09/2015-09-29-aem-gems-customizing-dialog-fields-in/</guid>
+      <description>On October 7th, 2015, at 11:00 AM - 12:00 Noon EST, Adobe will be having a session on customizing the dialog fields in the Touch UI.
+During this session you will learn how to implement custom fields, or widgets, for Touch UI dialog in AEM 6.1. The goal of this session is to teach you things that were previously done in the Classic UI can now be done using the Granite and Coral UI.</description>
+    </item>
+    
+    <item>
+      <title>AEM 6.1 Translation Integration and Best Practices  Q&amp;A GEM - APAC </title>
+      <link>https://scottwestover.github.io/post/2015/09/2015-09-28-aem-61-translation-integration-and-best_28/</link>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/09/2015-09-28-aem-61-translation-integration-and-best_28/</guid>
+      <description>On October 14th, 2015, at 1:00 - 1:30 AM EST, Adobe will be having a live Q&amp;amp;A session on the AEM 6.1 Translation Integration and Best Practices session that is on September 30th, 2015.
+This session is being held for the AEM community members that are India. If you were not able to attend the September 30th session, it is recommended that you watch the recorded session and have your questions ready for this event.</description>
+    </item>
+    
+    <item>
+      <title>AEM 6.1 Translation Integration and Best Practices GEM</title>
+      <link>https://scottwestover.github.io/post/2015/09/2015-09-24-aem-61-translation-integration-and-best/</link>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/09/2015-09-24-aem-61-translation-integration-and-best/</guid>
+      <description>On September 30th, 2015, Adobe will be having a live webinar on AEM 6.1 Translation Integration and Best Practices.
+Adobe will present enhanced translation integration capabilities in AEM and best practices for managing multilingual web sites. During this session you will learn how to:  structure global websites in AEM&amp;nbsp; use language copies/ live copies/ MSM&amp;nbsp; how to integrate translation service providers for successful completion of translation projects    This GEM is Presented by: Christine Duran, Sr Manager Translation Technologies, Adobe, and Mathias Siegel, Sr Product Manager, Adobe Experience Manager You can register here for the event: https://communities.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: AEM Dispatcher</title>
+      <link>https://scottwestover.github.io/post/2015/09/2015-09-23-ask-community-experts-session-aem/</link>
+      <pubDate>Wed, 23 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/09/2015-09-23-ask-community-experts-session-aem/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on September 29th at 11 A.M. - 12:00 P.M. EST.
+By attending this session you will gain a better understanding of:
+ The Dispatcher Best practices for configuring, using, and securing communication between Dispatcher and AEM When it is appropriate to disable the dispatcher   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>Create A Chrome Extension Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/</link>
+      <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to make a simple Chrome Extension. Throughout this tutorial we will be making a simple extension that when clicked, will show an HTML page with the text &amp;ldquo;Hello World!&amp;rdquo;.
+A Chrome Extension is just some basic HTML, CSS, and JavaScript that allows you to add some type of functionality to Chrome by using Chrome&amp;rsquo;s JavaScript APIs. For this tutorial, we are going to focus on building a simple Hello World html page that uses basic JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>IBM WebSphere Commerce Integration for AEM GEM</title>
+      <link>https://scottwestover.github.io/post/2015/09/2015-09-06-ibm-websphere-commerce-integration-for/</link>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/09/2015-09-06-ibm-websphere-commerce-integration-for/</guid>
+      <description>On September 9th, 2015, Adobe will be having a live webinar on an IBM WebSphere Commerce Integration for AEM.
+The Commerce Integration Framework (CIF) is an AEM add-on that accelerates any eCommerce integration project by providing documented integration patterns, reference code and components. The IBM WebSphere integration package is a specialized CIF reference implementation for IBM’s WebSphere eCommerce platform. In this session we will guide you through the different integration features with deep-dives into the code.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions PDF</title>
+      <link>https://scottwestover.github.io/post/2015/08/2015-08-16-aem-interview-questions-pdf/</link>
+      <pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/08/2015-08-16-aem-interview-questions-pdf/</guid>
+      <description>When you are preparing for technical interview, it is sometimes beneficial to know what types of questions that may be asked during your interview.
+Instead of having to have you read through multiple posts, I figured it would be beneficial if all of the questions were located in one place.
+So, I decided to create a PDF version of all the interview questions and answers that I have previously posted.</description>
+    </item>
+    
+    <item>
+      <title>August Ask the Community Experts Session: Personalization &amp; segmentation with AEM &amp; Adobe Campaign</title>
+      <link>https://scottwestover.github.io/post/2015/08/2015-08-09-august-ask-community-experts-session/</link>
+      <pubDate>Sun, 09 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/08/2015-08-09-august-ask-community-experts-session/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on August 25th at 11 A.M. - 11:30 A.M. EST.
+In this session, you will learn how you can use AEM and campaigns to create personalization and segmentation experiences.
+ If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>Android - Adding A Facebook Share Button That Shares A Screen Shot</title>
+      <link>https://scottwestover.github.io/post/2015/07/2015-07-14-android-adding-facebook-share-button/</link>
+      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/07/2015-07-14-android-adding-facebook-share-button/</guid>
+      <description>The purpose of this tutorial is to show you how to add a Facebook Share button to your Android Application that will share a screen shot. I have added a new tutorial that shows just how to add a basic share button to your android application. You can read the tutorial here: Android - Add A Facebook Share Button
+For this tutorial I was using: Android Studio 1.1.0, and Facebook SDK v4.</description>
+    </item>
+    
+    <item>
+      <title>July Ask the Community Experts Session: Advanced AEM Component Development</title>
+      <link>https://scottwestover.github.io/post/2015/07/2015-07-13-july-ask-community-experts-session/</link>
+      <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/07/2015-07-13-july-ask-community-experts-session/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on July 28th at 11 A.M. - 12:00 P.M. EST. This session will be discussing the following topics:
+ Creating components that use CQ Ext APIs Building custom Xtypes Invoke Sling Servlets Building advanced dialogs for components   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>Android Facebook Integration Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to integrate the Facebook SDK with your Android application. Throughout this tutorial, we will register our application with Facebook and then add the SDK to our project.
+For this tutorial I was using: Android Studio 1.1.0, OpenSSL for Windows, and Facebook SDK v4.0.0. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:</description>
+    </item>
+    
+    <item>
+      <title>Trello For Project Management</title>
+      <link>https://scottwestover.github.io/post/2015/06/2015-06-29-trello-for-project-management/</link>
+      <pubDate>Mon, 29 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/06/2015-06-29-trello-for-project-management/</guid>
+      <description>Recently at work, our team was trying to find the right tool to use in order to manage our projects. We wanted to make sure anyone on the team would be able to look at our notes and that they would be able to find what they need. This can be difficult when each person does things differently when it comes to how they take notes, where they stored files, etc.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: Adobe Experience Manager Technical Documentation</title>
+      <link>https://scottwestover.github.io/post/2015/06/2015-06-21-ask-community-experts-session-adobe/</link>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/06/2015-06-21-ask-community-experts-session-adobe/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on June 23rd at 11 A.M. - 12:00 P.M. EST. This session will be focusing on the changes that have been to the AEM documentation with the release of 6.1. During this session you will get to:
+ Learn about the latest updates made to the AEM documentation Get helpful hints to quickly&amp;nbsp;find what&amp;nbsp;you’re&amp;nbsp;&amp;nbsp;looking for See content for the latest&amp;nbsp;release of Experience Manager Learn about the AEM documentation roadmap Meet some of the team&amp;nbsp; Ask questions&amp;nbsp;and&amp;nbsp;give your feedback     If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>AEM 6.1</title>
+      <link>https://scottwestover.github.io/post/2015/06/2015-06-02-aem-61/</link>
+      <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/06/2015-06-02-aem-61/</guid>
+      <description>If you have not hear, Adobe has just recently released Adobe Experience Manager 6.1. This was released on May 28th. This new release provides new and enhanced functionality, key customer fixes, high priority customer enhancements, and general bug fixes. This release includes all of the 6.0 feature packs, hot fixes, and service pack releases.
+   You can find a list of &amp;ldquo;what is new&amp;rdquo; in the release notes here:&amp;nbsp;http://docs.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 8</title>
+      <link>https://scottwestover.github.io/post/2015/05/2015-05-26-aem-interview-questions-part-8/</link>
+      <pubDate>Tue, 26 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/05/2015-05-26-aem-interview-questions-part-8/</guid>
+      <description>This is part eight of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;-&amp;nbsp;Part 2&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;-&amp;nbsp;Part 4&amp;nbsp;-&amp;nbsp;Part 5&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;- Part 7&amp;nbsp;-&amp;nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+ Q:&amp;nbsp;What is the Query Builder?
+ A:&amp;nbsp;The Query Builder API is used will allow you to use the builder to accepts any query description, create and run an XPath query, and filter the result set.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 7</title>
+      <link>https://scottwestover.github.io/post/2015/05/2015-05-06-aem-interview-questions-part-7/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/05/2015-05-06-aem-interview-questions-part-7/</guid>
+      <description>This is part seven of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;-&amp;nbsp;Part 2&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;- Part 4&amp;nbsp;- Part 5&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q: How can you inherit properties from one dialog to another?
+ A:&amp;nbsp;You can inherit properties from one dialog to another if the new component has the “sling:resourceSuperType” and this property is set to the base component.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 6</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-28-aem-interview-questions-part-6/</link>
+      <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-28-aem-interview-questions-part-6/</guid>
+      <description>This is part six of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;-&amp;nbsp;Part 2&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;- Part 4&amp;nbsp;-&amp;nbsp;Part 5&amp;nbsp;-&amp;nbsp;&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q: What is the difference between Parsys and Iparsys?
+ A:&amp;nbsp;Parsys is a compound component that lets authors add components of different types to a page and contains all other paragraph components. Iparsys is a paragraph system that will allow to inherit the parent paragraphs from the parent.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 5</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-15-aem-interview-questions-part-5/</link>
+      <pubDate>Wed, 15 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-15-aem-interview-questions-part-5/</guid>
+      <description>This is part five of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;-&amp;nbsp;Part 2&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;-&amp;nbsp;Part 4&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q:&amp;nbsp;What is a replication agent?
+ A:&amp;nbsp;A replication agent is used to publish active content from the author environment to the publish environment, to flush content from the dispatcher cache, and return user input from the publish environment to the author environment.</description>
+    </item>
+    
+    <item>
+      <title>Using GitHub To Share Your Code Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-14-using-github-to-share-your-code-tutorial/</link>
+      <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-14-using-github-to-share-your-code-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to use GitHub to share your code with others.
+For this tutorial we will be using GitHub for Windows. This tutorial does not go into full detail, but does provide all the steps that are needed for learning purposes.
+In order to follow along with this tutorial, you will need to install GitHub for Windows. You can download the program from here:&amp;nbsp;https://windows.</description>
+    </item>
+    
+    <item>
+      <title>AEM Tutorial On Building A Sightly Page Component</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-10-aem-tutorial-on-building-sightly-page/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-10-aem-tutorial-on-building-sightly-page/</guid>
+      <description>The purpose of this tutorial is to show you how to build an AEM page component using sightly. You can read more about sightly here:&amp;nbsp;Sightly
+For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>April Ask the Community Experts Session: Touch UI Components</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-09-april-ask-community-experts-session/</link>
+      <pubDate>Thu, 09 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-09-april-ask-community-experts-session/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on April 21st at 11 A.M. - 12:00 P.M. EST. This session will be focusing on workflows in AEM. The session will be giving an in depth look at building touch UI components, touch UI dialogs, and using the Touch UI based APIs meant for component development.
+   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 4</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-08-aem-interview-questions-part-4/</link>
+      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-08-aem-interview-questions-part-4/</guid>
+      <description>This is part four of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;- Part 2&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;-&amp;nbsp;Part 5&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+Here are some more AEM interview questions that could come up during a technical interview:
+Q:&amp;nbsp;How does sightly differ from other templating systems?
+ A:&amp;nbsp;Sightly differs from other templating systems in three ways. Sightly is secure by default, it offers separation of concerns, and sightly is HTML5 because it is a valid HTML5 file.</description>
+    </item>
+    
+    <item>
+      <title>AEM GEM On &#39;Tips and Tricks for AEM Sites Touch UI&#39;</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-06-aem-gem-on-tips-and-tricks-for-aem/</link>
+      <pubDate>Mon, 06 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-06-aem-gem-on-tips-and-tricks-for-aem/</guid>
+      <description>Adobe will be holding another GEM on June 3rd, 2015. This session will be focusing on tips and tricks for the AEM Sites Touch UI. The session will be teaching you how to:
+ How to efficiently navigate and find content How to author content How to keep an overview of what is going on&amp;nbsp; How to organize content and collaborate on it   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 3</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-01-aem-interview-questions-part-3/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-01-aem-interview-questions-part-3/</guid>
+      <description>This is part three of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;-&amp;nbsp;Part 2&amp;nbsp;-&amp;nbsp;Part 4&amp;nbsp;-&amp;nbsp;Part 5&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+ Here are some more AEM interview questions that could come up during a technical interview:
+ Q:&amp;nbsp;How do you build a bundle through crxde?
+ A:&amp;nbsp;You can build a bundle through crxde by navigating to the source folder of your project located under “apps”. Once you do this, right click on the “src” folder and choose to create a bundle.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: AEM Workflows Update</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-28-ask-community-experts-session-aem_28/</link>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-28-ask-community-experts-session-aem_28/</guid>
+      <description>Workflows are a wonderful tool in AEM that allow you to automate activities. If you missed the &amp;ldquo;Ask the Community Experts Session&amp;rdquo; on workflows, do not fear. They have released an article on this session, and they have released a video of the session.
+   You can find a link to the to article here:&amp;nbsp;Workflow Article    You can find a link to the video here:&amp;nbsp;Workflow Video</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 2</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-26-aem-interview-questions-part-2/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-26-aem-interview-questions-part-2/</guid>
+      <description>This is part two of my AEM interview&amp;nbsp;questions. You can find the other parts here:
+ Part 1&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;-&amp;nbsp;Part 4&amp;nbsp;-&amp;nbsp;Part 5&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+ Here are some more AEM interview questions that could come up during a technical interview:
+ Q:&amp;nbsp;Why is a Content Management System (CMS) required?  A:&amp;nbsp;A content management system is a piece of software that is used to create and manage documents and Web sites. Many websites are dynamic, so their content needs to be updated frequently.</description>
+    </item>
+    
+    <item>
+      <title>AEM CQ:Listeners Node Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</link>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to add the &amp;ldquo;cq:listeners&amp;rdquo; node to a component so when the component is modified the page will automatically refresh. You can read more about &amp;ldquo;cq:listeners&amp;rdquo; from a previous post I made here:&amp;nbsp;cq:listeners node
+For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.</description>
+    </item>
+    
+    <item>
+      <title>AEM ShareThis Component Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</guid>
+      <description>The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>AEM Basic Project Setup Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</link>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to set up a basic project structure in AEM. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this project for learning purposes.
+For this tutorial I was using AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>AEM CQ:Listeners Node For A Component</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-cqlisteners-node-for-components/</link>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-cqlisteners-node-for-components/</guid>
+      <description>There are many times when an author is modifying a component on a page, and they will have to manually refresh the page in order to see the changes that were made to it. Now, this does not take up a lot of time, but if it happens often it can add up significantly.
+There is a way to have the page automatically refresh when a change is made to the component.</description>
+    </item>
+    
+    <item>
+      <title>AEM Brackets Extension Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</link>
+      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</guid>
+      <description>The purpose of this tutorial is to install the AEM Sightly Brackets Extension and see how easy it is to transfer content back and forth between Brackets and your local instance of AEM.
+For this tutorial I was using: AEM 6.0, AEM Brackets Extension 0.0.12, and Brackets 1.1. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:</description>
+    </item>
+    
+    <item>
+      <title>AEM Sightly Brackets Extension</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-13-aem-sightly-brackets-extension/</link>
+      <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-13-aem-sightly-brackets-extension/</guid>
+      <description>With the release of AEM 6, sightly has become the new go to language instead of using JSP. With the switch to this there has a been a new tool that was released, a sightly brackets extension. This extension offers some great features such as sightly syntax highlighting, code completion for sightly expressions, and bidirectional synchronization.
+What does this all mean? Well, Brackets is an open source text editor that focuses on web design, and with sightly being a HTML5 template, it is a great tool to edit it with.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 1</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-12-aem-interview-questions/</link>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-12-aem-interview-questions/</guid>
+      <description>When you are preparing for technical interview, it is sometimes beneficial to know what types of questions that may be asked during your interview. I am going to list some questions that may be asked during an AEM interview, and the answers to these questions. This is not a definitive guide by any means, but a way to get going in the right direction.
+ This is part one of my AEM interview&amp;nbsp;questions.</description>
+    </item>
+    
+    <item>
+      <title>AEM Developer Chrome Extension</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-developer-chrome-extension/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-developer-chrome-extension/</guid>
+      <description>Finding a new tool to help you as a developer is always exciting. One that I would like to share with you that recently became available is the AEM Developer Chrome Extension. This extension is a great tool that can save you a lot of time when working with AEM. The extension was created by Nate Yolles, and you can check it out here on GitHub:&amp;nbsp;aem-developer-chrome
+You can also find the extension on the Google Chrome store here:&amp;nbsp;AEM Developer Chrome Extension</description>
+    </item>
+    
+    <item>
+      <title>AEM Dialog Conversion Tool</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-dialog-conversion-tool/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-dialog-conversion-tool/</guid>
+      <description>Adobe has recently released a new tool that can extend your existing components dialog that is defined for the classic view and update it to the new Touch UI dialog. The tool will use the original dialog that was built with ExtJS and create a duplicate dialog that is based on the Granite UI.
+Even though your classic dialog will work on the Touch UI, it does not have the nice new design that fits in with the Touch UI and it really stands out.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: AEM Workflows</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-09-ask-community-experts-session-aem/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-09-ask-community-experts-session-aem/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on March 24th at 11 A.M. - 12:00 P.M. EST. This session will be focusing on workflows in AEM. The session will be giving an in depth look at building workflow models, custom workflow steps, using the workflow launcher, and available workflow operations.
+   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>AEM Component To Send An Email Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-06-aem-component-to-send-email-tutorial/</link>
+      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-06-aem-component-to-send-email-tutorial/</guid>
+      <description>The purpose of this tutorial is create a component for AEM that will send an email and then display a confirmation message. This is accomplished by using the ACS AEM Commons Email API. The ACS AEM Commons package adds a lot of features to the out of the box AEM implementation. For the purpose of this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes.</description>
+    </item>
+    
+    <item>
+      <title>AEM Component To Display X3D File Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/</guid>
+      <description>The purpose of this tutorial is to develop a component for AEM, which will allow you to display 3D models. This is accomplished by loading in an X3D file and then displaying it on your webpage. For this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes.</description>
+    </item>
+    
+    <item>
+      <title>Create A Swing Application To Post Files To AEM</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-02-create-swing-application-to-post-files/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-02-create-swing-application-to-post-files/</guid>
+      <description>While reading through some AEM forums, I came across this tutorial called &amp;ldquo;Creating Java Swing applications that posts files to AEM ClientLibs folder&amp;rdquo;.&amp;nbsp;
+        Here is a link to the tutorial:&amp;nbsp;Swing Tutorial    The tutorial walks you through creating an application that will upload a Text, CSS, or JavaScript file to a file path that you specify in the application.
+   Once you do this, then you need to create an OSGI bundle that contains a Swing Servlet.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-02-my-first-post/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-02-my-first-post/</guid>
+      <description>I just wanted to say hello to everyone, and say thank you for visiting my blog. I am new to blogging, so I am hoping to get into the swing of things, and I am able to post some content on a regular basis. I plan to post my first tutorial later today, and I hope you all find it useful.</description>
     </item>
     
   </channel>

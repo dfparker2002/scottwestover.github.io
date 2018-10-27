@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aem on Scott Westover - Blog</title>
+    <title>Aem on Scott Westover</title>
     <link>https://scottwestover.github.io/tags/aem/</link>
-    <description>Recent content in Aem on Scott Westover - Blog</description>
+    <description>Recent content in Aem on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/tags/aem/index.xml" rel="self" type="application/rss+xml" />
@@ -233,6 +233,181 @@ Part 1&amp;nbsp;- Part 2&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;-&amp;nbsp;Part 5&a
 Here are some more AEM interview questions that could come up during a technical interview:
 Q:&amp;nbsp;How does sightly differ from other templating systems?
  A:&amp;nbsp;Sightly differs from other templating systems in three ways. Sightly is secure by default, it offers separation of concerns, and sightly is HTML5 because it is a valid HTML5 file.</description>
+    </item>
+    
+    <item>
+      <title>AEM GEM On &#39;Tips and Tricks for AEM Sites Touch UI&#39;</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-06-aem-gem-on-tips-and-tricks-for-aem/</link>
+      <pubDate>Mon, 06 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-06-aem-gem-on-tips-and-tricks-for-aem/</guid>
+      <description>Adobe will be holding another GEM on June 3rd, 2015. This session will be focusing on tips and tricks for the AEM Sites Touch UI. The session will be teaching you how to:
+ How to efficiently navigate and find content How to author content How to keep an overview of what is going on&amp;nbsp; How to organize content and collaborate on it   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 3</title>
+      <link>https://scottwestover.github.io/post/2015/04/2015-04-01-aem-interview-questions-part-3/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/04/2015-04-01-aem-interview-questions-part-3/</guid>
+      <description>This is part three of my AEM interview&amp;nbsp;questions. You find the other parts here:
+Part 1&amp;nbsp;-&amp;nbsp;Part 2&amp;nbsp;-&amp;nbsp;Part 4&amp;nbsp;-&amp;nbsp;Part 5&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+ Here are some more AEM interview questions that could come up during a technical interview:
+ Q:&amp;nbsp;How do you build a bundle through crxde?
+ A:&amp;nbsp;You can build a bundle through crxde by navigating to the source folder of your project located under “apps”. Once you do this, right click on the “src” folder and choose to create a bundle.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: AEM Workflows Update</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-28-ask-community-experts-session-aem_28/</link>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-28-ask-community-experts-session-aem_28/</guid>
+      <description>Workflows are a wonderful tool in AEM that allow you to automate activities. If you missed the &amp;ldquo;Ask the Community Experts Session&amp;rdquo; on workflows, do not fear. They have released an article on this session, and they have released a video of the session.
+   You can find a link to the to article here:&amp;nbsp;Workflow Article    You can find a link to the video here:&amp;nbsp;Workflow Video</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 2</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-26-aem-interview-questions-part-2/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-26-aem-interview-questions-part-2/</guid>
+      <description>This is part two of my AEM interview&amp;nbsp;questions. You can find the other parts here:
+ Part 1&amp;nbsp;-&amp;nbsp;Part 3&amp;nbsp;-&amp;nbsp;Part 4&amp;nbsp;-&amp;nbsp;Part 5&amp;nbsp;-&amp;nbsp;Part 6&amp;nbsp;-&amp;nbsp;Part 7&amp;nbsp;-&amp;nbsp;Part 8&amp;nbsp;-&amp;nbsp;PDF
+ Here are some more AEM interview questions that could come up during a technical interview:
+ Q:&amp;nbsp;Why is a Content Management System (CMS) required?  A:&amp;nbsp;A content management system is a piece of software that is used to create and manage documents and Web sites. Many websites are dynamic, so their content needs to be updated frequently.</description>
+    </item>
+    
+    <item>
+      <title>AEM CQ:Listeners Node Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</link>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to add the &amp;ldquo;cq:listeners&amp;rdquo; node to a component so when the component is modified the page will automatically refresh. You can read more about &amp;ldquo;cq:listeners&amp;rdquo; from a previous post I made here:&amp;nbsp;cq:listeners node
+For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.</description>
+    </item>
+    
+    <item>
+      <title>AEM ShareThis Component Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</link>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</guid>
+      <description>The purpose of this tutorial is to create an AEM Component that uses the ShareThis plugin that will allow users to share your content easily. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this component for learning purposes.
+For this tutorial I was using: AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>AEM Basic Project Setup Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</link>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</guid>
+      <description>The purpose of this tutorial is to show you how to set up a basic project structure in AEM. For this tutorial we will be using crxde lite. This tutorial does not go into full detail, but does provide all the code that was used in the creation of this project for learning purposes.
+For this tutorial I was using AEM 6.0. You should be able to follow along with other versions of this software.</description>
+    </item>
+    
+    <item>
+      <title>AEM CQ:Listeners Node For A Component</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-cqlisteners-node-for-components/</link>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-cqlisteners-node-for-components/</guid>
+      <description>There are many times when an author is modifying a component on a page, and they will have to manually refresh the page in order to see the changes that were made to it. Now, this does not take up a lot of time, but if it happens often it can add up significantly.
+There is a way to have the page automatically refresh when a change is made to the component.</description>
+    </item>
+    
+    <item>
+      <title>AEM Brackets Extension Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</link>
+      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</guid>
+      <description>The purpose of this tutorial is to install the AEM Sightly Brackets Extension and see how easy it is to transfer content back and forth between Brackets and your local instance of AEM.
+For this tutorial I was using: AEM 6.0, AEM Brackets Extension 0.0.12, and Brackets 1.1. You should be able to follow along with other versions of this software.
+In order to follow along you will need the following:</description>
+    </item>
+    
+    <item>
+      <title>AEM Sightly Brackets Extension</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-13-aem-sightly-brackets-extension/</link>
+      <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-13-aem-sightly-brackets-extension/</guid>
+      <description>With the release of AEM 6, sightly has become the new go to language instead of using JSP. With the switch to this there has a been a new tool that was released, a sightly brackets extension. This extension offers some great features such as sightly syntax highlighting, code completion for sightly expressions, and bidirectional synchronization.
+What does this all mean? Well, Brackets is an open source text editor that focuses on web design, and with sightly being a HTML5 template, it is a great tool to edit it with.</description>
+    </item>
+    
+    <item>
+      <title>AEM Interview Questions Part 1</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-12-aem-interview-questions/</link>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-12-aem-interview-questions/</guid>
+      <description>When you are preparing for technical interview, it is sometimes beneficial to know what types of questions that may be asked during your interview. I am going to list some questions that may be asked during an AEM interview, and the answers to these questions. This is not a definitive guide by any means, but a way to get going in the right direction.
+ This is part one of my AEM interview&amp;nbsp;questions.</description>
+    </item>
+    
+    <item>
+      <title>AEM Developer Chrome Extension</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-developer-chrome-extension/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-developer-chrome-extension/</guid>
+      <description>Finding a new tool to help you as a developer is always exciting. One that I would like to share with you that recently became available is the AEM Developer Chrome Extension. This extension is a great tool that can save you a lot of time when working with AEM. The extension was created by Nate Yolles, and you can check it out here on GitHub:&amp;nbsp;aem-developer-chrome
+You can also find the extension on the Google Chrome store here:&amp;nbsp;AEM Developer Chrome Extension</description>
+    </item>
+    
+    <item>
+      <title>AEM Dialog Conversion Tool</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-dialog-conversion-tool/</link>
+      <pubDate>Tue, 10 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-dialog-conversion-tool/</guid>
+      <description>Adobe has recently released a new tool that can extend your existing components dialog that is defined for the classic view and update it to the new Touch UI dialog. The tool will use the original dialog that was built with ExtJS and create a duplicate dialog that is based on the Granite UI.
+Even though your classic dialog will work on the Touch UI, it does not have the nice new design that fits in with the Touch UI and it really stands out.</description>
+    </item>
+    
+    <item>
+      <title>Ask the Community Experts Session: AEM Workflows</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-09-ask-community-experts-session-aem/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-09-ask-community-experts-session-aem/</guid>
+      <description>Adobe will be holding another &amp;ldquo;Ask the Community Experts Session&amp;rdquo; this month on March 24th at 11 A.M. - 12:00 P.M. EST. This session will be focusing on workflows in AEM. The session will be giving an in depth look at building workflow models, custom workflow steps, using the workflow launcher, and available workflow operations.
+   If you have not attended one of these AEM sessions, they are a great chance to listen to some of the best experts in the industry, a great place to ask questions, and a good way to start networking.</description>
+    </item>
+    
+    <item>
+      <title>AEM Component To Send An Email Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-06-aem-component-to-send-email-tutorial/</link>
+      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-06-aem-component-to-send-email-tutorial/</guid>
+      <description>The purpose of this tutorial is create a component for AEM that will send an email and then display a confirmation message. This is accomplished by using the ACS AEM Commons Email API. The ACS AEM Commons package adds a lot of features to the out of the box AEM implementation. For the purpose of this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes.</description>
+    </item>
+    
+    <item>
+      <title>AEM Component To Display X3D File Tutorial</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/</guid>
+      <description>The purpose of this tutorial is to develop a component for AEM, which will allow you to display 3D models. This is accomplished by loading in an X3D file and then displaying it on your webpage. For this tutorial we will be creating the component in crxde lite. This tutorial does not go into full detail, but does provide all of the code that was used in the creation of this component for learning purposes.</description>
+    </item>
+    
+    <item>
+      <title>Create A Swing Application To Post Files To AEM</title>
+      <link>https://scottwestover.github.io/post/2015/03/2015-03-02-create-swing-application-to-post-files/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2015/03/2015-03-02-create-swing-application-to-post-files/</guid>
+      <description>While reading through some AEM forums, I came across this tutorial called &amp;ldquo;Creating Java Swing applications that posts files to AEM ClientLibs folder&amp;rdquo;.&amp;nbsp;
+        Here is a link to the tutorial:&amp;nbsp;Swing Tutorial    The tutorial walks you through creating an application that will upload a Text, CSS, or JavaScript file to a file path that you specify in the application.
+   Once you do this, then you need to create an OSGI bundle that contains a Swing Servlet.</description>
     </item>
     
   </channel>

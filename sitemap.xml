@@ -1,795 +1,605 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="https://scottwestover.github.io/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/07/under-contruction/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-2/</loc>
     <lastmod>2018-05-29T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/05/create-a-dialog-modal-plugin-in-phaser-3-part-1/</loc>
     <lastmod>2018-05-15T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/</loc>
     <lastmod>2018-05-02T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/04/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/</loc>
     <lastmod>2018-04-25T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/04/creating-a-preloader-screen-in-phaser-3-tutorial/</loc>
     <lastmod>2018-04-20T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/02/phaser3-create-a-simple-preloader/</loc>
     <lastmod>2018-02-14T17:45:42+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/02/phaser-3-release/</loc>
     <lastmod>2018-02-11T01:24:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/02/progressive-web-app/</loc>
     <lastmod>2018-02-10T02:58:22+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2018/02/switching-to-hexo/</loc>
     <lastmod>2018-02-08T23:04:32+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</loc>
     <lastmod>2017-12-01T23:32:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/12/2016-12-16-unity-live-training-session-on-december/</loc>
     <lastmod>2016-12-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/12/2016-12-15-ludum-dare-37-game-entry/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/11/2016-11-12-unity-live-training-session-on-november/</loc>
     <lastmod>2016-11-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/10/2016-10-29-how-to-connect-to-engagement-history/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/09/2016-09-05-ludum-dare-36-game-entry/</loc>
     <lastmod>2016-09-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/05/2016-05-14-querying-engagement-history-api-with/</loc>
     <lastmod>2016-05-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/03/2016-03-25-troubleshooting-apis-with-restclient/</loc>
     <lastmod>2016-03-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/03/2016-03-23-update-for-march/</loc>
     <lastmod>2016-03-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/02/2016-02-10-liveengage-engagement-history-api/</loc>
     <lastmod>2016-02-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/01/2016-01-13-liveengage-use-your-own-custom-chat/</loc>
     <lastmod>2016-01-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/01/2016-01-11-free-code-camp-community-where-you-can/</loc>
     <lastmod>2016-01-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/12/2015-12-28-looking-back-at-2015/</loc>
     <lastmod>2015-12-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/12/2015-12-18-ask-community-experts-session-deep-dive/</loc>
     <lastmod>2015-12-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/12/2015-12-16-liveengage-connecting-to-engagement/</loc>
     <lastmod>2015-12-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/12/2015-12-10-android-adding-facebook-share-button/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/12/2015-12-01-liveengage-best-practice-multitasking/</loc>
     <lastmod>2015-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/11/2015-11-25-liveengage-using-css-to-modify-embedded/</loc>
     <lastmod>2015-11-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/11/2015-11-20-ask-community-experts-session-aem-apps/</loc>
     <lastmod>2015-11-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/11/2015-11-19-liveengage-use-web-app-sdk-to-send-chat/</loc>
     <lastmod>2015-11-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/11/2015-11-13-liveengage-chat-transcript-xml-parsing/</loc>
     <lastmod>2015-11-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/11/2015-11-04-liveengage-use-url-to-pre-fill-your/</loc>
     <lastmod>2015-11-04T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/10/2015-10-23-liveengage-remove-cancel-submit-buttons/</loc>
     <lastmod>2015-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/10/2015-10-19-liveengage-custom-offline-message-with/</loc>
     <lastmod>2015-10-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/10/2015-10-18-blog-redesign/</loc>
     <lastmod>2015-10-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/09/2015-09-29-aem-gems-customizing-dialog-fields-in/</loc>
     <lastmod>2015-09-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/09/2015-09-28-aem-61-translation-integration-and-best_28/</loc>
     <lastmod>2015-09-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/09/2015-09-24-aem-61-translation-integration-and-best/</loc>
     <lastmod>2015-09-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/09/2015-09-23-ask-community-experts-session-aem/</loc>
     <lastmod>2015-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/</loc>
     <lastmod>2015-09-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/09/2015-09-06-ibm-websphere-commerce-integration-for/</loc>
     <lastmod>2015-09-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/08/2015-08-16-aem-interview-questions-pdf/</loc>
     <lastmod>2015-08-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/08/2015-08-09-august-ask-community-experts-session/</loc>
     <lastmod>2015-08-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/07/2015-07-14-android-adding-facebook-share-button/</loc>
     <lastmod>2015-07-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/07/2015-07-13-july-ask-community-experts-session/</loc>
     <lastmod>2015-07-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/</loc>
     <lastmod>2015-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/06/2015-06-29-trello-for-project-management/</loc>
     <lastmod>2015-06-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/06/2015-06-21-ask-community-experts-session-adobe/</loc>
     <lastmod>2015-06-21T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/06/2015-06-02-aem-61/</loc>
     <lastmod>2015-06-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/05/2015-05-26-aem-interview-questions-part-8/</loc>
     <lastmod>2015-05-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/05/2015-05-06-aem-interview-questions-part-7/</loc>
     <lastmod>2015-05-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-28-aem-interview-questions-part-6/</loc>
     <lastmod>2015-04-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-15-aem-interview-questions-part-5/</loc>
     <lastmod>2015-04-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-14-using-github-to-share-your-code-tutorial/</loc>
     <lastmod>2015-04-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-10-aem-tutorial-on-building-sightly-page/</loc>
     <lastmod>2015-04-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-09-april-ask-community-experts-session/</loc>
     <lastmod>2015-04-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-08-aem-interview-questions-part-4/</loc>
     <lastmod>2015-04-08T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-06-aem-gem-on-tips-and-tricks-for-aem/</loc>
     <lastmod>2015-04-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-01-aem-interview-questions-part-3/</loc>
     <lastmod>2015-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-28-ask-community-experts-session-aem_28/</loc>
     <lastmod>2015-03-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-26-aem-interview-questions-part-2/</loc>
     <lastmod>2015-03-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-19-aem-cqlisteners-node-tutorial/</loc>
     <lastmod>2015-03-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-17-aem-sharethis-component-tutorial/</loc>
     <lastmod>2015-03-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-basic-project-setup-tutorial/</loc>
     <lastmod>2015-03-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-16-aem-cqlisteners-node-for-components/</loc>
     <lastmod>2015-03-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/</loc>
     <lastmod>2015-03-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-13-aem-sightly-brackets-extension/</loc>
     <lastmod>2015-03-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-12-aem-interview-questions/</loc>
     <lastmod>2015-03-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-developer-chrome-extension/</loc>
     <lastmod>2015-03-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-10-aem-dialog-conversion-tool/</loc>
     <lastmod>2015-03-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-09-ask-community-experts-session-aem/</loc>
     <lastmod>2015-03-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-06-aem-component-to-send-email-tutorial/</loc>
     <lastmod>2015-03-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-02-aem-component-to-dispaly-x3d-file/</loc>
     <lastmod>2015-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-02-create-swing-application-to-post-files/</loc>
     <lastmod>2015-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-02-my-first-post/</loc>
     <lastmod>2015-03-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/aem/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/aem/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/android/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/android/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/brackets/</loc>
     <lastmod>2015-03-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/brackets/</loc>
     <lastmod>2015-03-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/chrome-extension/</loc>
     <lastmod>2015-09-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/chrome-extension/</loc>
     <lastmod>2015-09-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/facebook/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/facebook/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/game-development/</loc>
     <lastmod>2018-05-29T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/game-development/</loc>
     <lastmod>2018-05-29T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/game-jams/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/game-jams/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/github/</loc>
     <lastmod>2015-04-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/github/</loc>
     <lastmod>2015-04-14T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/interview-prep/</loc>
     <lastmod>2015-08-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/interview-prep/</loc>
     <lastmod>2015-08-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/liveengage/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/liveengage/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/ludum-dare/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/ludum-dare/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/misc/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/misc/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
     <lastmod>2018-05-29T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
     <lastmod>2018-05-29T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/trello/</loc>
     <lastmod>2015-06-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/trello/</loc>
     <lastmod>2015-06-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/tutorial/</loc>
     <lastmod>2018-05-29T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/tutorial/</loc>
     <lastmod>2018-05-29T21:34:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/unity/</loc>
     <lastmod>2017-12-01T23:32:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/unity/</loc>
     <lastmod>2017-12-01T23:32:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
