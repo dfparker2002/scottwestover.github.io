@@ -6,10 +6,20 @@
     <description>Recent content in Game Development on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Oct 2018 21:34:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Oct 2018 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using ES6 With Phaser 3</title>
+      <link>https://scottwestover.github.io/post/2018/10/using-es6-with-phaser-3-tutorial/</link>
+      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2018/10/using-es6-with-phaser-3-tutorial/</guid>
+      <description>Phaser 3 offers a fantastic Webpack project template that makes it easy to start creating games right away. This template uses Webpack Dev Server, which provides live reloading while working on your game. It will also bundle all of JS files into one file once you are ready to deploy your game.
+However, one thing that is missing from this template for me is support for ES6 and other newer features of JS.</description>
+    </item>
     
     <item>
       <title>Creating A Phaser 3 Template Tutorial - Part 1</title>

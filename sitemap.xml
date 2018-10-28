@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://scottwestover.github.io/post/2018/10/using-es6-with-phaser-3-tutorial/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2018/10/creating-a-phaser-3-template-tutorial-part-1/</loc>
     <lastmod>2018-10-16T21:34:18+00:00</lastmod>
   </url>
@@ -465,13 +470,13 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/game-development/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/game-development/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -549,25 +554,25 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -591,13 +596,13 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/tutorial/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/tutorial/</loc>
-    <lastmod>2018-10-16T21:34:18+00:00</lastmod>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
