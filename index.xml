@@ -158,12 +158,15 @@ For this tutorial, the main objective of the game is to eat as many apples as yo
     </item>
     
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://scottwestover.github.io/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/about/</guid>
-      <description>Comming Soon&amp;hellip;</description>
+      <description>Hello, my name is Scott Westover and I am a Fullstack Developer who loves coding, writing tutorials, participating in game jams, and learning about new technologies.
+When I am not coding, I enjoy spending time with my wife and two kids.
+Scott is looking to form connections and share his knowledge.
+You can connect with me on Linkedin here</description>
     </item>
     
     <item>
