@@ -6,13 +6,85 @@
     <description>Recent content in Categories on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Oct 2018 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Aem</title>
+      <title>Game Development</title>
+      <link>https://scottwestover.github.io/categories/game-development/</link>
+      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/game-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhaserJS</title>
+      <link>https://scottwestover.github.io/categories/phaserjs/</link>
+      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/phaserjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://scottwestover.github.io/categories/tutorial/</link>
+      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://scottwestover.github.io/categories/misc/</link>
+      <pubDate>Sun, 15 Jul 2018 01:24:04 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unity</title>
+      <link>https://scottwestover.github.io/categories/unity/</link>
+      <pubDate>Fri, 01 Dec 2017 23:32:18 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/unity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Jams</title>
+      <link>https://scottwestover.github.io/categories/game-jams/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/game-jams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ludum Dare</title>
+      <link>https://scottwestover.github.io/categories/ludum-dare/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/ludum-dare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LiveEngage</title>
+      <link>https://scottwestover.github.io/categories/liveengage/</link>
+      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/liveengage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AEM</title>
       <link>https://scottwestover.github.io/categories/aem/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
@@ -30,11 +102,11 @@
     </item>
     
     <item>
-      <title>Brackets</title>
-      <link>https://scottwestover.github.io/categories/brackets/</link>
-      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
+      <title>Facebook</title>
+      <link>https://scottwestover.github.io/categories/facebook/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://scottwestover.github.io/categories/brackets/</guid>
+      <guid>https://scottwestover.github.io/categories/facebook/</guid>
       <description></description>
     </item>
     
@@ -48,83 +120,11 @@
     </item>
     
     <item>
-      <title>Facebook</title>
-      <link>https://scottwestover.github.io/categories/facebook/</link>
-      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/facebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game Development</title>
-      <link>https://scottwestover.github.io/categories/game-development/</link>
-      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/game-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game Jams</title>
-      <link>https://scottwestover.github.io/categories/game-jams/</link>
-      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/game-jams/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://scottwestover.github.io/categories/github/</link>
-      <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Interview Prep</title>
       <link>https://scottwestover.github.io/categories/interview-prep/</link>
       <pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/categories/interview-prep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Liveengage</title>
-      <link>https://scottwestover.github.io/categories/liveengage/</link>
-      <pubDate>Sat, 29 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/liveengage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ludum Dare</title>
-      <link>https://scottwestover.github.io/categories/ludum-dare/</link>
-      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/ludum-dare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Misc</title>
-      <link>https://scottwestover.github.io/categories/misc/</link>
-      <pubDate>Sun, 15 Jul 2018 01:24:04 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/misc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Phaserjs</title>
-      <link>https://scottwestover.github.io/categories/phaserjs/</link>
-      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/phaserjs/</guid>
       <description></description>
     </item>
     
@@ -138,20 +138,20 @@
     </item>
     
     <item>
-      <title>Tutorial</title>
-      <link>https://scottwestover.github.io/categories/tutorial/</link>
-      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
+      <title>GitHub</title>
+      <link>https://scottwestover.github.io/categories/github/</link>
+      <pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://scottwestover.github.io/categories/tutorial/</guid>
+      <guid>https://scottwestover.github.io/categories/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Unity</title>
-      <link>https://scottwestover.github.io/categories/unity/</link>
-      <pubDate>Fri, 01 Dec 2017 23:32:18 +0000</pubDate>
+      <title>Brackets</title>
+      <link>https://scottwestover.github.io/categories/brackets/</link>
+      <pubDate>Sat, 14 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://scottwestover.github.io/categories/unity/</guid>
+      <guid>https://scottwestover.github.io/categories/brackets/</guid>
       <description></description>
     </item>
     

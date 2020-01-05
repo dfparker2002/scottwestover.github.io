@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://scottwestover.github.io/categories/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/game-development/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/game-development/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/tutorial/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2018/10/using-es6-with-phaser-3-tutorial/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
   </url>
@@ -15,6 +75,18 @@
   <url>
     <loc>https://scottwestover.github.io/post/2018/09/phaser-progressive-web-apps-tutorial/</loc>
     <lastmod>2018-09-18T21:34:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/misc/</loc>
+    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/misc/</loc>
+    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -68,6 +140,18 @@
   </url>
   
   <url>
+    <loc>https://scottwestover.github.io/tags/unity/</loc>
+    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/unity/</loc>
+    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2017/12/unity-2d-snake-tutorial-part-1/</loc>
     <lastmod>2017-12-01T23:32:18+00:00</lastmod>
   </url>
@@ -83,6 +167,30 @@
   </url>
   
   <url>
+    <loc>https://scottwestover.github.io/tags/game-jams/</loc>
+    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/game-jams/</loc>
+    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/ludum-dare/</loc>
+    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/ludum-dare/</loc>
+    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2016/12/2016-12-15-ludum-dare-37-game-entry/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
   </url>
@@ -95,6 +203,18 @@
   <url>
     <loc>https://scottwestover.github.io/post/2016/10/2016-10-29-how-to-connect-to-engagement-history/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/liveengage/</loc>
+    <lastmod>2016-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/liveengage/</loc>
+    <lastmod>2016-10-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -133,6 +253,18 @@
   </url>
   
   <url>
+    <loc>https://scottwestover.github.io/tags/aem/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/aem/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2016/01/2016-01-01-aem-gems-oak-lucene-indexes/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -153,8 +285,32 @@
   </url>
   
   <url>
+    <loc>https://scottwestover.github.io/tags/android/</loc>
+    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/android/</loc>
+    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2015/12/2015-12-10-android-adding-facebook-share-button/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/facebook/</loc>
+    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/facebook/</loc>
+    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -223,6 +379,18 @@
   </url>
   
   <url>
+    <loc>https://scottwestover.github.io/tags/chrome-extension/</loc>
+    <lastmod>2015-09-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/chrome-extension/</loc>
+    <lastmod>2015-09-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2015/09/2015-09-07-create-chrome-extension-tutorial/</loc>
     <lastmod>2015-09-07T00:00:00+00:00</lastmod>
   </url>
@@ -235,6 +403,18 @@
   <url>
     <loc>https://scottwestover.github.io/post/2015/08/2015-08-16-aem-interview-questions-pdf/</loc>
     <lastmod>2015-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/interview-prep/</loc>
+    <lastmod>2015-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/interview-prep/</loc>
+    <lastmod>2015-08-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -255,6 +435,18 @@
   <url>
     <loc>https://scottwestover.github.io/post/2015/07/2015-07-12-android-facebook-integration-tutorial/</loc>
     <lastmod>2015-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/trello/</loc>
+    <lastmod>2015-06-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/trello/</loc>
+    <lastmod>2015-06-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -290,6 +482,18 @@
   <url>
     <loc>https://scottwestover.github.io/post/2015/04/2015-04-15-aem-interview-questions-part-5/</loc>
     <lastmod>2015-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/github/</loc>
+    <lastmod>2015-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/github/</loc>
+    <lastmod>2015-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -358,6 +562,18 @@
   </url>
   
   <url>
+    <loc>https://scottwestover.github.io/tags/brackets/</loc>
+    <lastmod>2015-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/brackets/</loc>
+    <lastmod>2015-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/post/2015/03/2015-03-13-aem-sightly-brackets-extension/</loc>
     <lastmod>2015-03-13T00:00:00+00:00</lastmod>
   </url>
@@ -398,224 +614,8 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/post/2015/03/2015-03-02-my-first-post/</loc>
+    <loc>https://scottwestover.github.io/post/2015/03/my-first-post/</loc>
     <lastmod>2015-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/aem/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/aem/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/android/</loc>
-    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/android/</loc>
-    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/brackets/</loc>
-    <lastmod>2015-03-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/brackets/</loc>
-    <lastmod>2015-03-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/chrome-extension/</loc>
-    <lastmod>2015-09-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/chrome-extension/</loc>
-    <lastmod>2015-09-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/facebook/</loc>
-    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/facebook/</loc>
-    <lastmod>2015-12-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/game-development/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/game-development/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/game-jams/</loc>
-    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/game-jams/</loc>
-    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/github/</loc>
-    <lastmod>2015-04-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/github/</loc>
-    <lastmod>2015-04-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/interview-prep/</loc>
-    <lastmod>2015-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/interview-prep/</loc>
-    <lastmod>2015-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/liveengage/</loc>
-    <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/liveengage/</loc>
-    <lastmod>2016-10-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/ludum-dare/</loc>
-    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/ludum-dare/</loc>
-    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/misc/</loc>
-    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/misc/</loc>
-    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/post/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/trello/</loc>
-    <lastmod>2015-06-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/trello/</loc>
-    <lastmod>2015-06-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/tutorial/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/unity/</loc>
-    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/unity/</loc>
-    <lastmod>2017-12-01T23:32:18+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

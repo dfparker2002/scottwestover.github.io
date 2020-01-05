@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Phaserjs on Scott Westover</title>
+    <title>PhaserJS on Scott Westover</title>
     <link>https://scottwestover.github.io/categories/phaserjs/</link>
-    <description>Recent content in Phaserjs on Scott Westover</description>
+    <description>Recent content in PhaserJS on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Oct 2018 22:00:00 +0000</lastBuildDate>
