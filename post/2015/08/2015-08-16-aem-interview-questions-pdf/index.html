@@ -148,12 +148,12 @@ I hope you find the PDF beneficial. If you have any questions or comments, pleas
 </section>
 <script>
 	const gitment = new Gitment({
-			id: '<%= page.title.replace(/[^\w\s]/gi, "").substring(0, 49) %>',
+			id: document.title.replace(/[^\w\s]/gi, "").substring(0, 49),
 			owner: 'scottwestover',
 			repo: 'scottwestover.github.io',
 			oauth: {
-					client_id: '<%= .Site.Params.gitmentClientId %>',
-					client_secret: '<%= .Site.Params.gitmentClientSecret %>'
+					client_id: 'd349d873fb02e466a74e',
+					client_secret: '9aa5c8cf4ba1388fd710d45ff10492011b199122'
 			}
 	});
 	gitment.render(document.getElementById('gitment-comments'));
