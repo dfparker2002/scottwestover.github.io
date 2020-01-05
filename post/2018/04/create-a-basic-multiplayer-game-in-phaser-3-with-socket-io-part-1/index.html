@@ -38,6 +38,9 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
+	
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -131,6 +134,24 @@ if (!doNotTrack) {
 		<a class="post-nav__link" href="/post/2018/05/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-2/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Create A Basic Multiplayer Game In Phaser 3 With Socket.io – Part 2 Tutorial</p></a>
 	</div>
 </nav>
+
+
+<section class="comments">
+	<div id="gitment-comments"></div>
+</section>
+<script>
+	const gitment = new Gitment({
+			id: '<%= page.title.replace(/[^\w\s]/gi, "").substring(0, 49) %>',
+			owner: 'scottwestover',
+			repo: 'scottwestover.github.io',
+			oauth: {
+					client_id: '<%= .Site.Params.gitmentClientId %>',
+					client_secret: '<%= .Site.Params.gitmentClientSecret %>'
+			}
+	});
+	gitment.render(document.getElementById('gitment-comments'));
+</script>
+
 
 
 			</div>

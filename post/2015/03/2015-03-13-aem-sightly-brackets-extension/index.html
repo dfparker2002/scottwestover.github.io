@@ -38,6 +38,9 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
+	
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -128,6 +131,24 @@ You can find more information here if you are interested in the extension:&nbsp;
 		<a class="post-nav__link" href="/post/2015/03/2015-03-14-aem-brackets-extension-tutorial/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">AEM Brackets Extension Tutorial</p></a>
 	</div>
 </nav>
+
+
+<section class="comments">
+	<div id="gitment-comments"></div>
+</section>
+<script>
+	const gitment = new Gitment({
+			id: '<%= page.title.replace(/[^\w\s]/gi, "").substring(0, 49) %>',
+			owner: 'scottwestover',
+			repo: 'scottwestover.github.io',
+			oauth: {
+					client_id: '<%= .Site.Params.gitmentClientId %>',
+					client_secret: '<%= .Site.Params.gitmentClientSecret %>'
+			}
+	});
+	gitment.render(document.getElementById('gitment-comments'));
+</script>
+
 
 
 			</div>

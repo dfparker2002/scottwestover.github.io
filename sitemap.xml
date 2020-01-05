@@ -4,7 +4,42 @@
   
   <url>
     <loc>https://scottwestover.github.io/categories/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/misc/</loc>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/misc/</loc>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2019/01/new-year-new-goals/</loc>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/</loc>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/</loc>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/</loc>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -28,24 +63,6 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/post/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -75,18 +92,6 @@
   <url>
     <loc>https://scottwestover.github.io/post/2018/09/phaser-progressive-web-apps-tutorial/</loc>
     <lastmod>2018-09-18T21:34:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/misc/</loc>
-    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/misc/</loc>
-    <lastmod>2018-07-15T01:24:04+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

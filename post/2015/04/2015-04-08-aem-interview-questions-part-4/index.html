@@ -44,6 +44,9 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
+	
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -232,6 +235,24 @@ I plan to add more interview questions to this blog, so make sure to check back.
 		<a class="post-nav__link" href="/post/2015/04/2015-04-09-april-ask-community-experts-session/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">April Ask the Community Experts Session: Touch UI Components</p></a>
 	</div>
 </nav>
+
+
+<section class="comments">
+	<div id="gitment-comments"></div>
+</section>
+<script>
+	const gitment = new Gitment({
+			id: '<%= page.title.replace(/[^\w\s]/gi, "").substring(0, 49) %>',
+			owner: 'scottwestover',
+			repo: 'scottwestover.github.io',
+			oauth: {
+					client_id: '<%= .Site.Params.gitmentClientId %>',
+					client_secret: '<%= .Site.Params.gitmentClientSecret %>'
+			}
+	});
+	gitment.render(document.getElementById('gitment-comments'));
+</script>
+
 
 
 			</div>
