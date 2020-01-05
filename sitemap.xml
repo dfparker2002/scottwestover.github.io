@@ -9,25 +9,25 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/game-development/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://scottwestover.github.io/categories/game-development/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
+    <loc>https://scottwestover.github.io/tags/game-development/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
+    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -51,13 +51,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/tutorial/</loc>
+    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
+    <loc>https://scottwestover.github.io/tags/tutorial/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -78,13 +78,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/misc/</loc>
+    <loc>https://scottwestover.github.io/categories/misc/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/misc/</loc>
+    <loc>https://scottwestover.github.io/tags/misc/</loc>
     <lastmod>2018-07-15T01:24:04+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -140,13 +140,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/unity/</loc>
+    <loc>https://scottwestover.github.io/categories/unity/</loc>
     <lastmod>2017-12-01T23:32:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/unity/</loc>
+    <loc>https://scottwestover.github.io/tags/unity/</loc>
     <lastmod>2017-12-01T23:32:18+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -162,14 +162,8 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/post/2016/12/2016-12-16-unity-live-training-session-on-december/</loc>
+    <loc>https://scottwestover.github.io/post/2016/12/unity-live-training-session-on-december/</loc>
     <lastmod>2016-12-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/game-jams/</loc>
-    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -179,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/ludum-dare/</loc>
+    <loc>https://scottwestover.github.io/tags/game-jams/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -191,7 +185,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/post/2016/12/2016-12-15-ludum-dare-37-game-entry/</loc>
+    <loc>https://scottwestover.github.io/tags/ludum-dare/</loc>
+    <lastmod>2016-12-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2016/12/ludum-dare-37-game-entry/</loc>
     <lastmod>2016-12-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -206,13 +206,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/liveengage/</loc>
+    <loc>https://scottwestover.github.io/categories/liveengage/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/liveengage/</loc>
+    <loc>https://scottwestover.github.io/tags/liveengage/</loc>
     <lastmod>2016-10-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -253,13 +253,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/aem/</loc>
+    <loc>https://scottwestover.github.io/categories/aem/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/aem/</loc>
+    <loc>https://scottwestover.github.io/tags/aem/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -285,13 +285,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/android/</loc>
+    <loc>https://scottwestover.github.io/categories/android/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/android/</loc>
+    <loc>https://scottwestover.github.io/tags/android/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -302,13 +302,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/facebook/</loc>
+    <loc>https://scottwestover.github.io/categories/facebook/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/facebook/</loc>
+    <loc>https://scottwestover.github.io/tags/facebook/</loc>
     <lastmod>2015-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -379,13 +379,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/chrome-extension/</loc>
+    <loc>https://scottwestover.github.io/categories/chrome-extension/</loc>
     <lastmod>2015-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/chrome-extension/</loc>
+    <loc>https://scottwestover.github.io/tags/chrome-extension/</loc>
     <lastmod>2015-09-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -406,13 +406,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/interview-prep/</loc>
+    <loc>https://scottwestover.github.io/categories/interview-prep/</loc>
     <lastmod>2015-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/interview-prep/</loc>
+    <loc>https://scottwestover.github.io/tags/interview-prep/</loc>
     <lastmod>2015-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -438,13 +438,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/trello/</loc>
+    <loc>https://scottwestover.github.io/categories/trello/</loc>
     <lastmod>2015-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/trello/</loc>
+    <loc>https://scottwestover.github.io/tags/trello/</loc>
     <lastmod>2015-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -485,13 +485,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/github/</loc>
+    <loc>https://scottwestover.github.io/categories/github/</loc>
     <lastmod>2015-04-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/github/</loc>
+    <loc>https://scottwestover.github.io/tags/github/</loc>
     <lastmod>2015-04-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -562,13 +562,13 @@
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/brackets/</loc>
+    <loc>https://scottwestover.github.io/categories/brackets/</loc>
     <lastmod>2015-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/brackets/</loc>
+    <loc>https://scottwestover.github.io/tags/brackets/</loc>
     <lastmod>2015-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
