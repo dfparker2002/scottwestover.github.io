@@ -143,20 +143,12 @@ if (!doNotTrack) {
 </nav>
 
 
-<section class="comments">
-	<div id="gitment-comments"></div>
-</section>
-<script>
-	const gitment = new Gitment({
-			id: document.title.replace(/[^\w\s]/gi, ""),
-			owner: 'scottwestover',
-			repo: 'scottwestover.github.io',
-			oauth: {
-					client_id: 'd349d873fb02e466a74e',
-					client_secret: '9aa5c8cf4ba1388fd710d45ff10492011b199122'
-			}
-	});
-	gitment.render(document.getElementById('gitment-comments'));
+<script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
 
 

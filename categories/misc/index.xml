@@ -6,10 +6,20 @@
     <description>Recent content in Misc on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2020 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 06:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Switching to GitHub Issues for comments</title>
+      <link>https://scottwestover.github.io/post/2019/01/swithcing-to-github-issues-for-comments/</link>
+      <pubDate>Fri, 17 Jan 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2019/01/swithcing-to-github-issues-for-comments/</guid>
+      <description>With the new year, I decided to explore new ways of handling comments on my blog. In my research, I happened to come accross Gitment. Gitment is a small JS library that leverages GitHub Issues for storing comments on each post.
+Some things to note about Gitment: - Each post will have a seperate matching GitHub Issue. - Users have to be logged into GitHub to post a comment. Even though this is an ask on the users for leaving a comment or question, signing up for GitHub is easy and free.</description>
+    </item>
     
     <item>
       <title>New Year, New Goals</title>

@@ -125,23 +125,18 @@ if (!doNotTrack) {
 	<div class="post-nav__item post-nav__item--prev">
 		<a class="post-nav__link" href="/post/2018/10/using-es6-with-phaser-3-tutorial/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Using ES6 With Phaser 3</p></a>
 	</div>
+	<div class="post-nav__item post-nav__item--next">
+		<a class="post-nav__link" href="/post/2019/01/swithcing-to-github-issues-for-comments/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Switching to GitHub Issues for comments</p></a>
+	</div>
 </nav>
 
 
-<section class="comments">
-	<div id="gitment-comments"></div>
-</section>
-<script>
-	const gitment = new Gitment({
-			id: document.title.replace(/[^\w\s]/gi, ""),
-			owner: 'scottwestover',
-			repo: 'scottwestover.github.io',
-			oauth: {
-					client_id: 'd349d873fb02e466a74e',
-					client_secret: '9aa5c8cf4ba1388fd710d45ff10492011b199122'
-			}
-	});
-	gitment.render(document.getElementById('gitment-comments'));
+<script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
 
 

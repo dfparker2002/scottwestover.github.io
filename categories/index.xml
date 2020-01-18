@@ -6,15 +6,33 @@
     <description>Recent content in Categories on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2020 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2020 06:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Gitment</title>
+      <link>https://scottwestover.github.io/categories/gitment/</link>
+      <pubDate>Sat, 18 Jan 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/gitment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://scottwestover.github.io/categories/tutorial/</link>
+      <pubDate>Sat, 18 Jan 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Misc</title>
       <link>https://scottwestover.github.io/categories/misc/</link>
-      <pubDate>Sat, 04 Jan 2020 06:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jan 2020 06:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/categories/misc/</guid>
       <description></description>
@@ -35,15 +53,6 @@
       <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/categories/phaserjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorial</title>
-      <link>https://scottwestover.github.io/categories/tutorial/</link>
-      <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/categories/tutorial/</guid>
       <description></description>
     </item>
     

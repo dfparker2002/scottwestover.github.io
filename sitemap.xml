@@ -3,44 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://scottwestover.github.io/post/2019/01/adding-gitment-to-your-hugo-blog/</loc>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://scottwestover.github.io/categories/</loc>
-    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/misc/</loc>
-    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <loc>https://scottwestover.github.io/categories/gitment/</loc>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/misc/</loc>
-    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <loc>https://scottwestover.github.io/tags/gitment/</loc>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/post/2019/01/new-year-new-goals/</loc>
-    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/</loc>
-    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/</loc>
-    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/</loc>
-    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/tutorial/</loc>
+    <lastmod>2020-01-18T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/misc/</loc>
+    <lastmod>2020-01-17T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/misc/</loc>
+    <lastmod>2020-01-17T06:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2019/01/swithcing-to-github-issues-for-comments/</loc>
+    <lastmod>2020-01-17T06:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2019/01/new-year-new-goals/</loc>
+    <lastmod>2020-01-04T06:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,18 +97,6 @@
   
   <url>
     <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/tutorial/</loc>
-    <lastmod>2018-10-27T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/tutorial/</loc>
     <lastmod>2018-10-27T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
