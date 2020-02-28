@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jan 2020 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 06:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New Learn JavaScript Course</title>
+      <link>https://scottwestover.github.io/post/2019/02/new-learn-javascript-course/</link>
+      <pubDate>Mon, 24 Feb 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2019/02/new-learn-javascript-course/</guid>
+      <description>It has been awhile since any new content has been published to my blog, but today I am happy to announce that I have released a brand new course on learning JavaScript that you can watch for free on YouTube here: JavaScript 101
+
+Over the past year and a half, I have been working as a freelancer for Zenva (GameDev Academy and Phaser GameDev Tutorials) and I had the opportunity to create some video courses for them.</description>
+    </item>
     
     <item>
       <title>Adding Gitment to your Hugo blog</title>
