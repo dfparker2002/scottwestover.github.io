@@ -13,10 +13,10 @@
     
     <item>
       <title>Creating A Memory Game Class in TypeScript</title>
-      <link>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-in-javascript/</link>
+      <link>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-in-typescript/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:01 +0000</pubDate>
       
-      <guid>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-in-javascript/</guid>
+      <guid>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-in-typescript/</guid>
       <description>Intro The purpose of this tutorial is to show you how to create a simple Memory Game class in TypeScript that will contain all of the core game logic for building a simple Memory Game. For this tutorial, we will be testing our game logic using the browser developer console. However, in future tutorials, I will be showing you how we can take this class and create a basic Memory Game using HTML5 game frameworks like Phaser and Kontra.</description>
     </item>
     
