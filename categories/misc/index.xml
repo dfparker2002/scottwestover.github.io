@@ -13,20 +13,20 @@
     
     <item>
       <title>Switching to GitHub Issues for comments</title>
-      <link>https://scottwestover.github.io/post/2019/01/swithcing-to-github-issues-for-comments/</link>
+      <link>https://scottwestover.github.io/post/2020/01/swithcing-to-github-issues-for-comments/</link>
       <pubDate>Fri, 17 Jan 2020 06:00:00 +0000</pubDate>
       
-      <guid>https://scottwestover.github.io/post/2019/01/swithcing-to-github-issues-for-comments/</guid>
+      <guid>https://scottwestover.github.io/post/2020/01/swithcing-to-github-issues-for-comments/</guid>
       <description>With the new year, I decided to explore new ways of handling comments on my blog. In my research, I happened to come accross Gitment. Gitment is a small JS library that leverages GitHub Issues for storing comments on each post.
 Some things to note about Gitment: - Each post will have a seperate matching GitHub Issue. - Users have to be logged into GitHub to post a comment. Even though this is an ask on the users for leaving a comment or question, signing up for GitHub is easy and free.</description>
     </item>
     
     <item>
       <title>New Year, New Goals</title>
-      <link>https://scottwestover.github.io/post/2019/01/new-year-new-goals/</link>
+      <link>https://scottwestover.github.io/post/2020/01/new-year-new-goals/</link>
       <pubDate>Sat, 04 Jan 2020 06:00:00 +0000</pubDate>
       
-      <guid>https://scottwestover.github.io/post/2019/01/new-year-new-goals/</guid>
+      <guid>https://scottwestover.github.io/post/2020/01/new-year-new-goals/</guid>
       <description>It has been more than a year since I have posted any content to this site, and with the new year beginning I want to remedy that. Looking back, 2019 was quite a busy year and this blog just kept being put on the back burner. Between taking classes for my Masters Degree, the promotion at work, the side work I was doing for Zenva, GameDev Academy and Phaser GameDev Tutorials, and the time with my wonderfull family I had a little time for much else.</description>
     </item>
     
