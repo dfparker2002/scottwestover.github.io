@@ -6,10 +6,19 @@
     <description>Recent content in TypeScript on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2020 00:00:01 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Phaser 100 Days Of Code Challenge</title>
+      <link>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:01 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge/</guid>
+      <description>Between work, home life, and the side projects I am working on, I haven&amp;rsquo;t been spending as much time on my game development projects as I would like. So in order to change things up, I thought it would be fun to challenge myself to coding an hour a day with the Phaser 3 framework by doing the #100DaysOfCode challenge. If you are not familiar, the #100DaysOfCode is a challenge to code for one hour a day for the next 100 days and to publicly commit to the challenge by tweeting your progress each day.</description>
+    </item>
     
     <item>
       <title>Creating A Memory Game Class in TypeScript</title>
@@ -18,6 +27,15 @@
       
       <guid>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-in-typescript/</guid>
       <description>Intro The purpose of this tutorial is to show you how to create a simple Memory Game class in TypeScript that will contain all of the core game logic for building a simple Memory Game. For this tutorial, we will be testing our game logic using the browser developer console. However, in future tutorials, I will be showing you how we can take this class and create a basic Memory Game using HTML5 game frameworks like Phaser and Kontra.</description>
+    </item>
+    
+    <item>
+      <title>Creating A Memory Game With KontraJS in TypeScript</title>
+      <link>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-with-kontrajs-in-typescript/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:01 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-with-kontrajs-in-typescript/</guid>
+      <description>Intro The purpose of this tutorial is to to show you how to create a simple Memory Game by utilizing the Kontra library. For this tutorial, we will be taking an existing Memory Game class that contains the core logic for our game and we will extend this class to work with Kontra.js. Our goal is to limit all of the presentation logic to the Kontra library while keeping the core game logic in a seperate file, that way we can easily reuse our classes.</description>
     </item>
     
   </channel>

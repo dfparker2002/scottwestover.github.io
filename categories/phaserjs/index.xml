@@ -6,10 +6,19 @@
     <description>Recent content in PhaserJS on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Oct 2018 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2020 00:00:01 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/categories/phaserjs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Phaser 100 Days Of Code Challenge</title>
+      <link>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:01 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge/</guid>
+      <description>Between work, home life, and the side projects I am working on, I haven&amp;rsquo;t been spending as much time on my game development projects as I would like. So in order to change things up, I thought it would be fun to challenge myself to coding an hour a day with the Phaser 3 framework by doing the #100DaysOfCode challenge. If you are not familiar, the #100DaysOfCode is a challenge to code for one hour a day for the next 100 days and to publicly commit to the challenge by tweeting your progress each day.</description>
+    </item>
     
     <item>
       <title>Using ES6 With Phaser 3</title>
