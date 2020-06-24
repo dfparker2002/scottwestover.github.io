@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>Creating A Memory Game With KontraJS in TypeScript</title>
-      <link>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-with-kontrajs-in-typescript/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:01 +0000</pubDate>
-      
-      <guid>https://scottwestover.github.io/post/2020/06/creating-a-memory-game-with-kontrajs-in-typescript/</guid>
-      <description>Intro The purpose of this tutorial is to to show you how to create a simple Memory Game by utilizing the Kontra library. For this tutorial, we will be taking an existing Memory Game class that contains the core logic for our game and we will extend this class to work with Kontra.js. Our goal is to limit all of the presentation logic to the Kontra library while keeping the core game logic in a seperate file, that way we can easily reuse our classes.</description>
-    </item>
-    
-    <item>
       <title>Using ES6 With Phaser 3</title>
       <link>https://scottwestover.github.io/post/2018/10/using-es6-with-phaser-3-tutorial/</link>
       <pubDate>Sat, 27 Oct 2018 22:00:00 +0000</pubDate>
