@@ -6,15 +6,33 @@
     <description>Recent content in Tags on Scott Westover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2020 00:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2020 00:00:01 +0000</lastBuildDate>
     
 	<atom:link href="https://scottwestover.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>KontraJS</title>
+      <link>https://scottwestover.github.io/tags/kontrajs/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:01 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/kontrajs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://scottwestover.github.io/tags/news/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:01 +0000</pubDate>
+      
+      <guid>https://scottwestover.github.io/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>100DaysOfCode</title>
       <link>https://scottwestover.github.io/tags/100daysofcode/</link>
-      <pubDate>Tue, 23 Jun 2020 00:00:01 +0000</pubDate>
+      <pubDate>Thu, 25 Jun 2020 00:00:01 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/tags/100daysofcode/</guid>
       <description></description>
@@ -23,7 +41,7 @@
     <item>
       <title>Game Development</title>
       <link>https://scottwestover.github.io/tags/game-development/</link>
-      <pubDate>Tue, 23 Jun 2020 00:00:01 +0000</pubDate>
+      <pubDate>Thu, 25 Jun 2020 00:00:01 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/tags/game-development/</guid>
       <description></description>
@@ -32,7 +50,7 @@
     <item>
       <title>PhaserJS</title>
       <link>https://scottwestover.github.io/tags/phaserjs/</link>
-      <pubDate>Tue, 23 Jun 2020 00:00:01 +0000</pubDate>
+      <pubDate>Thu, 25 Jun 2020 00:00:01 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/tags/phaserjs/</guid>
       <description></description>
@@ -41,7 +59,7 @@
     <item>
       <title>TypeScript</title>
       <link>https://scottwestover.github.io/tags/typescript/</link>
-      <pubDate>Tue, 23 Jun 2020 00:00:01 +0000</pubDate>
+      <pubDate>Thu, 25 Jun 2020 00:00:01 +0000</pubDate>
       
       <guid>https://scottwestover.github.io/tags/typescript/</guid>
       <description></description>

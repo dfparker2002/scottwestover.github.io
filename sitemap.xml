@@ -3,80 +3,119 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://scottwestover.github.io/categories/100daysofcode/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/tags/100daysofcode/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://scottwestover.github.io/categories/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/categories/game-development/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <loc>https://scottwestover.github.io/post/2020/08/kontra-v-7/</loc>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/kontrajs/</loc>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/game-development/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <loc>https://scottwestover.github.io/tags/kontrajs/</loc>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <loc>https://scottwestover.github.io/categories/news/</loc>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <loc>https://scottwestover.github.io/tags/news/</loc>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/post/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <lastmod>2020-08-23T00:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/100daysofcode/</loc>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/100daysofcode/</loc>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/game-development/</loc>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/game-development/</loc>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge-day-2/</loc>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/categories/phaserjs/</loc>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/tags/phaserjs/</loc>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/categories/typescript/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scottwestover.github.io/tags/typescript/</loc>
-    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
+    <lastmod>2020-06-25T00:00:01+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge-day-1/</loc>
+    <lastmod>2020-06-24T00:00:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scottwestover.github.io/post/2020/06/phaser-100-days-of-code-challenge/</loc>
+    <lastmod>2020-06-23T00:00:01+00:00</lastmod>
   </url>
   
   <url>
